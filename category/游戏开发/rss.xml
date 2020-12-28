@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;游戏开发&#34; category</title>
+        <link>http://www.fasty97.top</link>
+        <description>实现你的游戏梦</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 28 Apr 2020 21:54:55 +0800</pubDate>
+        <lastBuildDate>Tue, 28 Apr 2020 21:54:55 +0800</lastBuildDate>
+        <category>unity</category>
+        <category>好物推荐</category>
+        <category>Lua</category>
+        <category>读书笔记</category>
+        <category>设计模式</category>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2020/04/28/Ink%E5%89%A7%E6%83%85%E7%BC%96%E6%8E%92/</guid>
+            <title>Ink剧情编排</title>
+            <link>http://www.fasty97.top/2020/04/28/Ink%E5%89%A7%E6%83%85%E7%BC%96%E6%8E%92/</link>
+            <category>好物推荐</category>
+            <pubDate>Tue, 28 Apr 2020 21:54:55 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;快速食用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速食用&#34;&gt;#&lt;/a&gt; 快速食用&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;下载 inky 编辑器&lt;/li&gt;
+&lt;li&gt;编写 ink 文件&lt;/li&gt;
+&lt;li&gt;下载安装 unity 支持&lt;/li&gt;
+&lt;li&gt;找到 ink 示例，将对应的 ink 生成的 json 导入运行游戏即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unity使用流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity使用流程&#34;&gt;#&lt;/a&gt; unity 使用流程&lt;/h3&gt;
+&lt;p&gt;在 unity 中，我们需要通过代码来驱动我们的剧情的进行。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先我们需要 &lt;code&gt;创建至少2种Prefab&lt;/code&gt; ，一种表示文字，一种表示按钮。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后我们需要创建一个 story 对象，载入对应的 json 文件&lt;br&gt;
+ &lt;code&gt;story = new Story (inkJSONAsset.text);&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;判断 story 能否继续，若能继续使用代码创建对应的游戏对象&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;story&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;canContinue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Continue gets the next line of the story&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; text &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; story&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Continue &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// This removes any white space from the text.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;text &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Trim&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Display the text on screen!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;CreateContentView&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;text&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Display all the choices, if there are any!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;story&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;currentChoices&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Count &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; story&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;currentChoices&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Count&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;Choice&lt;/span&gt; choice &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; story&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;currentChoices &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt; button &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; CreateChoiceView &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;choice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Trim &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;// Tell the button what to do when we press it&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		button&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;onClick&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;AddListener &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;delegate&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			OnClickChoiceButton &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;choice&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// If we&#39;ve read all the content and there&#39;s no choices, the story is finished!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt; choice &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;CreateChoiceView&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;End of story.\nRestart?&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	choice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;onClick&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;AddListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;delegate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token function&#34;&gt;StartStory&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; CreateContentView &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Text&lt;/span&gt; storyText &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Instantiate &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;textPrefab&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Text&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	storyText&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	storyText&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;SetParent &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;canvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Creates a button showing the choice text&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token return-type class-name&#34;&gt;Button&lt;/span&gt; CreateChoiceView &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// Creates the button from a prefab&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt; choice &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Instantiate &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;buttonPrefab&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	choice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;SetParent &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;canvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// Gets the text from the button prefab&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Text&lt;/span&gt; choiceText &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; choice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token generic-method&#34;&gt;&lt;span class=&#34;token function&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;token generic class-name&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;Text&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	choiceText&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// Make the button expand to fit the text&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;HorizontalLayoutGroup&lt;/span&gt; layoutGroup &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; choice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token generic-method&#34;&gt;&lt;span class=&#34;token function&#34;&gt;GetComponent&lt;/span&gt; &lt;span class=&#34;token generic class-name&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;HorizontalLayoutGroup&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	layoutGroup&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;childForceExpandHeight &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; choice&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;要记得每次显示时清除上一次的显示结果&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;相关链接&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#相关链接&#34;&gt;#&lt;/a&gt; 相关链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuaW5rbGVzdHVkaW9zLmNvbS9pbmsv&#34;&gt;inkle 官网&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2lua2xlL2lua3kvcmVsZWFzZXMvdGFnLzAuMTEuMA==&#34;&gt;inky 编辑器&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbmRpZW5vdmEuY29tL3UvYmxpbmR2b2xmL2Jsb2dyZWFkLzIzMjQ5&#34;&gt;相关教程参考 - 基础&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbmRpZW5vdmEuY29tL3UvYmxpbmR2b2xmL2Jsb2dyZWFkLzIzMjU3&#34;&gt;相关教程参考 - 高级&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2020/04/27/YarnSpinner%E5%89%A7%E6%83%85%E7%BC%96%E8%BE%91/</guid>
+            <title>YarnSpinner剧情编辑</title>
+            <link>http://www.fasty97.top/2020/04/27/YarnSpinner%E5%89%A7%E6%83%85%E7%BC%96%E8%BE%91/</link>
+            <category>好物推荐</category>
+            <pubDate>Mon, 27 Apr 2020 22:49:45 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;本来说好的每周一更又鸽了…&lt;br&gt;
+ 今天来水一期，介绍一款很棒的剧情编排应用  &lt;code&gt;YarnSpinner&lt;/code&gt; 。&lt;/p&gt;
+&lt;h3 id=&#34;介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;YarnSpinner&lt;/code&gt;  是一款开源免费的剧情编排应用（或者说是一种用于剧情编排的标记语言）。&lt;br&gt;
+试想我们在开发游戏时，剧情有分支选择，有各种条件检查，如果我们全在代码中去判断和检查不仅繁杂而且非常麻烦，策划学习成本高，耦合性过强。你可能自己想出一套标记语言来表述剧情流程，但自己的力量毕竟是有限的，难免出现一些 bug 和坑。此时，不妨试试这款免费开源，多人共同维护的应用吧。&lt;/p&gt;
+&lt;h3 id=&#34;快速食用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速食用&#34;&gt;#&lt;/a&gt; 快速食用&lt;/h3&gt;
+&lt;h4 id=&#34;代码式编辑&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码式编辑&#34;&gt;#&lt;/a&gt; 代码式编辑&lt;/h4&gt;
+&lt;p&gt;这里我使用 vscode 作为编辑器，下载一下插件：&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200427/a07bJtR8tRDh.png&#34; alt=&#34;扩展&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我们先创建一个 &lt;code&gt;.yarn&lt;/code&gt;  格式的文件，并写入以下内容：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: cc
+tags:
+colorID: 0
+position: 1,-22
+---
+Fasty97: Hi
+PC: 你好？！
+Fasty97: 我又回来了！
+PC: 是忘了什么东西吗？
+===
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这是一段剧本最基本的格式（一个 yarn 文件至少包含一段剧本）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: cc
+tags:
+colorID: 0
+position: 1,-22
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上被称为一个剧本头，表示一段剧本，这些是一些剧本段的基本信息，其中&lt;font color=&#34;red&#34;&gt;title 必填，position 必填&lt;/font&gt;.position 为剧本段的标识符类似于 ID 一样的东西，不要重复。&lt;/p&gt;
+&lt;h4 id=&#34;在unity中使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在unity中使用&#34;&gt;#&lt;/a&gt; 在 unity 中使用&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;下载相关的 unity 支持包（官网有）&lt;/li&gt;
+&lt;li&gt;在场景中放入一个 Dialogue 预制体，预制体包含一个默认的设置示例。&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200427/AgJFSizXO2LE.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;创建一个脚本&lt;/li&gt;
+&lt;li&gt;设定好相关的资源和引用&lt;/li&gt;
+&lt;li&gt;运行游戏尝试按下空格键吧&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;脚本设定&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#脚本设定&#34;&gt;#&lt;/a&gt; 脚本设定&lt;/h4&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Collections&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Generic&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;UnityEditorInternal&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;Yarn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Unity&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;UnityEngine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;Yarn&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;YarnTest&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;MonoBehaviour&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;DialogueRunner&lt;/span&gt; dr&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;YarnProgram&lt;/span&gt; scriptToLoad&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Start&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 注入对话资源&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        dr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;scriptToLoad&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Input&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetKeyDown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;KeyCode&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Space&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;开始对话&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 开始一个对话&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            dr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;StartDialogue&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;cc&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200427/XkItpdgndrM8.gif&#34; alt=&#34;默认&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用自定义方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用自定义方法&#34;&gt;#&lt;/a&gt; 使用自定义方法&lt;/h3&gt;
+&lt;p&gt;我现在希望我第一次与角色交流时输出前 2 句，之后每次与角色交流只输出最后 2 句，这是一个游戏中常用的机制。但现在我们的对话只是按照流程依次执行，我们希望这个流程应该是能够动态控制的。&lt;br&gt;
+我们修改上面的 yarn 为：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: cc
+tags: 
+colorID: 0
+position: 1,-22
+---
+&amp;lt;&amp;lt;if visited(&amp;quot;cc&amp;quot;) is false&amp;gt;&amp;gt;
+    Fasty97: Hi
+    PC: 你好？！
+&amp;lt;&amp;lt;else&amp;gt;&amp;gt;
+    Fasty97: 我又回来了！
+    PC: 是忘了什么东西吗？
+&amp;lt;&amp;lt;endif&amp;gt;&amp;gt;
+===
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以看到这次我们使用 类似 if 语句的东西？ 这是 yarn 中提供的一种语法模式，在这里我们会执行一个自定义的方法 visted 并将 &amp;quot;cc&amp;quot; 传入方法中，如果返回的结果是 false 就执行下面的语句块。&lt;/p&gt;
+&lt;h4 id=&#34;处理自定义事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#处理自定义事件&#34;&gt;#&lt;/a&gt; 处理自定义事件&lt;/h4&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HashSet&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; visitedNodes&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;HashSet&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;    &lt;span class=&#34;token comment&#34;&gt;// 已使用节点&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Start&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 注入对话资源&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    dr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;scriptToLoad&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 注入处理方法&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    dr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;AddFunction&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;visited&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Value&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; parameters&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; nodeName &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; parameters&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; visitedNodes&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Contains&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nodeName&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;AsString&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 绑定事件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    dr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;onNodeComplete&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;AddListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; visitedNodes&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;创建一个 HashSet 集合用于存放所有已经被使用过的 node，绑定一个 onNodeComplete 事件，这个事件有系统自动调用，在实现中为集合加入元素。&lt;br&gt;
+然后注入一个方法，第一个参数指定方法名（在 yarn 文件下的名称），第二个参数指定参数个数，第三个参数就是写入一个方法了，在方法中我们检查集合是否已经包含该值返回结果，一个自定义不可重复方法就处理好了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200427/zqkvGNEMJPMw.gif&#34; alt=&#34;visited效果&#34;&gt;&lt;/p&gt;
+&lt;p&gt;使用相同的方法你还可以创建各种各样的方法在 yarn 中使用。&lt;br&gt;
+值得注意的是：&lt;br&gt;
+通过源代码我们可以知道，yarn 只支持以下几种数据类型。&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;case&lt;/span&gt; Value&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Type&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Number&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;NumberValue&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;case&lt;/span&gt; Value&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Type&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;String&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;StringValue&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;case&lt;/span&gt; Value&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Type&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Bool&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;BoolValue&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;case&lt;/span&gt; Value&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Type&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Null&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;相关链接&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#相关链接&#34;&gt;#&lt;/a&gt; 相关链接&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly95YXJuc3Bpbm5lci5kZXYv&#34;&gt;YarnSpinner 官网&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly95YXJuc3Bpbm5lcnRvb2wuZ2l0aHViLmlvL1lhcm5FZGl0b3Iv&#34;&gt; YarnSpinner 在线编辑器&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1lhcm5TcGlubmVyVG9vbC9ZYXJuU3Bpbm5lcg==&#34;&gt; YarnSpinner github&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2020/04/15/Cinemachine%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
+            <title>Cinemachine的基本使用</title>
+            <link>http://www.fasty97.top/2020/04/15/Cinemachine%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
+            <category>unity</category>
+            <pubDate>Wed, 15 Apr 2020 18:02:16 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Unity 版本：&lt;font color=green&gt;2019.3.6f1&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=red&gt;长文警告！！！&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  是否为摄像机脚本困扰？是否为镜头动画烦恼？ Cinemachine 超强插件解决你的问题！
+&lt;/blockquote&gt;
+&lt;h3&gt;安装Cinemachine&lt;/h3&gt;
+&lt;p&gt;现在 Cinemachine 作者已经投靠 unity 官方了，所以 Cinemachine 也成为了 Unity 的官方插件，我们可以直接在 PackageManager 中下载：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/DBHDdslXchVa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;各类相机简述&lt;/h3&gt;
+&lt;p&gt;安装之后我们可以在顶部菜单栏，看到如下的选项：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/gd1H7MDqJgJs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;选项&lt;/th&gt;
+  &lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;Virtual Camera&lt;/td&gt;
+  &lt;td&gt;虚拟摄像机&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;FreeLook Camera&lt;/td&gt;
+  &lt;td&gt;自由相机，可以保证镜头内出现头和身体，及相机的活动范围在目标周围圆柱（曲面的）表面，一般用于第三人称控制器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;State-driven Camera&lt;/td&gt;
+  &lt;td&gt;状态驱动相机。添加虚拟相机列表，可以在不同的相机直接直接实现平滑切换，同时其子相机列表如果没有设置LookAt对象等，会直接使用这个父相机的对象。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;ClearShot Camera&lt;/td&gt;
+  &lt;td&gt;干净镜头相机。类似上一个相机，区别在于这个相机可以通过判断子相机的CinemachineCollider（如果有），看是否相机被场景物体阻碍，切换相机。具体可看其源码注释。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Dolly Camera with Track&lt;/td&gt;
+  &lt;td&gt;可推拉的轨道相机。通过结合轨道路径，就可以模拟像拍电影般镜头轨道移动。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Group Target Camera&lt;/td&gt;
+  &lt;td&gt;多目标相机。可以同时设置多个目标。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;Cinemachine Brain&lt;/h4&gt;
+&lt;p&gt;在我们创建任意虚拟相机后，插件会为我们的摄像机添加此组件，此组件是我们虚拟相机的大脑，控制着真实相机的行为。（不可或缺）&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/4LQud3dfJPHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;变量名&lt;/th&gt;
+  &lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;Live Camera&lt;/td&gt;
+  &lt;td&gt;当前选择的虚拟相机。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Live Blend&lt;/td&gt;
+  &lt;td&gt;当前的镜头转换名称。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Show Debug Text&lt;/td&gt;
+  &lt;td&gt;在游戏画面左上角显示调试信息。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Show Camera Frustum&lt;/td&gt;
+  &lt;td&gt;显示相机的视锥体，相比原来自带的边框，这个会裁切掉不在显示范围内的边线。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;World Up Override&lt;/td&gt;
+  &lt;td&gt;重载世界的向上方向（y轴），虚拟相机是通过这个来判断世界环境。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Default Blend&lt;/td&gt;
+  &lt;td&gt;默认相机切换模式。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Custom Blends&lt;/td&gt;
+  &lt;td&gt;自定义相机切换模式。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Camera Cut Event&lt;/td&gt;
+  &lt;td&gt;相机立即切换时事件。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Camera Activated Event&lt;/td&gt;
+  &lt;td&gt;相机混合（就是有切换变化，不是Cut时）切换时第一帧事件。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;virtual-camera&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#virtual-camera&#34;&gt;#&lt;/a&gt; Virtual Camera&lt;/h3&gt;
+&lt;p&gt;Cinemacine Virtual Camera 是 Cinemachine 最基本的相机，&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/oOMGlgOGXRpo.png&#34; alt=&#34;Cinemacine Virtual Camera&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;变量名&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Status&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;状态，Live 为正在使用，Standby 为准备使用（没在用，但如果上一级停用了，可能会切换到当前虚拟相机），Disable 为不能用。按 Solo 按钮会让相机切换到这个虚拟相机（包括 Disable）。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Game Window Guides&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;是否在 game 窗口显示辅助&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Save During Play&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;保存游戏中的改变&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;priority&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;虚拟相机的优先级，如果同时有多个虚拟相机，使用优先级最高的。如果多个同等级的，应该是按 Hierarchy 顺序找到第一个虚拟相机。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Lens&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;镜头常用配置。视角区域，最近最远裁切平面， 镜头旋转角度。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Body&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;相机本身。四种：Hard constraint，固定距离，相当于第一人称。 Orbital Transposer：轨迹转换器？似乎是模拟第三人称。 Tracked Dolly，轨道推拉，相机只能在轨道上移动（即使设置了 Follow 对象），需要轨道路径 CinemachinePath。 Transposer，普通的镜头转换。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Aim&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;瞄准设置，有三种：Hard constraint，固定距离，没有任何平滑效果。Composer，有平滑效果的瞄准目标。Group Composer，同时瞄准多个目标。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Noise&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;噪音，用于相机抖动，预设有多种效果，也可以自己建立新效果。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Extension&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;扩展，可以添加诸如相机碰撞器，相机变焦器等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;timeline&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#timeline&#34;&gt;#&lt;/a&gt; TimeLine&lt;/h4&gt;
+&lt;p&gt;在 TimeLine 中实现 2 个镜头间的切换非常容易。&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/cfRA1u2z5SND.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/D0m6KY0DjAHH.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;freelook&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#freelook&#34;&gt;#&lt;/a&gt; FreeLook&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/uFWo9v918gKw.png&#34; alt=&#34;FreeLook 相机视野&#34;&gt;&lt;br&gt;
+ FreeLook 相机是一个自由相机，类似于第三人称游戏中的相机，可以使用鼠标控制相机的朝向多方向的观察角色；其相机视野像是一个圆柱体，如上图所示。（相机始终会在这个圆柱体的轨道上运动。）&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/EMNEzmU0LM9r.gif&#34; alt=&#34;FreeLook&#34;&gt;&lt;br&gt;
+ 大多数参数与 Virtual Camera 相似，值得注意的是：&lt;br&gt;
+&lt;font color=&#34;red&#34;&gt;在 FreeLook 相机中需要绑定 顶部，中间，底部三个位置，这三个位置将决定相机的最大视野。&lt;/font&gt;&lt;/p&gt;
+&lt;h3 id=&#34;blendlist&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#blendlist&#34;&gt;#&lt;/a&gt; BlendList&lt;/h3&gt;
+&lt;p&gt;如名字一样他管理的是一个 camera 列表，并将列表内的 camera 做混合到达射线机之间更自然的切换效果。&lt;br&gt;
+&lt;strong&gt;我们可以控制摄像机切换的 缓动函数&lt;/strong&gt;。&lt;br&gt;
+值得注意的是：当 BlendList 启用时，其下的摄像机会依次使用最后停留在最后一个摄像机里。&lt;/p&gt;
+&lt;h3 id=&#34;cinemachinestatedrivencamera&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cinemachinestatedrivencamera&#34;&gt;#&lt;/a&gt; CinemachineStateDrivenCamera&lt;/h3&gt;
+&lt;p&gt;这是被动画状态所驱动的虚拟相机管理器，能够在觉得切换动画时，快速的切换该动画应该使用的相机。【注意设置层级和绑定动画控制器】&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/OnntsqFJoil7.png&#34; alt=&#34;CinemachineStateDrivenCamera&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;clearshoot&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#clearshoot&#34;&gt;#&lt;/a&gt; ClearShoot&lt;/h3&gt;
+&lt;p&gt;ClearShoot 也是一个管理器，负责管理一组 camera，他的效果是时刻选择最优的摄像机。在复杂的场景中，我们的角色可能被环境所遮挡，我们需要多个摄像机来处理这种情况。&lt;br&gt;
+如下图所示，我设置了 2 个摄像机，一个在顶部，一个在后方，在角色移动到墙壁后面时，后方的摄像机被遮挡，此时会自动启动顶部摄像机。在角色回到墙壁后面时，顶部摄像机被遮挡，只能切换到后面的摄像机。&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/lDRTT3hjBhtH.gif&#34; alt=&#34;ClearShoot&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;targetgroup&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#targetgroup&#34;&gt;#&lt;/a&gt; TargetGroup&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/ws4uSH9Nvs2O.png&#34; alt=&#34;TargetGroup&#34;&gt;&lt;br&gt;
+ 目标组管理器，可以让位于目标组管理器中的目标 &lt;code&gt;尽可能&lt;/code&gt; 的位于屏幕中。&lt;br&gt;
+在使用目标组管理器时，务必为摄像机设置目标组类型：&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/rN7xlXVSamTd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mixing&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mixing&#34;&gt;#&lt;/a&gt; Mixing&lt;/h3&gt;
+&lt;p&gt;Mixing 摄像机混合管理器，可以将多个摄像机的信息进行混合按照权重，得到最终的显示画面。&lt;br&gt;
+（通过多相机的焦点处建立坐标系按权重分配偏移）&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/mJ0BILNkgXu1.png&#34; alt=&#34;Mixing&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;活区和死区&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#活区和死区&#34;&gt;#&lt;/a&gt; 活区和死区&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/L2dUgC4hSHQs.png&#34; alt=&#34;活区和死区&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A 区域为死区（Dead Zone），对象在死区内任意移动 &lt;code&gt;不会改变&lt;/code&gt; 摄像机的位置。&lt;/li&gt;
+&lt;li&gt;B 区域为活区（Soft Zone），对象在活区时会触发摄像机 &lt;code&gt;缓动&lt;/code&gt; ，最终将对象固定在死区。&lt;/li&gt;
+&lt;li&gt;C 区域为界外区，对象在界外区活动时，摄像机会 &lt;code&gt;立即&lt;/code&gt; 改变位置时，使对象位于活区。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;本文参考&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0NTUyODg2L2FydGljbGUvZGV0YWlscy83OTM4ODUyNw==&#34;&gt;[1] Unity Cinemachine 插件学习笔记&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpcml0b1YvYXJ0aWNsZS9kZXRhaWxzLzk2Nzc5NDk3&#34;&gt;[2] 个人笔记】Unity 插件 “Cinemachine”—— 实现尼尔机械纪元运镜设计&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dolly轨道&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dolly轨道&#34;&gt;#&lt;/a&gt; Dolly 轨道&lt;/h3&gt;
+&lt;p&gt;我们可以创建一个自定义的轨道，将摄像机限制在该轨道上。&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/5JS6PFq2vAWt.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+如图所示我创建了一个圆形轨道，摄像机只能在轨道上运动。&lt;/p&gt;
+&lt;h3 id=&#34;dolly-with-cart轨道&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dolly-with-cart轨道&#34;&gt;#&lt;/a&gt; Dolly with Cart 轨道&lt;/h3&gt;
+&lt;p&gt;让物体沿着轨道运动&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/O7FvKn3fSIff.gif&#34; alt=&#34;Dolly with Cart轨道&#34;&gt;（这是一个很强大的功能，其实我们不止能用在摄像机上，可以用在任何游戏对象上，让这个对象，或 ui 只能沿着这个轨道运动，并实时设置要达到哪个点，简言之这是一个曲线编辑器。）&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/iGxYjFgflcq3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h3&gt;
+&lt;p&gt;Cinemachine 是一款非常棒的智能摄像机插件，非常的方便易用。解决大部分的摄像机问题，甚至无需编写代码。当然我们也可以使用代码来控制摄像机，更灵活的处理摄像机与角色之间的关系。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2020/02/10/Timeline%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
+            <title>Timeline的基本使用</title>
+            <link>http://www.fasty97.top/2020/02/10/Timeline%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
+            <category>unity</category>
+            <pubDate>Mon, 10 Feb 2020 13:53:35 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Unity 版本号：&lt;font color=green&gt;2019.3.0f6&lt;/font&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;TimeLine 是 unity2017 推出的新功能，其采用时间线的形式组合场景资源， 可以用于编排游戏剧情，过场动画，斩杀镜头，人物特写等效果。&lt;/p&gt;
+&lt;h3&gt;创建TimeLine&lt;/h3&gt;
+&lt;p&gt;用于播放 TimeLine 的物体必须有这个组件：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/CUXzMDxo2tsx.png&#34; alt=&#34;组件&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align=&#34;center&#34;&gt;参数名&lt;/th&gt;
+  &lt;th align=&#34;center&#34;&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align=&#34;center&#34;&gt;Playable&lt;/td&gt;
+  &lt;td align=&#34;center&#34;&gt;Playable资源（TimeLine资源）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&#34;center&#34;&gt;Update Method&lt;/td&gt;
+  &lt;td align=&#34;center&#34;&gt;更新模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&#34;center&#34;&gt;Play On Awake&lt;/td&gt;
+  &lt;td align=&#34;center&#34;&gt;是否启动时自动播放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&#34;center&#34;&gt;Wrap Mode&lt;/td&gt;
+  &lt;td align=&#34;center&#34;&gt;结束模式，None播放完回到原先属性，Loop循环播放，Hood播放完维持改变&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align=&#34;center&#34;&gt;Initial Time&lt;/td&gt;
+  &lt;td align=&#34;center&#34;&gt;延迟时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;轨道面板&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/0l1DQytDcsA2.png&#34; alt=&#34;轨道面板&#34;&gt;&lt;br&gt;
+点击左侧的＋，可以添加轨道，这是一个类似视频剪辑的界面，我们可以方便的对轨道进行移动和剪辑。&lt;/p&gt;
+&lt;h4&gt;Activation&lt;/h4&gt;
+&lt;p&gt;Activation 用于表示物体的激活状态：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/vIzC588mJlSO.gif&#34; alt=&#34;Activation&#34;&gt;&lt;/p&gt;
+&lt;h4&gt;Animation&lt;/h4&gt;
+&lt;p&gt;Animation 用于播放动画，既可以播放已有的动画，也可以自己录制帧动画来使用。&lt;br&gt;
+&lt;strong&gt;注意：使用此轨道的物体会被创建一个 Animator Controller，这个组件不能被删除。&lt;/strong&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/gizvroAPPTAo.gif&#34; alt=&#34;Animation&#34;&gt;&lt;/p&gt;
+&lt;h4&gt;Audio&lt;/h4&gt;
+&lt;p&gt;Audio 轨道用于播放音效，如果不指定 AudioSource 就无法细致调节效果。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/zEYKWKgDJrlk.png&#34; alt=&#34;Audio&#34;&gt;&lt;br&gt;
+ 每个轨道在属性面板都有不同的属性，Audio 面板如下：&lt;br&gt;
+!{Audio 属性}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BpYy5mYXN0eTk3LnRvcC9ibG9nLzIwMjAwMjEwL0dvRURiN3FiZFNIUi5wbmc=&#34;&gt;http://pic.fasty97.top/blog/20200210/GoEDb7qbdSHR.png&lt;/span&gt;)&lt;/p&gt;
+&lt;h4&gt;Control&lt;/h4&gt;
+&lt;p&gt;Control 轨道和 Activation 轨道有点相似，但不同的是 Control 轨道可以同时控制多个物体的激活状态。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/y5G5Rhig2kPn.png&#34; alt=&#34;Control&#34;&gt;&lt;/p&gt;
+&lt;h4&gt;Signal-任意轨道&lt;/h4&gt;
+&lt;p&gt;Signal 是非常重要的轨道，在使用 TimeLine 时，你可能会有这样的想法，能不能在时间线上，调用我们自定义的方法呢，在 2019 之前可以通过剪辑间接的完成事件的调用；但现在有了 Signal 轨道的加持，我们可以非常方便的在任意时刻调用方法了。&lt;br&gt;
+创建一个简单的测试脚本，并将脚本挂载在游戏物体上。&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;SignalTest&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;MonoBehaviour&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Show&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      Debug&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Signal!&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;右键单击任意轨道：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/SAiR90ho2iVi.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+此时在属性面板中，可以看到：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/rkIgMqVhBiI3.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+为了监听这个事件，unity 提示我们缺少一个监听器，点击 Add 添加一个。&lt;br&gt;
+添加好监听器，我们需要创建一个监听实例，这个实例是可以复用的。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/fbn8zd2A3rD3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;完成以上步骤我们发现原先有警告的小白标变成了&lt;font color=red&gt;白色&lt;/font&gt;。这说明我们设置正确了，然后我们需要绑定事件给实例：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/YYCEgJkFVtkl.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+尝试运行（播放游戏）一下发现在时间轴运行到小白标时会自动调用我们绑定的方法。&lt;/p&gt;
+&lt;h3&gt;Signal-指定轨道&lt;/h3&gt;
+&lt;p&gt;上面实现的 Signal 是针对于任意轨道来说的，如果我们需要很多的 Signal 处理起来可能会发生混乱，所以官方提供了专门的 Signal 轨道。&lt;br&gt;
+先给我们的物体添加：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/07nzVWaY41Yw.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+在属性面板中我们可以对事件实例绑定多个方法，统一管理：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/IvGBUJotShrO.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;小技巧&lt;/h3&gt;
+&lt;p&gt;在轨道左侧可以点击三点，然后选择 Mute（静音）对指定轨道进行屏蔽。&lt;br&gt;
+在右侧轨道面板中，可以通过重叠区块实现 2 个区块之间的过渡效果。&lt;br&gt;
+可设置轨道的淡入淡出效果：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/TKt9DScaWgab.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;驱动摄像机&lt;/h3&gt;
+&lt;p&gt;做了一个超级丑的摄像机变换效果：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/UVEeBVXqcg7D.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;代码驱动TimeLine&lt;/h3&gt;
+&lt;p&gt;有时候我们可能需要通过代码动态的启动 TimeLine，这也很容易实现：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Signal&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;MonoBehaviour&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;PlayableDirector&lt;/span&gt; playDir&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Fac&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Debug&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Fac..&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Input&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetKeyDown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;KeyCode&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;A&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;A&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            playDir&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Play&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>
