@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;unity tool&#34; tag</title>
+        <link>http://www.fasty97.top</link>
+        <description>实现你的游戏梦</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 29 Jan 2020 15:09:20 +0800</pubDate>
+        <lastBuildDate>Wed, 29 Jan 2020 15:09:20 +0800</lastBuildDate>
+        <category>unity</category>
+        <category>好物推荐</category>
+        <category>Lua</category>
+        <category>shaderGraph</category>
+        <category>unity Tool</category>
+        <category>读书笔记</category>
+        <category>设计模式</category>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/</guid>
+            <title>NaughtyAttributes更直观的管理属性</title>
+            <link>http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/</link>
+            <category>好物推荐</category>
+            <category>unity Tool</category>
+            <pubDate>Wed, 29 Jan 2020 15:09:20 +0800</pubDate>
+            <description><![CDATA[ &lt;h3&gt;NaughtyAttributes&lt;/h3&gt;
+&lt;p&gt;使用 NaughtyAttributes 可以很方便的管理 unity 属性面板的脚本属性，可以实现许多 unity 原先特性不能实现的效果，详情可以看向下面的 github 地址：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2Ricml6b3YvTmF1Z2h0eUF0dHJpYnV0ZXM=&#34;&gt;Github 项目地址&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;想水一期文章，好的，水完了～&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

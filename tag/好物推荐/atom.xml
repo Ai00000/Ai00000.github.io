@@ -7,6 +7,8 @@
     <category term="unity" />
     <category term="好物推荐" />
     <category term="Lua" />
+    <category term="shaderGraph" />
+    <category term="unity Tool" />
     <category term="读书笔记" />
     <category term="设计模式" />
     <entry>
@@ -124,5 +126,69 @@ position: 1,-22
 </content>
         <category term="好物推荐" />
         <updated>2020-04-27T14:49:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fasty97.top/2020/02/16/Gitbook%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
+        <title>Gitbook初体验</title>
+        <link rel="alternate" href="http://www.fasty97.top/2020/02/16/Gitbook%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+        <content type="html">&lt;blockquote&gt;
+  有没有想过整理一下自己杂乱的学习笔记呢？有没有想自己写本书呢？
+&lt;/blockquote&gt;
+&lt;p&gt;如果你有以上的想法，那么 gitbook 将是非常适合你的东西。&lt;/p&gt;
+&lt;h3&gt;前置准备工作&lt;/h3&gt;
+&lt;p&gt;安装并配置好&lt;code&gt;node.js&lt;/code&gt;即可。&lt;/p&gt;
+&lt;h3&gt;安装gitbook&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash line-numbers&#34;&gt;$ npm install gitbook-cli -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装可能会比较耗时，若情况特殊请开启科学上网。&lt;br&gt;
+在安装完成后可以查看是否安装成功：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash line-numbers&#34;&gt;$ gitbook -V
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;使用gitbook&lt;/h3&gt;
+&lt;p&gt;在你想建立 gitbook 的文件下，输入&lt;code&gt;gitbook init&lt;/code&gt;可以在此文件夹建立 gitbook。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/note/20200216/0lPmKdMw8l0v.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+你可以在文件中中发现这两个文件：（第一次可能有点慢）&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/note/20200216/CPTnLXSDjhBW.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+其中&lt;code&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1NVTU1BUlkubWQ=&#34;&gt;SUMMARY.md&lt;/span&gt;&lt;/code&gt;是本书的目录，我们可以编辑目录后再次使用&lt;code&gt;gitbook init&lt;/code&gt;来更新书本。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown line-numbers&#34;&gt;# Summary
+
+* [Introduction](README.md)
+
+* [笔记](note1/笔记.md)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我们可以在 SUMMARY 下追加一个目录如上，其中&lt;a class=&#34;wp-editor-md-post-content-link&#34; href=&#34;指向的文件地址&#34;&gt;在目录中显示的名字&lt;/a&gt;，gitbook 会自动生成目录和文件。&lt;br&gt;
+然后我们更新书本。&lt;/p&gt;
+&lt;h3&gt;启动本地预览&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash line-numbers&#34;&gt;gitbook serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200216/ya5J8QhAWmmk.png&#34; alt=&#34;本地预览&#34;&gt;&lt;br&gt;
+完成后我们就可以在 4000 端口访问了。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200216/p1IYlSMUaJDd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;使用vscode编辑MD&lt;/h3&gt;
+&lt;p&gt;主要需要安装 2 个插件：&lt;br&gt;
+!{}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BpYy5mYXN0eTk3LnRvcC9ibG9nLzIwMjAwMjE2LzUxa0lRZHBhMVgzZC5wbmc=&#34;&gt;http://pic.fasty97.top/blog/20200216/51kIQdpa1X3d.png&lt;/span&gt;)&lt;br&gt;
+!{}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BpYy5mYXN0eTk3LnRvcC9ibG9nLzIwMjAwMjE2L0lqR3N2TzM3R1MxVy5wbmc=&#34;&gt;http://pic.fasty97.top/blog/20200216/IjGsvO37GS1W.png&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;安装完这两个插件就可以愉快的写 md 了，可以使用&lt;code&gt;alt+shirt+f&lt;/code&gt;快速格式化代码。&lt;br&gt;
+在这里还推荐大家一个插件用于记录文件的更新时间:&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200216/Kq43IQrCOP4P.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+ 效果如图：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200216/jBHBzThH1Rof.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="好物推荐" />
+        <updated>2020-02-16T04:40:30.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/</id>
+        <title>NaughtyAttributes更直观的管理属性</title>
+        <link rel="alternate" href="http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/"/>
+        <content type="html">&lt;h3&gt;NaughtyAttributes&lt;/h3&gt;
+&lt;p&gt;使用 NaughtyAttributes 可以很方便的管理 unity 属性面板的脚本属性，可以实现许多 unity 原先特性不能实现的效果，详情可以看向下面的 github 地址：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2Ricml6b3YvTmF1Z2h0eUF0dHJpYnV0ZXM=&#34;&gt;Github 项目地址&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;想水一期文章，好的，水完了～&lt;/p&gt;
+</content>
+        <category term="好物推荐" />
+        <category term="unity Tool" />
+        <updated>2020-01-29T07:09:20.000Z</updated>
     </entry>
 </feed>

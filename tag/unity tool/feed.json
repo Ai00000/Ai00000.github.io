@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"unity tool\" tag",
+    "description": "实现你的游戏梦",
+    "home_page_url": "http://www.fasty97.top",
+    "items": [
+        {
+            "id": "http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/",
+            "url": "http://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/",
+            "title": "NaughtyAttributes更直观的管理属性",
+            "date_published": "2020-01-29T07:09:20.000Z",
+            "content_html": "<h3>NaughtyAttributes</h3>\n<p>使用 NaughtyAttributes 可以很方便的管理 unity 属性面板的脚本属性，可以实现许多 unity 原先特性不能实现的效果，详情可以看向下面的 github 地址：</p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2Ricml6b3YvTmF1Z2h0eUF0dHJpYnV0ZXM=\">Github 项目地址</span></p>\n<p>想水一期文章，好的，水完了～</p>\n",
+            "tags": [
+                "好物推荐",
+                "unity Tool"
+            ]
+        }
+    ]
+}
