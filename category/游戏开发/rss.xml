@@ -5,8 +5,8 @@
         <link>http://www.fasty97.top</link>
         <description>实现你的游戏梦,每周一更！</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 22 Feb 2021 09:35:56 +0800</pubDate>
-        <lastBuildDate>Mon, 22 Feb 2021 09:35:56 +0800</lastBuildDate>
+        <pubDate>Mon, 22 Feb 2021 12:47:13 +0800</pubDate>
+        <lastBuildDate>Mon, 22 Feb 2021 12:47:13 +0800</lastBuildDate>
         <category>生活</category>
         <category>年终总结</category>
         <category>unity</category>
@@ -18,6 +18,18 @@
         <category>读书笔记</category>
         <category>设计模式</category>
         <category>动漫</category>
+        <item>
+            <guid isPermalink="true">http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/</guid>
+            <title>原型模式</title>
+            <link>http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/</link>
+            <category>读书笔记</category>
+            <category>设计模式</category>
+            <pubDate>Mon, 22 Feb 2021 12:47:13 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;原型模式：使用特定原型实例来创建特定种类的对象，并且通过拷贝原型来创建新的对象。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://www.fasty97.top/2021/02/22/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/</guid>
             <title>观察者模式</title>

@@ -3,7 +3,7 @@
     <id>http://www.fasty97.top</id>
     <title>指尖小屋 • Posts by &#34;《游戏编程模式》&#34; category</title>
     <link href="http://www.fasty97.top" />
-    <updated>2021-02-22T01:35:56.000Z</updated>
+    <updated>2021-02-22T04:47:13.000Z</updated>
     <category term="生活" />
     <category term="年终总结" />
     <category term="unity" />
@@ -15,6 +15,18 @@
     <category term="读书笔记" />
     <category term="设计模式" />
     <category term="动漫" />
+    <entry>
+        <id>http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/</id>
+        <title>原型模式</title>
+        <link rel="alternate" href="http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;原型模式：使用特定原型实例来创建特定种类的对象，并且通过拷贝原型来创建新的对象。&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="读书笔记" />
+        <category term="设计模式" />
+        <updated>2021-02-22T04:47:13.000Z</updated>
+    </entry>
     <entry>
         <id>http://www.fasty97.top/2021/02/22/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/</id>
         <title>观察者模式</title>

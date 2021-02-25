@@ -5,6 +5,17 @@
     "home_page_url": "http://www.fasty97.top",
     "items": [
         {
+            "id": "http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/",
+            "url": "http://www.fasty97.top/2021/02/22/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/",
+            "title": "原型模式",
+            "date_published": "2021-02-22T04:47:13.000Z",
+            "content_html": "<blockquote>\n<p>原型模式：使用特定原型实例来创建特定种类的对象，并且通过拷贝原型来创建新的对象。</p>\n</blockquote>\n",
+            "tags": [
+                "读书笔记",
+                "设计模式"
+            ]
+        },
+        {
             "id": "http://www.fasty97.top/2021/02/22/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/",
             "url": "http://www.fasty97.top/2021/02/22/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/",
             "title": "观察者模式",
