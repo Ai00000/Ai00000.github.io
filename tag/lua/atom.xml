@@ -11,11 +11,11 @@
     <category term="shaderGraph" />
     <category term="Lua" />
     <category term="unity Tool" />
+    <category term="热更新" />
     <category term="前端小技巧" />
     <category term="动漫" />
     <category term="读书笔记" />
     <category term="设计模式" />
-    <category term="热更新" />
     <entry>
         <id>http://www.fasty97.top/2020/02/07/Lua-%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B9%9D%EF%BC%89%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</id>
         <title>Lua-基础（九）面向对象</title>
