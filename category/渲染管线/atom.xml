@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;渲染管线&#34; category</title>
+    <link href="http://www.fasty97.top" />
+    <updated>2020-03-22T06:59:19.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="unity" />
+    <category term="好物推荐" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="unity Tool" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="读书笔记" />
+    <category term="设计模式" />
+    <category term="热更新" />
+    <entry>
+        <id>http://www.fasty97.top/2020/03/22/HDRP%E4%BD%93%E9%AA%8C2B%E5%B0%8F%E5%A7%90%E5%A7%90/</id>
+        <title>HDRP体验2B小姐姐</title>
+        <link rel="alternate" href="http://www.fasty97.top/2020/03/22/HDRP%E4%BD%93%E9%AA%8C2B%E5%B0%8F%E5%A7%90%E5%A7%90/"/>
+        <content type="html">&lt;p&gt;在上一个文章&lt;a href=&#34;https://www.fasty97.top/lwrp%e4%b8%8bshadergraph%e7%9a%84%e4%bd%bf%e7%94%a8/&#34; title=&#34;LWRP&#34;&gt; LWRP&lt;/a&gt; 中我们介绍了 LWRP 的基本使用方法，并使用 ShaderGraph 写了两个小例子。&lt;br&gt;
+这次我们就来尝试一下 HDRP，效果上要比 LWRP 或者普通渲染管线好多少。&lt;/p&gt;
+&lt;h3 id=&#34;效果预览&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#效果预览&#34;&gt;#&lt;/a&gt; 效果预览&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;https://pic.fasty97.top/blog/blog-nierHDRP.mp4&#34; autoplay loop style=&#34;width:100%&#34;&gt;&lt;/video&gt;&lt;br&gt;
+可以看到在 HDRP 中的效果还是比较不错的，各种光影的质量都还不错。&lt;/p&gt;
+&lt;h3 id=&#34;hdrp-入门&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hdrp-入门&#34;&gt;#&lt;/a&gt; HDRP 入门&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;下载安装以下依赖:&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200322/kl15u7a5e2GF.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;创建 HDRP 资源并设置（这个和 LWRP 差不多）&lt;/li&gt;
+&lt;li&gt;设置颜色空间为 &lt;code&gt;Linner&lt;/code&gt;  (这个设置很重要)&lt;/li&gt;
+&lt;li&gt;创建全局 Volm 管理环境&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上就是主要的步骤，下面我详细说一下一些细节的地方。&lt;/p&gt;
+&lt;h3 id=&#34;如何使用天空盒&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何使用天空盒&#34;&gt;#&lt;/a&gt; 如何使用天空盒&lt;/h3&gt;
+&lt;p&gt;在 HDRP 中有多种天空类型： &lt;code&gt;颜色渐变天空&lt;/code&gt; ， &lt;code&gt;纯色天空&lt;/code&gt; ， &lt;code&gt;HDRI天空&lt;/code&gt; ， &lt;code&gt;物理天空&lt;/code&gt; 等。&lt;br&gt;
+大家可以看到我的天空是有一些云朵的一个天空盒，在 HDRP 中默认是纯色的黑天空，我们可以添加一个 Volume 对象或者在游戏物体上挂载一个 Volume 脚本来对默认设置进行重写。&lt;br&gt;
+如我这样我可视化环境组件，用于设置天空类型，这里我将其设置为 HDRI，再添加一个 HDRI Sky 组件用于详细设置，在 Hdri Sky 项目中设置导入的天空盒 cubemap。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200322/WnOvO7pHMlnr.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+添加一个：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/i4UgANuYjKXk.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+在设置中设置：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/5MV2zF3dOEoE.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+此时就算是把天空盒光线环境搭好了，快放入模型试试吧。&lt;/p&gt;
+&lt;h3 id=&#34;金属感和平滑度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#金属感和平滑度&#34;&gt;#&lt;/a&gt; 金属感和平滑度&lt;/h3&gt;
+&lt;p&gt;在这个模型中，2B 所持的剑是金属制品，但之前的之前的视频展示并没有去做这方面的处理。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/PjUJNsJzTJ6j.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+这里我将金属度设置为 1，给一个很强的金属感，平滑度给个 0.6。（如我们现实世界一样，一般来说金属度高的东西，平滑度也会高一些，反射光线的能力强一些。）&lt;br&gt;
+设置金属和平滑度一部分可以补足金属器物的质感和光泽。&lt;br&gt;
+调整金属和平滑度后：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/wHbsjytdodBJ.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+视频预览：&lt;br&gt;
+&lt;video src=&#34;https://pic.fasty97.top/blog/nierHDRP2.mp4&#34; autoplay loop style=&#34;width:100%&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+</content>
+        <category term="unity" />
+        <updated>2020-03-22T06:59:19.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>LWRP下ShaderGraph的使用</title>
+        <link rel="alternate" href="http://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;丢失了好多文章，故更新一波，开一个新坑 CG&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不论是 LWRP 还是 ShaderGraph 都已经不是什么新技术了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;cg杂谈&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cg杂谈&#34;&gt;#&lt;/a&gt; CG 杂谈&lt;/h3&gt;
+&lt;p&gt;计算机图形学（ComputGraph）简称 &lt;code&gt;CG&lt;/code&gt; ，是一门研究计算机图形图像处理的学科，将符号或电子信号可视化是一门比较晦涩难懂的东西，比如 &lt;code&gt;傅里叶变换&lt;/code&gt; 用于研究声音和波的关系，让波得以表示。众所周知，建模时我们总是使用三角面来构成一个模型，以三角面的数量来衡量一个模型的精细程度。从三维物体坐标系到二维的屏幕坐标系，深度如何表示？遮挡关系如何计算？这就是 CG 所研究的东西，计算机图形学也被称为程序员的浪漫，这就是这个系列要说的东西。&lt;/p&gt;
+&lt;h3 id=&#34;lwrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp&#34;&gt;#&lt;/a&gt; LWRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;LWRP&lt;/code&gt;  (轻度渲染管线) 是 unity 推出的可自定义的渲染管线，其初衷是为了移动平台和轻度主机平台。在轻度渲染管线下，我们可以对渲染管线做更多的设置和处理，并且可以使用 shaderGraph 可视化的 shader 编辑器像连连看一样完成 shader 的编写。&lt;br&gt;
+通过 shader 我们可以实现许多视觉效果，如飘动的红旗，水面的倒影，卡通人物渲染等；有些可以使用模型来解决但使用 shader 不仅高效还能处理许多模型无法解决的东西。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不知道你是否看过游戏的模型，或者说取解包过游戏，很多游戏，模型可能并没有游戏中那么&lt;strong&gt;漂亮&lt;/strong&gt;！&lt;/em&gt;&lt;br&gt;
+但是通过 shader，光照，后处理等，玩家看到的就是非常赞的效果了！（就好像是美颜滤镜一样）&lt;/p&gt;
+&lt;h3 id=&#34;hdrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hdrp&#34;&gt;#&lt;/a&gt; HDRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;HDRP&lt;/code&gt;  (高清渲染管线) 如名字所言，是专门在对画面质量要求较高的主机或 PC 端开发游戏所使用的。（但 unity 开发大型游戏真的够呛，目前在我看来 ue4 可能更适合）&lt;br&gt;
+使用 HDRP 我们可以更高程度的自定义我们的渲染系统，要知道在游戏引擎中，渲染占据了很大的一块。&lt;/p&gt;
+&lt;h3 id=&#34;shader的基础认知&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shader的基础认知&#34;&gt;#&lt;/a&gt; Shader 的基础认知？&lt;/h3&gt;
+&lt;p&gt;关于 shader 的基础认知，我在之前曾写过一篇文章（虽然没写完），我会抽空把那篇文章写完的。&lt;br&gt;
+如果有兴趣不妨去看看：&lt;a href=&#34;http://www.fasty97.top/unity%e5%9b%be%e5%bd%a2%e5%ad%a6-%e6%b8%b2%e6%9f%93%e6%b5%81%e7%a8%8b/&#34; title=&#34;[传送门]unity图形学 渲染流程&#34;&gt;[传送门] unity 图形学 渲染流程&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lwrp下shadergraph的搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp下shadergraph的搭建&#34;&gt;#&lt;/a&gt; LWRP 下 Shadergraph 的搭建&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity版本 2019.3.0f6&lt;/code&gt; &lt;br&gt;
+ 听了这么多，也许你还是比较懵吧，没事。让我们来揭开 shader 的神秘面纱吧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先安装如下依赖包：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/IHRSz6lfegXD.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/BLWb4IR9U5wt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建渲染管线资源并设置：&lt;br&gt;
+值得一提的是，在 unity2019.3 中已经将 LWRP 更名为 UWRP 了，unity 想在之后让 LWRP 变成通用的渲染管线取代原先的 Stand 渲染管线；所以我们需要创建一个 UWRP 的资源。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/TR1o545kQ1Nz.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 UWRP&lt;br&gt;
+ 首先我们创建一个 Cube，一个材质，一个 PBRGraph（基于物理的 shader）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pbrgraph&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pbrgraph&#34;&gt;#&lt;/a&gt; PBRGraph?&lt;/h4&gt;
+&lt;p&gt;这里补充一点小知识，所谓 PBR 就是基于物理的渲染，什么叫做基于物理的渲染呢？简单的说就是原先的模型在绘制贴图时，贴图师就会直接在贴图上绘制好高光，粗糙度，磨损等，这是基于经验的固定化的处理。而基于物理的渲染则是通过复杂的计算和光照模型的影响，动态的计算出模型的细节，让模型处于不同的环境中能够有不同的表现，是基于环境影响的。&lt;/p&gt;
+&lt;p&gt;打开 PBRGraph：&lt;br&gt;
+创建如下结点并连接&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/KC6HrUGWV9pC.png&#34; alt=&#34;PBRGraph&#34;&gt;&lt;br&gt;
+ 然后将 shader 指定到对应材质，将材质指定到我们的 Cube，尝试调整数值吧。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/PkIawTx0mOAc.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+到这里我们已经知道如何基本的使用 shaderGraph 了呢，但你可能会说，这不是自带 shader 就拥有的功能吗？&lt;/p&gt;
+&lt;h3 id=&#34;做一个边缘发光效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个边缘发光效果&#34;&gt;#&lt;/a&gt; 做一个边缘发光效果&lt;/h3&gt;
+&lt;p&gt;下面我们使用菲涅尔效应做一个简单的边缘自发光，其 shadergraph 如图所示，通过菲涅尔结点指定一个发光颜色和强度来实现。（非常简单吧）&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/pmNHEXl7Y02o.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;效果图：&lt;/strong&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/dQdztRRmd7pH.gif&#34; alt=&#34;边缘发光效果&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;做一个顶点动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个顶点动画&#34;&gt;#&lt;/a&gt; 做一个顶点动画&lt;/h3&gt;
+&lt;p&gt;通过顶点偏移我们可以实现一个波浪或是，旗帜飘动的效果：&lt;br&gt;
+主要是使用顶点偏移通过 sin 正弦方式。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/oKWCf4A3lDxM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果如图：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/5yqXJieqbu2x.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="shaderGraph" />
+        <updated>2020-03-21T09:03:57.000Z</updated>
+    </entry>
+</feed>

@@ -3,7 +3,7 @@
     <id>http://www.fasty97.top</id>
     <title>指尖小屋</title>
     <link href="http://www.fasty97.top" />
-    <updated>2021-03-04T01:21:52.000Z</updated>
+    <updated>2021-03-09T02:07:15.000Z</updated>
     <category term="生活" />
     <category term="年终总结" />
     <category term="unity" />
@@ -15,6 +15,23 @@
     <category term="动漫" />
     <category term="读书笔记" />
     <category term="设计模式" />
+    <category term="热更新" />
+    <entry>
+        <id>http://www.fasty97.top/2021/03/09/PUN%EF%BC%88%E4%B8%80%EF%BC%89%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87/</id>
+        <title>PUN2（一）前置准备</title>
+        <link rel="alternate" href="http://www.fasty97.top/2021/03/09/PUN%EF%BC%88%E4%B8%80%EF%BC%89%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87/"/>
+        <content type="html"></content>
+        <category term="unity" />
+        <updated>2021-03-09T02:07:15.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.fasty97.top/2021/03/09/%E5%AD%A4%E7%8B%AC&amp;%E7%8B%AC%E7%AB%8B/</id>
+        <title>孤独&amp;独立</title>
+        <link rel="alternate" href="http://www.fasty97.top/2021/03/09/%E5%AD%A4%E7%8B%AC&amp;%E7%8B%AC%E7%AB%8B/"/>
+        <content type="html"></content>
+        <category term="生活" />
+        <updated>2021-03-09T02:04:29.000Z</updated>
+    </entry>
     <entry>
         <id>http://www.fasty97.top/2021/03/04/Unity%20PlasticSCM%20%E6%89%98%E7%AE%A1/</id>
         <title>Unity PlasticSCM 托管</title>
@@ -525,6 +542,7 @@ cout &amp;lt;&amp;lt; &amp;quot;HelloWorld&amp;quot; &amp;lt;&amp;lt; endl;
 &lt;p&gt;如果一个资源被打包为 ab 包，那么这个资源使用的其他资源依赖会被默认打入资源包。&lt;/p&gt;
 </content>
         <category term="unity" />
+        <category term="热更新" />
         <updated>2020-09-11T04:21:41.000Z</updated>
     </entry>
     <entry>
