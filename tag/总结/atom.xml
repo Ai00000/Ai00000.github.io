@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;总结&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-03-15T02:34:22.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="多人" />
+    <category term="unity Tool" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="热更新" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="前端小技巧" />
+    <category term="vs" />
+    <category term="动漫" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="Unity插件" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/03/15/2022-%E7%9B%AE%E6%A0%87%E5%92%8C%E6%96%B9%E5%90%91/</id>
+        <title>2022-目标和方向</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/03/15/2022-%E7%9B%AE%E6%A0%87%E5%92%8C%E6%96%B9%E5%90%91/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;此文用于计划 &lt;code&gt;2022&lt;/code&gt;  年的目标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;总体目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总体目标&#34;&gt;#&lt;/a&gt; 🔝 总体目标&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 找到一份合适工作&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 购置一台 4K 显示器&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 发布一套课程&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; Bili Bili 粉丝 &amp;gt; 3000&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unity技术目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity技术目标&#34;&gt;#&lt;/a&gt; 📜 Unity 技术目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;研究新的技术配套游戏框架&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; UIElement 学习&lt;/label&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_5&#34;&gt; 考虑设计一套资源管理器替换 Odin&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_6&#34;&gt; GraphView 学习 （尝试之后考虑使用原先的 xnode 方式）&lt;/label&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_7&#34;&gt; 设计一套通用的 graph 框架&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_8&#34;&gt; 移植天赋树系统&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shader&#34;&gt;#&lt;/a&gt; Shader&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_9&#34;&gt; shader 入门精要&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;️美术音乐目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#️美术音乐目标&#34;&gt;#&lt;/a&gt; ❤️美术音乐目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了独立游戏梦，程序员也要学美术​音乐😄。&lt;/p&gt;
+&lt;p&gt;这个部分的目标较为不明确，会将学习成果记录在下面的各项中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;绘画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绘画&#34;&gt;#&lt;/a&gt; 绘画&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习像素画和板绘，角色原画，特效等&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动画&#34;&gt;#&lt;/a&gt; 动画&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习 Spine 骨骼 2D 动画&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;建模&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#建模&#34;&gt;#&lt;/a&gt; 建模&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习 Blender 的角色建模，简单场景的搭建&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;编曲&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编曲&#34;&gt;#&lt;/a&gt; 编曲&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;学习基础乐理和常用的电子乐器，目标是能编制简单的曲子。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;项目目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#项目目标&#34;&gt;#&lt;/a&gt; 💭 项目目标&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_10&#34;&gt; 完善卡牌游戏&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_11&#34;&gt; 制作一个练手塔防游戏&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;读书目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#读书目标&#34;&gt;#&lt;/a&gt; 📚 读书目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;读一点杂书，开阔自己的视野。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;阅读2本以上课外书&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_12&#34;&gt; 追风筝的人 - 完成书评&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_13&#34;&gt; 1Q84 - 完成书评&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_14&#34;&gt; 《游戏编程模式》&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="总结" />
+        <category term="目标" />
+        <updated>2022-03-15T02:34:22.000Z</updated>
+    </entry>
+</feed>

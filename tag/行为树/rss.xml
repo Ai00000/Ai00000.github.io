@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;行为树&#34; tag</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 04 Sep 2021 20:15:26 +0800</pubDate>
+        <lastBuildDate>Sat, 04 Sep 2021 20:15:26 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>多人</category>
+        <category>unity Tool</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>热更新</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>前端小技巧</category>
+        <category>vs</category>
+        <category>动漫</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>Unity插件</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/09/04/NodeCanvas%E4%B9%8B%E8%A1%8C%E4%B8%BA%E6%A0%91/</guid>
+            <title>NodeCanvas之行为树</title>
+            <link>https://www.fasty97.top/2021/09/04/NodeCanvas%E4%B9%8B%E8%A1%8C%E4%B8%BA%E6%A0%91/</link>
+            <category>Unity Tool</category>
+            <category>行为树</category>
+            <pubDate>Sat, 04 Sep 2021 20:15:26 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;认识行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#认识行为树&#34;&gt;#&lt;/a&gt; 认识行为树&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是行为树？&lt;br&gt;
+自顶向下的树形结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;行为树 Behavior Tree 是一种数据结构，自顶向下的树形结构。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;什么情况下要使用行为树？&lt;br&gt;
+情况多变，条件复杂&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在处理逻辑复杂的问题时，这个复杂可能是条件复杂，情况多样。&lt;/p&gt;
+&lt;p&gt;行为树并非是游戏 Ai 的专属，在处理其他复杂业务逻辑或可能时都可以尝试用行为树来解决。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;行为树有什么优点？&lt;br&gt;
+高效可读，易于扩展&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;行为树解决的问题是将复杂的关系，简单化，能很大程度的加强程序的可读性，健壮性。&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;行为树由哪几部分组成？&lt;br&gt;
+主要由四部分  CDAC 组成 ，两根两叶&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Composites  组合节点    只能作为根节点，控制子节点的执行（顺序）
+Decorator 装饰节点         只能作为根节点，修饰子节点
+Actions     行为节点         只能作为叶子节点，执行具体动作
+Conditinals 条件节点       只能作为叶子节点，判断条件
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;行为树的工作流程？&lt;br&gt;
+自顶向下，从左至右（并发进行），逐层进行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;行为树执行的成果（成功 / 失败），由其子节点决定，子节点执行完成后会向父节点传递成功 / 失败的消息，&lt;br&gt;
+最终这些来自各个子枝的消息汇聚到行为树，行为树将结果整合得到行为树的最终执行结果。&lt;br&gt;
+其最终结果：同真为真，一假则假&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于nodecanvas&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于nodecanvas&#34;&gt;#&lt;/a&gt; 关于 NodeCanvas&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;NodeCanvas&lt;/code&gt;  是一个集成了:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行为树&lt;/li&gt;
+&lt;li&gt;对话树&lt;/li&gt;
+&lt;li&gt;FSM 有限状态机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;的可视化 开发工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;快速开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速开始&#34;&gt;#&lt;/a&gt; 快速开始&lt;/h2&gt;
+&lt;h3 id=&#34;准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h3&gt;
+&lt;p&gt;准备一个角色，1.  配置好动画控制器，2. 进行 NaveMesh 的网格烘焙。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904203556.png&#34; alt=&#34;Aa&#34;&gt;&lt;/p&gt;
+&lt;p&gt;添加上以下组件:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904203733.png&#34; alt=&#34;image-20210904203733291&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建行为树&#34;&gt;#&lt;/a&gt; 创建行为树&lt;/h3&gt;
+&lt;p&gt;可以看到由两个部分组成&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904204124.png&#34; alt=&#34;image-20210904204124080&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;数据黑板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据黑板&#34;&gt;#&lt;/a&gt; 数据黑板&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“黑板”（Blackboard）在人工智能领域已经是一个很古老的东西了，它基于一种很直观的概念，就是一群人为了解决一个问题，在黑板前聚集，每个人都可以发表自己的意见，然后在黑板上写下自己的看法，当然你也可以基于别人记录在黑板上的看法，来发表和更新自己的看法，在这样不断的意见交换，看法更新的过程中，越来越趋向于对于问题的最终解答。一开始的黑板系统就是这样一个由多个子系统来共同协作的人工智能解决方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可参考: &lt;a href=&#34;http://www.aisharing.com/archives/801&#34;&gt;http://www.aisharing.com/archives/801&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在NodeCanvas里，我们可以把需要共享点数据放在黑板里，在多个行为树中共享。&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;操作窗口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#操作窗口&#34;&gt;#&lt;/a&gt; 操作窗口&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904204714.png&#34; alt=&#34;image-20210904204714062&#34;&gt;&lt;/p&gt;
+&lt;p&gt;左上可以导入导出，右上是黑板数据。&lt;/p&gt;
+&lt;p&gt;可以添加不同类型点节点， &lt;code&gt;行为树一般从流程节点开始&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904204908.png&#34; alt=&#34;image-20210904204908578&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;基本流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本流程&#34;&gt;#&lt;/a&gt; 基本流程&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sequencer 依次执行直到失败&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904205615.png&#34; alt=&#34;image-20210904205615378&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904205615.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+完成效果如下:&lt;br&gt;
+&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904210007.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selector 依次执行直到成功&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904210501.png&#34; alt=&#34;image-20210904210501209&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Parallel  并行执行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904210629.png&#34; alt=&#34;image-20210904210629825&#34;&gt; 其中，可以结束配置参数：&lt;/p&gt;
+&lt;p&gt;第一次成功、第一次失败、第一次成功或失败。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210904211016.png&#34; alt=&#34;image-20210904211016371&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;完成的行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#完成的行为树&#34;&gt;#&lt;/a&gt; 完成的行为树&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;包含攻击、追逐、徘徊、巡逻几个状态&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210905162014.png&#34; alt=&#34;image-20210905162014408&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;节点介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#节点介绍&#34;&gt;#&lt;/a&gt; 节点介绍&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jianshu.com/p/a12470577fd0&#34;&gt;NodeCanvas—— 行为树节点介绍 - 简书 (jianshu.com)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;扩展-分层行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#扩展-分层行为树&#34;&gt;#&lt;/a&gt; 扩展 - 分层行为树&lt;/h2&gt;
+&lt;p&gt;参考：&lt;a href=&#34;https://blog.csdn.net/weixin_41624024/article/details/80879294&#34;&gt;分层机制 - 复杂行为树的行为控制_一生做游戏 - CSDN 博客_复杂行为树&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;综合参考&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#综合参考&#34;&gt;#&lt;/a&gt; 综合参考&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210905122921.png&#34; alt=&#34;image-20210905122914367&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

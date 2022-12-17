@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;年终总结&#34; tag</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 17 Jan 2022 17:17:43 +0800</pubDate>
+        <lastBuildDate>Mon, 17 Jan 2022 17:17:43 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>多人</category>
+        <category>unity Tool</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>热更新</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>前端小技巧</category>
+        <category>vs</category>
+        <category>动漫</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>Unity插件</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/01/17/2021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
+            <title>2021年终总结</title>
+            <link>https://www.fasty97.top/2022/01/17/2021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+            <category>生活</category>
+            <category>年终总结</category>
+            <pubDate>Mon, 17 Jan 2022 17:17:43 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;ins&gt;2021&lt;/ins&gt; 年不知不觉就过去了，不知道为什么，我感觉时间过得越来越快了🙂.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;...&#34;&gt;回首过去的一年里，我好像也没做什么事情&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我向来觉得对自己的生活进行阶段性记录是很有必要的，通过这种方式可以记录下很多东西，在迷茫时看看从前的自己说不定能获得什么能量吧～&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于自设框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于自设框架&#34;&gt;#&lt;/a&gt; 关于自设框架&lt;/h2&gt;
+&lt;h3 id=&#34;数值系统&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数值系统&#34;&gt;#&lt;/a&gt; 数值系统&lt;/h3&gt;
+&lt;p&gt;引入了数据修改器的概念，所以对于游戏的各种数据都需要分门别类的管理，特别是针对于 Character 的数据。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220125114721.png&#34; alt=&#34;数值系统&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;任务系统&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#任务系统&#34;&gt;#&lt;/a&gt; 任务系统&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220125114810.png&#34; alt=&#34;image-20220125114810766&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;buff系统&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#buff系统&#34;&gt;#&lt;/a&gt; buff 系统&lt;/h3&gt;
+&lt;p&gt;关于 Buff 系统在我的自制框架中，制作了一版实时的，在开发回合制卡牌游戏原型时，发现回合制的 Buff 和实时的 Buff 有较大差别，重新设计了一版回合制的，考虑在之后放入到自制框架中。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220125115301.png&#34; alt=&#34;Buffer系统&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;关于我开始成为up主&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于我开始成为up主&#34;&gt;#&lt;/a&gt; 关于我开始成为 Up 主&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Bilibili 投稿成为偶像？哈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;兴趣点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#兴趣点&#34;&gt;#&lt;/a&gt; 兴趣点&lt;/h3&gt;
+&lt;p&gt;大概是想要获得一些成就感来鼓励自己单调的生活吧，我开始发布一些编程相关的教程和知识分享，教别人的学习效率大概是自学的 2 倍吧❤️，同时也希望能够记录自己的成长。&lt;/p&gt;
+&lt;h3 id=&#34;视频收益&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#视频收益&#34;&gt;#&lt;/a&gt; 视频收益&lt;/h3&gt;
+&lt;p&gt;哈哈哈，在制作视频的时候我是没想过能够在经济上有什么获得的，但现在 b 站的投稿大环境还是挺好的，各种各样的活动和推广。&lt;/p&gt;
+&lt;p&gt;在精心制作一天之后，我发出了这个教程（也是目前我最成功的一个视频😺), 前后有 30 块左右收益，粉丝也涨了近 300 左右。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220125120136.png&#34; alt=&#34;image-20220125115931021&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;关于新设备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于新设备&#34;&gt;#&lt;/a&gt; 关于新设备&lt;/h2&gt;
+&lt;h3 id=&#34;小米11&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小米11&#34;&gt;#&lt;/a&gt; 小米 11&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总而言之：小爱同学很好用，小米 11 很垃圾。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;switch&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#switch&#34;&gt;#&lt;/a&gt; Switch&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自 PSV 之后，好久没碰掌机了。&lt;/p&gt;
+&lt;p&gt;实际体验下来，掌机平台的游戏确实和 PC 的有很大的差距，介于硬件的差异，switch 上很多游戏在画质上并比不上 PC，但他们巧妙的利用掌机的特性，提供了非常多 PC 所不能提供的功能，例如面对面多人连接，把 2 台 Switch 靠在一起就可以进行画面的拼合，感觉很奇妙😄.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;麦克风&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#麦克风&#34;&gt;#&lt;/a&gt; 麦克风&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为录制教程的关系，购置了闪客 461T 麦克风，但感觉还是有不小的底噪，使用 obs 降噪后勉强可用。&lt;/p&gt;
+&lt;p&gt;果然还是太便宜了吗😂&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220117183236.png&#34; alt=&#34;image-20220117183236853&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;数位板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数位板&#34;&gt;#&lt;/a&gt; 数位板&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;购置了一块超便宜的高漫数位板，录制教程的时候可以画画图，自己平时也可以画画风景什么的，= 不过要拿出作品可能还需要超级久吧 =。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于好剧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于好剧&#34;&gt;#&lt;/a&gt; 关于好剧&lt;/h2&gt;
+&lt;h3 id=&#34;动漫&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动漫&#34;&gt;#&lt;/a&gt; 动漫&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;世界顶尖的暗杀者&lt;/p&gt;
+&lt;p&gt;优质的作画和精心设计的剧情，感觉是最近最强了吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F56e339f84b90d6f60980ed003311c220863fbc0f.jpg&amp;amp;refer=http%3A%2F%2Fi0.hdslb.com&amp;amp;app=2002&amp;amp;size=f9999,10000&amp;amp;q=a80&amp;amp;n=0&amp;amp;g=0n&amp;amp;fmt=jpeg?sec=1645634472&amp;amp;t=3957a9b0aff315dff6ab3e4bec92522b&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;超智游戏&lt;/p&gt;
+&lt;p&gt;偶然发现的好番，有点像之前看过的赌博默示录系列，但主要讲的是棒球比赛中关于人性的一些猜测和打压，虽然是运动番（个人并不喜欢运动番😃)，但玩心理的感觉真的很爽！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/R-C.jfif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;忧国的莫里亚蒂&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;和福尔摩斯的对手戏很精彩，站在黑暗面拯救社会的感觉.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tse1-mm.cn.bing.net/th/id/R-C.c575d33286b566da93d4a1fd599764fb?rik=501XO4Zuz6VTxg&amp;amp;riu=http%3a%2f%2fimage.lnstzy.cn%2faoaodcom%2f2020-09%2f15%2f202009150838262f418a37942fac72acfba3d6ca57bb8c.jpg.h700.jpg&amp;amp;ehk=S1lmKKr4IHBoCa%2b0jZsqR0%2b2upX4TsI%2b6fwPTvImlTE%3d&amp;amp;risl=&amp;amp;pid=ImgRaw&amp;amp;r=0&#34; alt=&#34;查看源图像&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;电视剧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#电视剧&#34;&gt;#&lt;/a&gt; 电视剧&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;青瓷&lt;/li&gt;
+&lt;li&gt;3 年 A 班 [日]&lt;/li&gt;
+&lt;li&gt;孤独的美食家 [日]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;关于编制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于编制&#34;&gt;#&lt;/a&gt; 关于编制&lt;/h2&gt;
+&lt;p&gt;还有大概 2 次机会（几个月时间），是时候决出胜负了！🔥&lt;/p&gt;
+&lt;h2 id=&#34;新年祈愿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#新年祈愿&#34;&gt;#&lt;/a&gt; 🚄新年祈愿&lt;/h2&gt;
+&lt;p&gt;在新的一年里，希望自己能够事事顺利，以下是几个小目标：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;改一改自己的拖延症，今日事今日毕&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;b 站粉丝数 &amp;gt; 8000&lt;/li&gt;
+&lt;li&gt;发布一套自己的专属课程&lt;/li&gt;
+&lt;li&gt;找到一个心仪的工作&lt;/li&gt;
+&lt;li&gt;完善 FanlFrameWork 的开发&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/01/18/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
+            <title>2020年终总结</title>
+            <link>https://www.fasty97.top/2021/01/18/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+            <category>生活</category>
+            <category>年终总结</category>
+            <pubDate>Mon, 18 Jan 2021 11:44:37 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;不知道写点什么，就想着写点东西放博客上，希望以后的自己可以感谢现在的自己吧😄。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;不知不觉 2020 年就过去了，感觉这一年时间过得飞快！（[破音] 不要啊，不想长大！）&lt;/p&gt;
+&lt;p&gt;这是糟糕的一年，不论是对于我还是对于大家想必都是吧😅。&lt;/p&gt;
+&lt;p&gt;用一句话总结一下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;计划赶不上变化，生活总想让我低头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从图片你就可以看出 2020 我超级摸鱼的。&lt;/p&gt;
+&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118131259.png&#34; alt=&#34;超级摸鱼&#34; style=&#34;zoom: 50%;&#34; /&gt;
+&lt;h2 id=&#34;暑假中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#暑假中&#34;&gt;#&lt;/a&gt; 暑假中&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🛰我从来没想到会放这样一个长假，大概一生也就这么一次了吧&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在假期中我每周都制定了计划，主要针对了 &lt;code&gt;C++&lt;/code&gt;  和 &lt;code&gt;Shader&lt;/code&gt;  进行学习。（不得不说 C++ 牛逼）&lt;/p&gt;
+&lt;h3 id=&#34;自设框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自设框架&#34;&gt;#&lt;/a&gt; 自设框架&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Final framework —— 希望它成为最终的框架&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;其框架现在已经包含以下功能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;资源加载
+&lt;ol&gt;
+&lt;li&gt;Resource 加载&lt;/li&gt;
+&lt;li&gt;AB 包加载&lt;/li&gt;
+&lt;li&gt;Addressable 加载&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;单例
+&lt;ol&gt;
+&lt;li&gt;非 Mono 单例&lt;/li&gt;
+&lt;li&gt;Mono 单例&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;全局 Mono&lt;/li&gt;
+&lt;li&gt;对象池&lt;/li&gt;
+&lt;li&gt;音效管理器&lt;/li&gt;
+&lt;li&gt;输入管理器&lt;/li&gt;
+&lt;li&gt;UI 管理器&lt;/li&gt;
+&lt;li&gt;FSM 有限状态机&lt;/li&gt;
+&lt;li&gt;事件中心&lt;/li&gt;
+&lt;li&gt;对话系统&lt;/li&gt;
+&lt;li&gt;简易协程行为树&lt;/li&gt;
+&lt;li&gt;天赋树系统&lt;/li&gt;
+&lt;li&gt;背包系统&lt;/li&gt;
+&lt;li&gt;Astar 寻路&lt;/li&gt;
+&lt;li&gt;存储系统&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;有空会开一篇文章专门介绍。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;简易项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简易项目&#34;&gt;#&lt;/a&gt; 简易项目&lt;/h3&gt;
+&lt;p&gt;在暑假里，和 &lt;code&gt;小觉&lt;/code&gt; ， &lt;code&gt;刺客&lt;/code&gt; 一同制作了一个简易的 2D 横版解密过关游戏。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;担任&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;小宇 / Fasty&lt;/td&gt;
+&lt;td&gt;Programming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小觉&lt;/td&gt;
+&lt;td&gt;Programming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;刺客&lt;/td&gt;
+&lt;td&gt;Design&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118140327.gif&#34; alt=&#34;效果预览&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;暑假后开学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#暑假后开学&#34;&gt;#&lt;/a&gt; 暑假后开学&lt;/h2&gt;
+&lt;p&gt;暑假后开学，在学校的生活还是非常好的，每天上一下少得可怜的课程。当然如期上了我们学校的 `《游戏设计》课程，果不其然，并不是什么正经的游戏设计课程。简单说来就是使用 python 的 pygame 库；自己组队完成一款简单的 2D 游戏。其目的大概是强化一下我们的 python 的熟练程度吧。&lt;/p&gt;
+&lt;h3 id=&#34;光之子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#光之子&#34;&gt;#&lt;/a&gt; 光之子&lt;/h3&gt;
+&lt;p&gt;对于这个名字我也不好评定，刚好那段时间育碧在免费送 &lt;code&gt;光之子&lt;/code&gt; ，这个游戏也承载了我的很多回忆。大概是高中时候吧，那时候第一次看到这个游戏就被这个游戏的画风和剧情所深深吸引。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118123146.jpeg&#34; alt=&#34;光之子&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118122142.jpeg&#34; alt=&#34;举剑&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118122627.jpeg&#34; alt=&#34;对话&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118123342.jpeg&#34; alt=&#34;空中的房间&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118123735.jpeg&#34; alt=&#34;宫殿&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;我们的光之子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#我们的光之子&#34;&gt;#&lt;/a&gt; 我们的光之子&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为疫情的关系，老师希望我们的作品能够跟疫情挂钩。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我用 &lt;code&gt;pygame&lt;/code&gt;  试了一下，pygame 效率很低，跑一个简单的 2D 场景，放置了几个精灵。凭借着我的 2600cpu  rx580gpu 16g 2933，只能跑一百多。（可能 pygame 压根就没法调用 GPU 吧，CPU 的效率也很低，果然 pygame 就只能写点小玩意玩玩 💔）&lt;br&gt;
+🏹而且 pygame 对效率很敏感，在加载资源和精灵渲染部分消耗极高。如果资源重复加载将造成帧率的大幅下降！&lt;/p&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;So&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;我们定下了，简单的 &lt;code&gt;泡泡堂&lt;/code&gt; 游戏形式使用 &lt;code&gt;炸弹&lt;/code&gt; 消灭地图中游荡的 &lt;code&gt;病毒&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;➡️与之不同的是，我们加入了剧情和对话。&lt;/p&gt;
+&lt;p&gt;整个开发过程还是比较快乐的，吐槽一下 pygame，聊聊天，大概一周的时间吧，我们的作品完成了！&lt;/p&gt;
+&lt;p&gt;最终《游戏设计》这门课程，老师给了我 100 分，给了自己一份满意的答卷。&lt;/p&gt;
+&lt;h2 id=&#34;今年的新书&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#今年的新书&#34;&gt;#&lt;/a&gt; 今年的新书&lt;/h2&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20210118140916.png&#34; alt=&#34;游戏优化&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;实习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#实习&#34;&gt;#&lt;/a&gt; 实习&lt;/h2&gt;
+&lt;p&gt;​		在今年十月份的时候，收到朋友邀请，我开始了实习生涯，在一家开发公司做 web 相关的开发。（本来打算自己找一家游戏开发公司的，结果学校催得紧，自己也没太多准备，又是朋友介绍，真香定律。）&lt;/p&gt;
+&lt;p&gt;老实说，这并不是我第一次实习了，在两年前，老师推荐下，我去了一家医疗系统开发的公司，讲道理公司非常坑😰，所以我的第一次实习经历并不是很好。不过不能一棍子打死，直到现在我依然待在这里实习，这里的员工有很多都是我的同学和朋友，虽然工资不高，生活却还舒适。该干活时干活，该玩时玩，以至于时间过得飞快。&lt;/p&gt;
+&lt;h2 id=&#34;跨年&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#跨年&#34;&gt;#&lt;/a&gt; 跨年&lt;/h2&gt;
+&lt;p&gt;喊着几个朋友跨年，感受新年的到来，看着时钟滴答滴答，看着时针，分针，秒针在辛苦忙碌了一天后的团聚，感觉生活真的需要仪式感🎴。&lt;/p&gt;
+&lt;p&gt;长这么大，我第一次发现，自己居然有射飞镖的天赋，10 镖 7 中，赢了个小奖品。&lt;/p&gt;
+&lt;p&gt;权当是收到的新年礼物吧🎁!&lt;/p&gt;
+&lt;h2 id=&#34;新年祈愿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#新年祈愿&#34;&gt;#&lt;/a&gt; 🚄新年祈愿&lt;/h2&gt;
+&lt;p&gt;在最后的最后，希望新的一年里，自己可以变得更好，发现更多生活的美！&lt;/p&gt;
+&lt;p&gt;永远积极向上，永远热爱编程，永远年轻！&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

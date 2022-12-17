@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;ui组件&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-02-03T07:56:37.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="多人" />
+    <category term="unity Tool" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="热更新" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="前端小技巧" />
+    <category term="vs" />
+    <category term="动漫" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="Unity插件" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/02/03/Unity%20ScrollView(%E6%BB%91%E5%8A%A8%E5%8C%BA%E5%9F%9F)%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>Unity ScrollView(滑动区域)的使用</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/02/03/Unity%20ScrollView(%E6%BB%91%E5%8A%A8%E5%8C%BA%E5%9F%9F)%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔹ScrollView 是我们经常使用的一个 UI 组件，但时常容易忘记具体的使用细节，故在此文予以记录。&lt;ins&gt;主要用于需要滑动的区域&lt;/ins&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20220203155850.png&#34; alt=&#34;image-20220203155843510&#34;&gt;&lt;/p&gt;
+&lt;center&gt;ScrollView组件如图所示&lt;/center&gt;
+&lt;h1 id=&#34;组成部分&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#组成部分&#34;&gt;#&lt;/a&gt; 组成部分&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ScrollView 包含 Content、Scrollbar、OneValueChange 三部分组成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Content 用于显示内容，通过 mask 遮罩来过滤大于显示区域的内容。&lt;/li&gt;
+&lt;li&gt;Scrollbar 用于滚动条、&lt;/li&gt;
+&lt;li&gt;OneValueChange 用于滚动监听&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;使用示例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用示例&#34;&gt;#&lt;/a&gt; 使用示例&lt;/h1&gt;
+&lt;p&gt;&lt;ins&gt;注意在 Content 中设定好大小，保证能够包裹所有子物体&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;也可以添加&lt;img src=&#34;http://pic.fasty97.top/NotePad/20220203162937.png&#34; alt=&#34;image-20220203162937825&#34;&gt;&lt;/p&gt;
+&lt;p&gt;制作完成效果如图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20220203163135.gif&#34; alt=&#34;ani&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="Unity" />
+        <category term="UI组件" />
+        <updated>2022-02-03T07:56:37.000Z</updated>
+    </entry>
+</feed>

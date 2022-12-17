@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"unity插件\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/09/08/%E6%8F%92%E4%BB%B6-TureShadow/",
+            "url": "https://www.fasty97.top/2022/09/08/%E6%8F%92%E4%BB%B6-TureShadow/",
+            "title": "插件-TureShadow",
+            "date_published": "2022-09-08T11:57:59.000Z",
+            "content_html": "<blockquote>\n<p><code>TureShadow</code>  和名称一样 —— 真阴影</p>\n<p>其作用就是为图像、文字添加阴影效果，通常我们使用 Ps 之类的软件为其添加阴影，现在使用这个插件就可以自动动态的实现阴影。</p>\n</blockquote>\n<p><img src=\"https://pic.fasty97.top/NotePad/20220908195829.gif\" alt=\"\"></p>\n<blockquote>\n<p>添加 TureShadow 脚本</p>\n</blockquote>\n<p><img src=\"https://pic.fasty97.top/NotePad/20220908195929.png\" alt=\"image-20220908195929046\"></p>\n",
+            "tags": [
+                "Unity插件"
+            ]
+        }
+    ]
+}
