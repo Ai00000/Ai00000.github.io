@@ -91,6 +91,11 @@
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
+        <category>对话</category>
+        <category>剧情</category>
+        <category>框架设计</category>
+        <category>数学</category>
+        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2021/04/29/PUN2%EF%BC%88%E4%BA%8C%EF%BC%89%E5%AF%B9%E8%B1%A1%E5%90%8C%E6%AD%A5/</guid>
             <title>PUN2（二）对象同步</title>

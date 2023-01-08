@@ -88,6 +88,11 @@
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
+    <category term="对话" />
+    <category term="剧情" />
+    <category term="框架设计" />
+    <category term="数学" />
+    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/06/08/URP%E4%B8%8B%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%8E%E5%A4%84%E7%90%86/</id>
         <title>URP下自定义后处理</title>

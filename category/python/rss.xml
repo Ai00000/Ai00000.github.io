@@ -91,6 +91,11 @@
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
+        <category>对话</category>
+        <category>剧情</category>
+        <category>框架设计</category>
+        <category>数学</category>
+        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2021/02/22/python%E8%BF%9E%E6%8E%A5Mysql/</guid>
             <title>python连接Mysql</title>
