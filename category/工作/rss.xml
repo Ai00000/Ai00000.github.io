@@ -16,13 +16,15 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
+        <category>对话</category>
+        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
+        <category>VR/AR/MR</category>
         <category>MMD</category>
         <category>PMX</category>
         <category>模型</category>
-        <category>VR/AR/MR</category>
         <category>多人</category>
         <category>unity Tool</category>
         <category>Unity Tool</category>
@@ -75,6 +77,7 @@
         <category>git</category>
         <category>版本管理</category>
         <category>多人协作</category>
+        <category>框架设计</category>
         <category>并发状态机</category>
         <category>分层状态机</category>
         <category>下推状态机</category>
@@ -84,18 +87,15 @@
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>数学</category>
         <category>Unity插件</category>
+        <category>自制项目</category>
         <category>市场</category>
         <category>创业</category>
         <category>工作</category>
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
-        <category>对话</category>
-        <category>剧情</category>
-        <category>框架设计</category>
-        <category>数学</category>
-        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2022/12/26/%E5%85%B3%E4%BA%8ESanerFrame%E7%9A%84%E8%AE%B0%E5%BD%95/</guid>
             <title>关于SanerFrame的记录</title>

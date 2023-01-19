@@ -16,13 +16,15 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
+        <category>对话</category>
+        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
+        <category>VR/AR/MR</category>
         <category>MMD</category>
         <category>PMX</category>
         <category>模型</category>
-        <category>VR/AR/MR</category>
         <category>多人</category>
         <category>unity Tool</category>
         <category>Unity Tool</category>
@@ -75,6 +77,7 @@
         <category>git</category>
         <category>版本管理</category>
         <category>多人协作</category>
+        <category>框架设计</category>
         <category>并发状态机</category>
         <category>分层状态机</category>
         <category>下推状态机</category>
@@ -84,18 +87,15 @@
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>数学</category>
         <category>Unity插件</category>
+        <category>自制项目</category>
         <category>市场</category>
         <category>创业</category>
         <category>工作</category>
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
-        <category>对话</category>
-        <category>剧情</category>
-        <category>框架设计</category>
-        <category>数学</category>
-        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2020/01/17/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89Poll&amp;Select/</guid>
             <title>《Unity3D网络游戏实战》学习记录（四）Poll&amp;Select</title>
@@ -201,7 +201,7 @@ Ms 提供了 Poll 方法：&lt;/p&gt;
         &amp;#125;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;运行截图：&lt;/h3&gt;
-&lt;p&gt;!{运行截图}(&lt;a href=&#34;https://i.loli.net/2020/01/16/248FqNKGm7jhgv1.png&#34;&gt;https://i.loli.net/2020/01/16/248FqNKGm7jhgv1.png&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;!{运行截图}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTYvMjQ4RnFOS0dtN2poZ3YxLnBuZw==&#34;&gt;https://i.loli.net/2020/01/16/248FqNKGm7jhgv1.png&lt;/span&gt;)&lt;/p&gt;
 &lt;p&gt;[toc]&lt;/p&gt;
  ]]></description>
         </item>
@@ -516,8 +516,8 @@ namespace netWork_Server
 &lt;h3&gt;进行会话&lt;/h3&gt;
 &lt;p&gt;我们将客户端生成一份，让生成的客户端和编辑器客户端同时与服务器连接并进行会话操作。&lt;br&gt;
 其效果如图所示：&lt;br&gt;
-!{服务器端}(&lt;a href=&#34;https://i.loli.net/2020/01/14/kVrQIWpejXBRman.png&#34;&gt;https://i.loli.net/2020/01/14/kVrQIWpejXBRman.png&lt;/a&gt;)&lt;br&gt;
-!{客户端}(&lt;a href=&#34;https://i.loli.net/2020/01/14/JdbaRLpt5k1hogs.png&#34;&gt;https://i.loli.net/2020/01/14/JdbaRLpt5k1hogs.png&lt;/a&gt;)&lt;/p&gt;
+!{服务器端}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTQva1ZyUUlXcGVqWEJSbWFuLnBuZw==&#34;&gt;https://i.loli.net/2020/01/14/kVrQIWpejXBRman.png&lt;/span&gt;)&lt;br&gt;
+!{客户端}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTQvSmRiYVJMcHQ1azFob2dzLnBuZw==&#34;&gt;https://i.loli.net/2020/01/14/JdbaRLpt5k1hogs.png&lt;/span&gt;)&lt;/p&gt;
 &lt;h3&gt;结语&lt;/h3&gt;
 &lt;p&gt;这是这一章的前半部分，完成了在 socket 下的多线程模式，其中在字符编码部分，原书使用了 Default，这导致可能没法解析中文字符，所以我将其改为了固定的 UTF8 做解析。&lt;br&gt;
 感谢您读完这篇文章，在本章的下半部分将实现一个聊天室。&lt;/p&gt;

@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/</id>
         <title>NodeCanvas之FSM有限状态机</title>
@@ -107,11 +107,11 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;本文主要介绍 &lt;code&gt;NodeCanvas&lt;/code&gt;  的 FSM 使用，具体基础 FSM 概念不做解释。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210908225324.png&#34; alt=&#34;image-20210908225324425&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210908225324.png&#34; alt=&#34;image-20210908225324425&#34;&gt;&lt;/p&gt;
 &lt;center&gt;FSM示例图&lt;/center&gt;
 &lt;h2 id=&#34;开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h2&gt;
 &lt;p&gt;为游戏对象添加如下脚本：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210909125307.png&#34; alt=&#34;image-20210909125300176&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210909125307.png&#34; alt=&#34;image-20210909125300176&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;结点类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结点类型&#34;&gt;#&lt;/a&gt; 结点类型&lt;/h2&gt;
 &lt;p&gt;NodeCanvas 中结点分为几个类型：&lt;/p&gt;
 &lt;ol&gt;

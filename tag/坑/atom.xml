@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/04/01/Unity%20tip%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AA%E7%83%81/</id>
         <title>Unity tip提示框闪烁</title>
@@ -102,14 +102,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;但是，会出现提示框闪烁（其实是进入离开疯狂调用）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220401175208.png&#34; alt=&#34;image-20220401175200980&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220401175208.png&#34; alt=&#34;image-20220401175200980&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;将提示框射线检测去掉（避免新生成的提示框隔断）&lt;/li&gt;
 &lt;li&gt;控制提示框的锚点远离一些&lt;/li&gt;
 &lt;li&gt;为提示框添加组件&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220401175514.png&#34; alt=&#34;image-20220401175514800&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220401175514.png&#34; alt=&#34;image-20220401175514800&#34;&gt;&lt;/p&gt;
 </content>
         <category term="Unity" />
         <category term="坑" />

@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/10/24/%E4%BB%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E5%88%B0%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85/</id>
         <title>从程序员到独立游戏开发者</title>
@@ -169,7 +169,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;比起为无能为力的事而后悔，还不如去做力所能及的事！—— 侑子&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;img src=&#34;http://i2.3conline.com/images/piclib/201004/27/batch/1/58767/127233758094237zw8ypjg6.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img data-src=&#34;http://i2.3conline.com/images/piclib/201004/27/batch/1/58767/127233758094237zw8ypjg6.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:50%;&#34; /&gt;
 </content>
         <updated>2021-10-15T14:26:56.000Z</updated>
     </entry>
@@ -197,7 +197,7 @@
         <title>学着生活</title>
         <link rel="alternate" href="https://www.fasty97.top/2021/01/25/%E5%AD%A6%E7%9D%80%E7%94%9F%E6%B4%BB/"/>
         <content type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.juzikong.com/posts/44391895-1f46-4549-b168-ef6b2d76405b&#34;&gt;去交会让你开心的朋友，去爱不会让你流泪的人，去向自己想去的方向，去完成不论大小的梦想，生活应该是美好而又温柔的，你也是。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuanV6aWtvbmcuY29tL3Bvc3RzLzQ0MzkxODk1LTFmNDYtNDU0OS1iMTY4LWVmNmIyZDc2NDA1Yg==&#34;&gt;去交会让你开心的朋友，去爱不会让你流泪的人，去向自己想去的方向，去完成不论大小的梦想，生活应该是美好而又温柔的，你也是。&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;大概是以前太贪玩了，亦或者是自己内心的世界太丰富多彩了吧，不会孤独，在自己的小天地里就仿佛拥有了整个世界。—— 宅着真爽♥️&lt;/p&gt;
 &lt;p&gt;有时候我觉得就这样宅着过一辈子也许也不错吧。&lt;/p&gt;

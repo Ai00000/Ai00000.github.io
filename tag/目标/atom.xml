@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/03/15/2022-%E7%9B%AE%E6%A0%87%E5%92%8C%E6%96%B9%E5%90%91/</id>
         <title>2022-目标和方向</title>
@@ -102,7 +102,7 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;总体目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总体目标&#34;&gt;#&lt;/a&gt; 🔝 总体目标&lt;/h2&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 找到一份合适工作&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 找到一份合适工作&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 购置一台 4K 显示器&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 发布一套课程&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; Bili Bili 粉丝 &amp;gt; 3000&lt;/label&gt;&lt;/li&gt;

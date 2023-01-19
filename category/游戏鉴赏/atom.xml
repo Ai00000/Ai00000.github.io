@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2021/12/14/%E9%89%B4%E8%B5%8F%E3%80%90%E7%81%AB%E7%84%B0%E7%BA%B9%E7%AB%A0%20%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88%E3%80%91/</id>
         <title>鉴赏【火焰纹章 风花雪月】</title>
@@ -103,15 +103,15 @@
 &lt;ul&gt;
 &lt;li&gt;封印之剑&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221223456.jpg&#34; alt=&#34;封面&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221223621.jpeg&#34; alt=&#34;战斗&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221223641.jpeg&#34; alt=&#34;人物面板&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223456.jpg&#34; alt=&#34;封面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223621.jpeg&#34; alt=&#34;战斗&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223641.jpeg&#34; alt=&#34;人物面板&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;圣魔之光石&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p class=&#34;gallery&#34; data-height=&#34;200&#34;&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221224251.jpg&#34; alt=&#34;开始界面&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221224258.jpg&#34; alt=&#34;A&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/NotePad/20211221224302.png&#34; alt=&#34;C&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;200&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224251.jpg&#34; alt=&#34;开始界面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224258.jpg&#34; alt=&#34;A&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224302.png&#34; alt=&#34;C&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;现在&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#现在&#34;&gt;#&lt;/a&gt; 现在&lt;/h2&gt;
 </content>
         <category term="switch" />

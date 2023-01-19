@@ -16,13 +16,15 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
+        <category>对话</category>
+        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
+        <category>VR/AR/MR</category>
         <category>MMD</category>
         <category>PMX</category>
         <category>模型</category>
-        <category>VR/AR/MR</category>
         <category>多人</category>
         <category>unity Tool</category>
         <category>Unity Tool</category>
@@ -75,6 +77,7 @@
         <category>git</category>
         <category>版本管理</category>
         <category>多人协作</category>
+        <category>框架设计</category>
         <category>并发状态机</category>
         <category>分层状态机</category>
         <category>下推状态机</category>
@@ -84,18 +87,15 @@
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>数学</category>
         <category>Unity插件</category>
+        <category>自制项目</category>
         <category>市场</category>
         <category>创业</category>
         <category>工作</category>
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
-        <category>对话</category>
-        <category>剧情</category>
-        <category>框架设计</category>
-        <category>数学</category>
-        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2020/02/07/Lua-%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B9%9D%EF%BC%89%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
             <title>Lua-基础（九）面向对象</title>
@@ -224,7 +224,7 @@ local eg=English:new()
 eg.name=&#34;Fasty&#34;;eg.age=22
 eg:show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;!{运行结果}(&lt;a href=&#34;https://i.loli.net/2020/02/07/2NEPOSCDXtuZYLy.png&#34;&gt;https://i.loli.net/2020/02/07/2NEPOSCDXtuZYLy.png&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;!{运行结果}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDIvMDcvMk5FUE9TQ0RYdHVaWUx5LnBuZw==&#34;&gt;https://i.loli.net/2020/02/07/2NEPOSCDXtuZYLy.png&lt;/span&gt;)&lt;/p&gt;
 &lt;p&gt;在 lua 中基于弱类型的优势，对于函数重写，只需要重新定义一遍函数即可。&lt;/p&gt;
 &lt;p&gt;至此面向对象的封装，继承，多态都实现咯～&lt;/p&gt;
 &lt;p&gt;[toc]&lt;/p&gt;
@@ -294,19 +294,19 @@ Queue.push(qq,8)
 &lt;/blockquote&gt;
 &lt;h3&gt;协同的基础&lt;/h3&gt;
 &lt;h4&gt;创建协同程序&lt;/h4&gt;
-&lt;img src=&#34;https://i.loli.net/2020/02/05/QFZCUHvoqLlxs8W.png&#34; alt=&#34;image.png&#34; /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/02/05/QFZCUHvoqLlxs8W.png&#34; alt=&#34;image.png&#34; /&gt;
 &lt;pre&gt;&lt;code class=&#34;language-lua line-numbers&#34;&gt;local co=coroutine.create(function ()
     print(&#39;Hi&#39;)
 end)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;协程的状态&lt;/h4&gt;
-&lt;img src=&#34;https://i.loli.net/2020/02/05/jgQadC17IR5UKzs.png&#34; alt=&#34;image.png&#34; /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/02/05/jgQadC17IR5UKzs.png&#34; alt=&#34;image.png&#34; /&gt;
 协同有三个状态：&lt;code&gt;挂起态&lt;/code&gt;、&lt;code&gt;运行态&lt;/code&gt;、&lt;code&gt;停止态&lt;/code&gt;。当我们创建一个协同程序时他开始的状态为挂起态，也就是说我们创建协同程序的时候不会自动运行，可以使用 status 函数检查协同的状态：
 &lt;pre&gt;&lt;code class=&#34;language-lua line-numbers&#34;&gt;print(coroutine.status(co))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;启动协程&lt;/h4&gt;
 &lt;p&gt;使用&lt;code&gt;coroutine.resume()&lt;/code&gt;可以启动协程&lt;br&gt;
-&lt;img src=&#34;https://i.loli.net/2020/02/05/hfGsy8jZpeYXJK7.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/02/05/hfGsy8jZpeYXJK7.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br&gt;
 例如：&lt;br&gt;
 &lt;code&gt;coroutine.resume(co)&lt;/code&gt;&lt;br&gt;
 启动协程后，会立即执行协程方法中的内容。&lt;/p&gt;
@@ -326,7 +326,7 @@ coroutine.resume(th)
 print(coroutine.resume(th)) -- 程序结束返回false
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;其运行结果如下图所示:&lt;br&gt;
-&lt;img src=&#34;https://i.loli.net/2020/02/05/nbsoW7vOMuGApD4.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/02/05/nbsoW7vOMuGApD4.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br&gt;
 我们发现，&lt;strong&gt;在协程死亡时，coroutine.resume 就返回 false，并返回错误消息&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ps&lt;/strong&gt;:resume 运行在保护模式下，因此如果协同内部存在错误 Lua 并不会抛出错误而是将错误返回给 resume 函数.&lt;/p&gt;
 &lt;h4&gt;在resume和yield间交换数据&lt;/h4&gt;
@@ -365,7 +365,7 @@ Lua 提供的这种协同我们称为不对称的协同，就是说挂起一个�
 &lt;p&gt;通过这种特性，我们可以在 a.lua 中调用 b.lua 的内容，甚至可以从字符串文本中调用 lua 当做函数执行～&lt;/p&gt;
 &lt;h3&gt;load&lt;/h3&gt;
 &lt;p&gt;让我们先来看一下 load 函数的定义：&lt;br&gt;
-!{load 函数}(&lt;a href=&#34;https://i.loli.net/2020/02/04/DYGV2CSWoPcL49v.png&#34;&gt;https://i.loli.net/2020/02/04/DYGV2CSWoPcL49v.png&lt;/a&gt;)&lt;br&gt;
+!{load 函数}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDIvMDQvRFlHVjJDU1dvUGNMNDl2LnBuZw==&#34;&gt;https://i.loli.net/2020/02/04/DYGV2CSWoPcL49v.png&lt;/span&gt;)&lt;br&gt;
  通过定义我们可以知道 load 函数可以加载文本和二进制类型代码块，来让我们尝试一下：&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;line-numbers&#34;&gt;local f=load(&#39;I=I+1&#39;)
 I=0
@@ -376,7 +376,7 @@ print(&#39;I2=&#39;..I)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;在这个例子中，我们使用 load 加载了&lt;code&gt;’I=I+1’&lt;/code&gt;这一串字符串，并把加载结果存储在 f 中。通过使用&lt;code&gt;f()&lt;/code&gt;来调用函数。&lt;/p&gt;
 &lt;h3&gt;loadFile&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2020/02/04/vNUObGS7D4EczrV.png&#34; alt=&#34;loadFile&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/02/04/vNUObGS7D4EczrV.png&#34; alt=&#34;loadFile&#34;&gt;&lt;br&gt;
  和 load 类似的还有 loadfile，但 loadfile 加载的是文件而非字符串。&lt;/p&gt;
 &lt;p&gt;我们在 funTest.lua 文件中写一句输出：&lt;code&gt;print(‘Test’)&lt;/code&gt;&lt;br&gt;
 然后在其他文件中调用：&lt;/p&gt;
@@ -385,7 +385,7 @@ fun()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过这种形式我们就可以吧 funTest.lua 的内容当做一个函数来使用，以上使用后会输出 Test。&lt;/p&gt;
 &lt;h3&gt;dofile&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2020/02/04/PxjaiqrlKJ6S41e.png&#34; alt=&#34;dofile&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/02/04/PxjaiqrlKJ6S41e.png&#34; alt=&#34;dofile&#34;&gt;&lt;br&gt;
 dofile 与 loadfile 最大的不同就是，loadfile 只是加载函数，需要我们手动去调用，而 dofile 不但加载函数而且直接调用。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;line-numbers&#34;&gt;dofile(&#39;funTest.lua&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -450,7 +450,7 @@ Ac(&#39;你好&#39;)
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight lua&#34;&gt;&lt;figcaption data-lang=&#34;lua&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;​```lua&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;strong&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;Ps&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;strong&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;：也就是说一下函数是等效的：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;​```lua&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; fasty&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;say:&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;say:&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3&gt;self指针&lt;/h3&gt;
 &lt;p&gt;既然，：的形式是自动传递一个 self 指针给函数，那么就意味着我们可以方便的访问表的元素咯～&lt;/p&gt;
-&lt;figure class=&#34;highlight lua&#34;&gt;&lt;figcaption data-lang=&#34;lua&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Say:&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;arg&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;\ta=&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2020/02/04/7pvlgWErTAbiSDZ.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight lua&#34;&gt;&lt;figcaption data-lang=&#34;lua&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arg&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Say:&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;arg&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;\ta=&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;..&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fasty&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Say2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/02/04/7pvlgWErTAbiSDZ.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;总结&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;使用：声明函数时，函数会将第一个参数默认传递self指针。&lt;/li&gt;
@@ -561,7 +561,7 @@ print(c1())
 print(c2())
 print(c1())
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;!{函数闭包}(&lt;a href=&#34;https://i.loli.net/2020/02/02/r2ftpGPjsVlmqyg.png&#34;&gt;https://i.loli.net/2020/02/02/r2ftpGPjsVlmqyg.png&lt;/a&gt;)&lt;br&gt;
+&lt;p&gt;!{函数闭包}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDIvMDIvcjJmdHBHUGpzVmxtcXlnLnBuZw==&#34;&gt;https://i.loli.net/2020/02/02/r2ftpGPjsVlmqyg.png&lt;/span&gt;)&lt;br&gt;
  可以发现，函数的结果并非我们的预期，在第一函数体中的 i 的值可以被保留下来，而且 c1 和 c2 的保存值并不相同，这就是闭包。&lt;br&gt;
 &lt;strong&gt;Ps&lt;/strong&gt;：我们把这个 i 称为&lt;font color=gree&gt;外部的局部变量或者 &lt;strong&gt;upvalue&lt;/strong&gt;&lt;/font&gt;。&lt;br&gt;
 简单的说闭包是一个函数加上它可以正确访问的 upvalues。如果我们再次调用 newCounter，将创建一个新的局部变量 i，因此我们得到了一个作用在新的变量 i 上的新闭包。&lt;/p&gt;
@@ -652,14 +652,14 @@ end
 &lt;/blockquote&gt;
 &lt;h3&gt;使用Vscode开发Lua&lt;/h3&gt;
 &lt;p&gt;至少要下载 Lua 和 LuaDebug 这 2 个扩展～&lt;br&gt;
-&lt;img src=&#34;https://i.loli.net/2020/02/01/raxtmuBAnLNIqQO.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://i.loli.net/2020/02/01/raxtmuBAnLNIqQO.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
  看到 LuaDebug 的作者 actboy168，我有点惊讶，actboy168 是大名鼎鼎的 ydwe 作者之一，在以前自己玩 we 的时候用的编辑器就是 actboy168 大佬的，后面听说支持 lua 来代替 jass 编写游戏逻辑（那时候已经弃坑～）；好的，闲话不多说，我们来编写我们的第一个脚本。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;创建一个空文件夹并用vscode打开&lt;/li&gt;
 &lt;li&gt;创建一个test.lua文件&lt;/li&gt;
 &lt;li&gt;编写一行代码 &lt;code&gt;print(&#34;Hi,Lua~&#34;)&lt;/code&gt;（也可以使用&lt;font color=red&gt;&#39;&#39; 单引号&lt;/font&gt;）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2020/02/01/w4ds3ZquOteQX8p.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2020/02/01/w4ds3ZquOteQX8p.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;基本使用&lt;/h3&gt;
 &lt;h4&gt;数据类型&lt;/h4&gt;
 &lt;p&gt;在 lua 中和 python 类型可以直接声明并使用，无需使用类型名，lua 自动分析数据类型。&lt;br&gt;

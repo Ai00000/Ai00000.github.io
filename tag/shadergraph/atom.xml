@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
         <title>LWRP下ShaderGraph的使用</title>
@@ -120,13 +120,13 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;首先安装如下依赖包：&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/IHRSz6lfegXD.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/BLWb4IR9U5wt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/IHRSz6lfegXD.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/BLWb4IR9U5wt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;创建渲染管线资源并设置：&lt;br&gt;
 值得一提的是，在 unity2019.3 中已经将 LWRP 更名为 UWRP 了，unity 想在之后让 LWRP 变成通用的渲染管线取代原先的 Stand 渲染管线；所以我们需要创建一个 UWRP 的资源。&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/TR1o545kQ1Nz.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/TR1o545kQ1Nz.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;使用 UWRP&lt;br&gt;
@@ -137,21 +137,21 @@
 &lt;p&gt;这里补充一点小知识，所谓 PBR 就是基于物理的渲染，什么叫做基于物理的渲染呢？简单的说就是原先的模型在绘制贴图时，贴图师就会直接在贴图上绘制好高光，粗糙度，磨损等，这是基于经验的固定化的处理。而基于物理的渲染则是通过复杂的计算和光照模型的影响，动态的计算出模型的细节，让模型处于不同的环境中能够有不同的表现，是基于环境影响的。&lt;/p&gt;
 &lt;p&gt;打开 PBRGraph：&lt;br&gt;
 创建如下结点并连接&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/KC6HrUGWV9pC.png&#34; alt=&#34;PBRGraph&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/KC6HrUGWV9pC.png&#34; alt=&#34;PBRGraph&#34;&gt;&lt;br&gt;
  然后将 shader 指定到对应材质，将材质指定到我们的 Cube，尝试调整数值吧。&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/PkIawTx0mOAc.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/PkIawTx0mOAc.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
 到这里我们已经知道如何基本的使用 shaderGraph 了呢，但你可能会说，这不是自带 shader 就拥有的功能吗？&lt;/p&gt;
 &lt;h3 id=&#34;做一个边缘发光效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个边缘发光效果&#34;&gt;#&lt;/a&gt; 做一个边缘发光效果&lt;/h3&gt;
 &lt;p&gt;下面我们使用菲涅尔效应做一个简单的边缘自发光，其 shadergraph 如图所示，通过菲涅尔结点指定一个发光颜色和强度来实现。（非常简单吧）&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/pmNHEXl7Y02o.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/pmNHEXl7Y02o.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
 &lt;strong&gt;效果图：&lt;/strong&gt;&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/dQdztRRmd7pH.gif&#34; alt=&#34;边缘发光效果&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/dQdztRRmd7pH.gif&#34; alt=&#34;边缘发光效果&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;做一个顶点动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个顶点动画&#34;&gt;#&lt;/a&gt; 做一个顶点动画&lt;/h3&gt;
 &lt;p&gt;通过顶点偏移我们可以实现一个波浪或是，旗帜飘动的效果：&lt;br&gt;
 主要是使用顶点偏移通过 sin 正弦方式。&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/oKWCf4A3lDxM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/oKWCf4A3lDxM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;效果如图：&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200321/5yqXJieqbu2x.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/5yqXJieqbu2x.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </content>
         <category term="shaderGraph" />
         <updated>2020-03-21T09:03:57.000Z</updated>

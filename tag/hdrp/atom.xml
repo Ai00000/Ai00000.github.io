@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2021/06/08/Unity%20%E6%96%B0%E6%8A%80%E6%9C%AFHDRP/</id>
         <title>Unity 新技术HDRP</title>
@@ -102,19 +102,19 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;安装hdrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装hdrp&#34;&gt;#&lt;/a&gt; 安装 HDRP&lt;/h2&gt;
 &lt;p&gt;在管理器安装 hdrp 后会自动弹出此初始化对话框。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210608121937.png&#34; alt=&#34;image-20210608121930293&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210608121937.png&#34; alt=&#34;image-20210608121930293&#34;&gt;&lt;/p&gt;
 &lt;p&gt;根据对话框检测的步骤，将需要修正的地方进行修正。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;修正后全部呈现绿√。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;修正完成，系统自动添加了如下包。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210608122232.png&#34; alt=&#34;image-20210608122232513&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210608122232.png&#34; alt=&#34;image-20210608122232513&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;添加天空盒子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加天空盒子&#34;&gt;#&lt;/a&gt; 添加天空盒子&lt;/h3&gt;
 &lt;p&gt;在 Volume 组件中添加如下组件，可以设置天空盒。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210730125729.png&#34; alt=&#34;image-20210730125722895&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210730125729.png&#34; alt=&#34;image-20210730125722895&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;调节光线亮度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#调节光线亮度&#34;&gt;#&lt;/a&gt; 调节光线亮度&lt;/h3&gt;
 &lt;p&gt;在 Volume 组件中添加如下组件，可以设置调节光线。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20210730125833.png&#34; alt=&#34;image-20210730125833770&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210730125833.png&#34; alt=&#34;image-20210730125833770&#34;&gt;&lt;/p&gt;
 </content>
         <category term="unity" />
         <category term="HDRP" />

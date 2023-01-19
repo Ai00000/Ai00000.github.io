@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/02/04/%E5%83%8F%E7%B4%A0%E7%94%BB-1%20%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E5%92%8C%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
         <title>像素画-1 常用功能和快捷键</title>
@@ -101,9 +101,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;在软件选择上，对于我这种没有绘画基础的程序员来说，果断选择了轻量级的 &lt;code&gt;Aseprite&lt;/code&gt; 。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20220204122833.png&#34; alt=&#34;image-20220204122833691&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20220204122833.png&#34; alt=&#34;image-20220204122833691&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;工作界面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作界面&#34;&gt;#&lt;/a&gt; 工作界面&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://pic.fasty97.top/NotePad/20220204124222.png&#34; alt=&#34;image-20220204124222847&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20220204124222.png&#34; alt=&#34;image-20220204124222847&#34;&gt;&lt;/p&gt;
 &lt;center&gt;工作界面&lt;/center&gt;
 &lt;p&gt;如图可以看到工作界面，在界面上有 &lt;code&gt;菜单栏&lt;/code&gt; 、 &lt;code&gt;颜色选择器&lt;/code&gt; 、 &lt;code&gt;工具栏&lt;/code&gt; 、 &lt;code&gt;主工作区&lt;/code&gt; 和 &lt;code&gt;动画帧图层工作区&lt;/code&gt; 几个部分组成。&lt;/p&gt;
 &lt;h3 id=&#34;快捷键&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快捷键&#34;&gt;#&lt;/a&gt; 快捷键&lt;/h3&gt;

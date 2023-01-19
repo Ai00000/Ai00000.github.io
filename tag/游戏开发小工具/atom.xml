@@ -13,13 +13,15 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
+    <category term="对话" />
+    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
+    <category term="VR/AR/MR" />
     <category term="MMD" />
     <category term="PMX" />
     <category term="模型" />
-    <category term="VR/AR/MR" />
     <category term="多人" />
     <category term="unity Tool" />
     <category term="Unity Tool" />
@@ -72,6 +74,7 @@
     <category term="git" />
     <category term="版本管理" />
     <category term="多人协作" />
+    <category term="框架设计" />
     <category term="并发状态机" />
     <category term="分层状态机" />
     <category term="下推状态机" />
@@ -81,18 +84,15 @@
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="数学" />
     <category term="Unity插件" />
+    <category term="自制项目" />
     <category term="市场" />
     <category term="创业" />
     <category term="工作" />
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
-    <category term="对话" />
-    <category term="剧情" />
-    <category term="框架设计" />
-    <category term="数学" />
-    <category term="自制项目" />
     <entry>
         <id>https://www.fasty97.top/2022/05/15/%E5%85%B3%E4%BA%8E%E7%A7%91%E5%AD%A6%E4%BD%BF%E7%94%A8Spine3.8.75/</id>
         <title>关于科学使用Spine3.8.75</title>
@@ -106,7 +106,7 @@
 &lt;p&gt;上面的方法虽然方便，但是处于对性能的考量，现在基本都是用二进制数据，通过测试发现，修改二进制文件的版本号同样可以正确使用。&lt;/p&gt;
 &lt;p&gt;但是修改二进制十分麻烦，使用二进制查看器去改位非常麻烦，而且在每次导出时都需要修改一次才能正确使用。于是我做了一个简单的小工具。&lt;/p&gt;
 &lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;span&gt;核心代码&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; fs &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;FileStream&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;path&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; FileMode&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Open&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; FileAccess&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ReadWrite&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 找到的标志位&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Position &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteByte&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteByte&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;核心代码如上，通过二进制查看器或，for 循环找出需要修改的数据的位置，然后写入即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220520071302.png&#34; alt=&#34;image-20220520071302609&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220520071302.png&#34; alt=&#34;image-20220520071302609&#34;&gt;&lt;/p&gt;
 &lt;p&gt;使用修正器属于修正的目录，就可以自动修正二进制文件，愉快的在 Unity 中使用了。&lt;/p&gt;
 &lt;p&gt;Ps：此方法仅供学习交流，请大家多多支持正版。&lt;/p&gt;
 </content>

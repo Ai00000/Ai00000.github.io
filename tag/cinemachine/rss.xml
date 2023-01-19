@@ -16,13 +16,15 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
+        <category>对话</category>
+        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
+        <category>VR/AR/MR</category>
         <category>MMD</category>
         <category>PMX</category>
         <category>模型</category>
-        <category>VR/AR/MR</category>
         <category>多人</category>
         <category>unity Tool</category>
         <category>Unity Tool</category>
@@ -75,6 +77,7 @@
         <category>git</category>
         <category>版本管理</category>
         <category>多人协作</category>
+        <category>框架设计</category>
         <category>并发状态机</category>
         <category>分层状态机</category>
         <category>下推状态机</category>
@@ -84,18 +87,15 @@
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>数学</category>
         <category>Unity插件</category>
+        <category>自制项目</category>
         <category>市场</category>
         <category>创业</category>
         <category>工作</category>
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
-        <category>对话</category>
-        <category>剧情</category>
-        <category>框架设计</category>
-        <category>数学</category>
-        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2021/09/13/%E5%85%B3%E4%BA%8ECinemachine%E7%AC%AC%E4%B8%89%E4%BA%BA%E7%A7%B0%E6%91%84%E5%83%8F%E6%9C%BA/</guid>
             <title>关于Cinemachine第三人称摄像机</title>
@@ -120,10 +120,10 @@
 &lt;/blockquote&gt;
 &lt;h3&gt;安装Cinemachine&lt;/h3&gt;
 &lt;p&gt;现在 Cinemachine 作者已经投靠 unity 官方了，所以 Cinemachine 也成为了 Unity 的官方插件，我们可以直接在 PackageManager 中下载：&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200210/DBHDdslXchVa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/DBHDdslXchVa.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;各类相机简述&lt;/h3&gt;
 &lt;p&gt;安装之后我们可以在顶部菜单栏，看到如下的选项：&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200210/gd1H7MDqJgJs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/gd1H7MDqJgJs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -160,7 +160,7 @@
 &lt;/table&gt;
 &lt;h4&gt;Cinemachine Brain&lt;/h4&gt;
 &lt;p&gt;在我们创建任意虚拟相机后，插件会为我们的摄像机添加此组件，此组件是我们虚拟相机的大脑，控制着真实相机的行为。（不可或缺）&lt;br&gt;
-&lt;img src=&#34;http://pic.fasty97.top/blog/20200210/4LQud3dfJPHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200210/4LQud3dfJPHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -209,7 +209,7 @@
 &lt;/table&gt;
 &lt;h3 id=&#34;virtual-camera&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#virtual-camera&#34;&gt;#&lt;/a&gt; Virtual Camera&lt;/h3&gt;
 &lt;p&gt;Cinemacine Virtual Camera 是 Cinemachine 最基本的相机，&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/oOMGlgOGXRpo.png&#34; alt=&#34;Cinemacine Virtual Camera&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/oOMGlgOGXRpo.png&#34; alt=&#34;Cinemacine Virtual Camera&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -258,12 +258,12 @@
 &lt;/table&gt;
 &lt;h4 id=&#34;timeline&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#timeline&#34;&gt;#&lt;/a&gt; TimeLine&lt;/h4&gt;
 &lt;p&gt;在 TimeLine 中实现 2 个镜头间的切换非常容易。&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/cfRA1u2z5SND.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/D0m6KY0DjAHH.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/cfRA1u2z5SND.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/D0m6KY0DjAHH.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;freelook&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#freelook&#34;&gt;#&lt;/a&gt; FreeLook&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/uFWo9v918gKw.png&#34; alt=&#34;FreeLook 相机视野&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/uFWo9v918gKw.png&#34; alt=&#34;FreeLook 相机视野&#34;&gt;&lt;br&gt;
  FreeLook 相机是一个自由相机，类似于第三人称游戏中的相机，可以使用鼠标控制相机的朝向多方向的观察角色；其相机视野像是一个圆柱体，如上图所示。（相机始终会在这个圆柱体的轨道上运动。）&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/EMNEzmU0LM9r.gif&#34; alt=&#34;FreeLook&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/EMNEzmU0LM9r.gif&#34; alt=&#34;FreeLook&#34;&gt;&lt;br&gt;
  大多数参数与 Virtual Camera 相似，值得注意的是：&lt;br&gt;
 &lt;font color=&#34;red&#34;&gt;在 FreeLook 相机中需要绑定 顶部，中间，底部三个位置，这三个位置将决定相机的最大视野。&lt;/font&gt;&lt;/p&gt;
 &lt;h3 id=&#34;blendlist&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#blendlist&#34;&gt;#&lt;/a&gt; BlendList&lt;/h3&gt;
@@ -272,38 +272,38 @@
 值得注意的是：当 BlendList 启用时，其下的摄像机会依次使用最后停留在最后一个摄像机里。&lt;/p&gt;
 &lt;h3 id=&#34;cinemachinestatedrivencamera&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cinemachinestatedrivencamera&#34;&gt;#&lt;/a&gt; CinemachineStateDrivenCamera&lt;/h3&gt;
 &lt;p&gt;这是被动画状态所驱动的虚拟相机管理器，能够在觉得切换动画时，快速的切换该动画应该使用的相机。【注意设置层级和绑定动画控制器】&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/OnntsqFJoil7.png&#34; alt=&#34;CinemachineStateDrivenCamera&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/OnntsqFJoil7.png&#34; alt=&#34;CinemachineStateDrivenCamera&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;clearshoot&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#clearshoot&#34;&gt;#&lt;/a&gt; ClearShoot&lt;/h3&gt;
 &lt;p&gt;ClearShoot 也是一个管理器，负责管理一组 camera，他的效果是时刻选择最优的摄像机。在复杂的场景中，我们的角色可能被环境所遮挡，我们需要多个摄像机来处理这种情况。&lt;br&gt;
 如下图所示，我设置了 2 个摄像机，一个在顶部，一个在后方，在角色移动到墙壁后面时，后方的摄像机被遮挡，此时会自动启动顶部摄像机。在角色回到墙壁后面时，顶部摄像机被遮挡，只能切换到后面的摄像机。&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/lDRTT3hjBhtH.gif&#34; alt=&#34;ClearShoot&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/lDRTT3hjBhtH.gif&#34; alt=&#34;ClearShoot&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;targetgroup&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#targetgroup&#34;&gt;#&lt;/a&gt; TargetGroup&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/ws4uSH9Nvs2O.png&#34; alt=&#34;TargetGroup&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/ws4uSH9Nvs2O.png&#34; alt=&#34;TargetGroup&#34;&gt;&lt;br&gt;
  目标组管理器，可以让位于目标组管理器中的目标 &lt;code&gt;尽可能&lt;/code&gt; 的位于屏幕中。&lt;br&gt;
 在使用目标组管理器时，务必为摄像机设置目标组类型：&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/rN7xlXVSamTd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/rN7xlXVSamTd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;mixing&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mixing&#34;&gt;#&lt;/a&gt; Mixing&lt;/h3&gt;
 &lt;p&gt;Mixing 摄像机混合管理器，可以将多个摄像机的信息进行混合按照权重，得到最终的显示画面。&lt;br&gt;
 （通过多相机的焦点处建立坐标系按权重分配偏移）&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/mJ0BILNkgXu1.png&#34; alt=&#34;Mixing&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/mJ0BILNkgXu1.png&#34; alt=&#34;Mixing&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;活区和死区&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#活区和死区&#34;&gt;#&lt;/a&gt; 活区和死区&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/L2dUgC4hSHQs.png&#34; alt=&#34;活区和死区&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/L2dUgC4hSHQs.png&#34; alt=&#34;活区和死区&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A 区域为死区（Dead Zone），对象在死区内任意移动 &lt;code&gt;不会改变&lt;/code&gt; 摄像机的位置。&lt;/li&gt;
 &lt;li&gt;B 区域为活区（Soft Zone），对象在活区时会触发摄像机 &lt;code&gt;缓动&lt;/code&gt; ，最终将对象固定在死区。&lt;/li&gt;
 &lt;li&gt;C 区域为界外区，对象在界外区活动时，摄像机会 &lt;code&gt;立即&lt;/code&gt; 改变位置时，使对象位于活区。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;本文参考&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_34552886/article/details/79388527&#34; title=&#34;Unity Cinemachine插件学习笔记&#34;&gt;[1] Unity Cinemachine 插件学习笔记&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://blog.csdn.net/kiritoV/article/details/96779497&#34; title=&#34;个人笔记】Unity插件“Cinemachine”——实现尼尔机械纪元运镜设计&#34;&gt;[2] 个人笔记】Unity 插件 “Cinemachine”—— 实现尼尔机械纪元运镜设计&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0NTUyODg2L2FydGljbGUvZGV0YWlscy83OTM4ODUyNw==&#34;&gt;[1] Unity Cinemachine 插件学习笔记&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpcml0b1YvYXJ0aWNsZS9kZXRhaWxzLzk2Nzc5NDk3&#34;&gt;[2] 个人笔记】Unity 插件 “Cinemachine”—— 实现尼尔机械纪元运镜设计&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;dolly轨道&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dolly轨道&#34;&gt;#&lt;/a&gt; Dolly 轨道&lt;/h3&gt;
 &lt;p&gt;我们可以创建一个自定义的轨道，将摄像机限制在该轨道上。&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/5JS6PFq2vAWt.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/5JS6PFq2vAWt.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
 如图所示我创建了一个圆形轨道，摄像机只能在轨道上运动。&lt;/p&gt;
 &lt;h3 id=&#34;dolly-with-cart轨道&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dolly-with-cart轨道&#34;&gt;#&lt;/a&gt; Dolly with Cart 轨道&lt;/h3&gt;
 &lt;p&gt;让物体沿着轨道运动&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/O7FvKn3fSIff.gif&#34; alt=&#34;Dolly with Cart轨道&#34;&gt;（这是一个很强大的功能，其实我们不止能用在摄像机上，可以用在任何游戏对象上，让这个对象，或 ui 只能沿着这个轨道运动，并实时设置要达到哪个点，简言之这是一个曲线编辑器。）&lt;br&gt;
-&lt;img src=&#34;https://pic.fasty97.top/blog/20200415/iGxYjFgflcq3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/O7FvKn3fSIff.gif&#34; alt=&#34;Dolly with Cart轨道&#34;&gt;（这是一个很强大的功能，其实我们不止能用在摄像机上，可以用在任何游戏对象上，让这个对象，或 ui 只能沿着这个轨道运动，并实时设置要达到哪个点，简言之这是一个曲线编辑器。）&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/blog/20200415/iGxYjFgflcq3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h3&gt;
 &lt;p&gt;Cinemachine 是一款非常棒的智能摄像机插件，非常的方便易用。解决大部分的摄像机问题，甚至无需编写代码。当然我们也可以使用代码来控制摄像机，更灵活的处理摄像机与角色之间的关系。&lt;/p&gt;
  ]]></description>

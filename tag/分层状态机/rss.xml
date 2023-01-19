@@ -16,13 +16,15 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
+        <category>对话</category>
+        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
+        <category>VR/AR/MR</category>
         <category>MMD</category>
         <category>PMX</category>
         <category>模型</category>
-        <category>VR/AR/MR</category>
         <category>多人</category>
         <category>unity Tool</category>
         <category>Unity Tool</category>
@@ -75,6 +77,7 @@
         <category>git</category>
         <category>版本管理</category>
         <category>多人协作</category>
+        <category>框架设计</category>
         <category>并发状态机</category>
         <category>分层状态机</category>
         <category>下推状态机</category>
@@ -84,18 +87,15 @@
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>数学</category>
         <category>Unity插件</category>
+        <category>自制项目</category>
         <category>市场</category>
         <category>创业</category>
         <category>工作</category>
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
-        <category>对话</category>
-        <category>剧情</category>
-        <category>框架设计</category>
-        <category>数学</category>
-        <category>自制项目</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2022/06/11/%E5%85%B3%E4%BA%8E%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E6%80%9D%E8%80%83/</guid>
             <title>关于状态机的思考</title>
@@ -113,13 +113,13 @@
 &lt;h2 id=&#34;开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h2&gt;
 &lt;p&gt;当我们需要处理带流程响应的问题时，可以将其抽象为状态问题。&lt;/p&gt;
 &lt;p class=&#34;red&#34;&gt;例如下图的我们需要处理 OnEnter、OnUpdate、OnExit 三个部分。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220615115055.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220615115055.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;有限状态机&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#有限状态机&#34;&gt;#&lt;/a&gt; 有限状态机&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;有且仅有可能处于一种状态，解决状态区分和转换问题。&lt;/p&gt;
 &lt;p&gt;有限状态机是下列几种状态机的基础，下面的状态机都基于有限状态机进行相关功能的扩充。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220615115505.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220615115505.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;转换方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#转换方式&#34;&gt;#&lt;/a&gt; 转换方式&lt;/h3&gt;
 &lt;p&gt;在状态机中，我们需要使用一种转换方式来进行状态切换，在 Unity 的 Animator 中使用条件参数进行跳转。我们可以使用类似事件的方式来跳转、或者使用任意能够保证正确进行 原状态到目标状态 转换的方式。&lt;/p&gt;
 &lt;h3 id=&#34;实现方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#实现方式&#34;&gt;#&lt;/a&gt; 实现方式&lt;/h3&gt;
@@ -141,26 +141,26 @@
 &lt;blockquote&gt;
 &lt;p&gt;相当于同时运行多个有限状态机，解决多状态并行问题。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220622170627.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220622170627.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在 Unity 的 Animator Controller 中，我们每一个创建的控制器就是一个 FSM 状态机，但我们使用多个时，这些状态机并不会相互干扰，独立并发的运行，此时我们可以将这种多个状态机同时运行的情况称之为是并发状态机。&lt;/p&gt;
 &lt;h2 id=&#34;分层状态机&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#分层状态机&#34;&gt;#&lt;/a&gt; 分层状态机&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;相当于在有限状态机中添加层级划分，通过层级来指定当前使用的状态机。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220622170913.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220622170913.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在动画系统中可以看到有 Layer 的概念，这就是使用分层状态机的概念，不过在我们的普通分层状态中，我们的每个层级权重都为 1，也就是说每次运行一个层级时有且只运行这一个层级，而 Unity 增加了权重的概念，这个概念让状态层级之间可以可以状态和层级的混合。&lt;/p&gt;
 &lt;h2 id=&#34;下推状态机&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下推状态机&#34;&gt;#&lt;/a&gt; 下推状态机&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;相当于使用一个栈来存储状态的历史记录，以便在需要时回到原先的状态。&lt;/p&gt;
 &lt;p&gt;在退出一个状态时，自动恢复到之前的状态。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220622171349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220622171349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;如图所示：每个次级状态都与前一个状态存在回溯关系（&lt;ins&gt;这个回溯关系是不需要条件的&lt;/ins&gt;），当我们退出 C 状态时，我们会自动回到 B 状态，退出 B 状态时自动回到 A 状态。&lt;/p&gt;
 &lt;p class=&#34;red&#34;&gt;状态机会将每一个使用的状态放入状态栈中，在退出当前状态时自动回溯到上一个状态。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pic.fasty97.top/NotePad/20220622171829.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220622171829.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;相关阅读&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#相关阅读&#34;&gt;#&lt;/a&gt; 相关阅读&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/&#34;&gt;NodeCanvas 之 FSM 有限状态机 - NodeCanvas - 游戏开发 | Fasty Blog = 指尖小屋&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mYXN0eTk3LnRvcC8yMDIxLzA5LzA4L05vZGVDYW52YXMlRTQlQjklOEJGU00lRTYlOUMlODklRTklOTklOTAlRTclOEElQjYlRTYlODAlODElRTYlOUMlQkEv&#34;&gt;NodeCanvas 之 FSM 有限状态机 - NodeCanvas - 游戏开发 | Fasty Blog = 指尖小屋&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>
