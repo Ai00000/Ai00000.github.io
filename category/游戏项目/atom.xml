@@ -13,8 +13,6 @@
     <category term="新技术体验" />
     <category term="unity" />
     <category term="Cinemachine" />
-    <category term="对话" />
-    <category term="剧情" />
     <category term="好物推荐" />
     <category term="shaderGraph" />
     <category term="Lua" />
@@ -93,6 +91,14 @@
     <category term="UE4" />
     <category term="switch" />
     <category term="回合制" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="XML" />
+    <category term="思维" />
+    <category term="资源管理" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
     <entry>
         <id>https://www.fasty97.top/2022/01/06/%E7%B1%BB%E6%9D%80%E6%88%AE%E5%B0%96%E5%A1%94-%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93/</id>
         <title>类杀戮尖塔-卡牌游戏原型总结</title>

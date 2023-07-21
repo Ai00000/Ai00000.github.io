@@ -16,8 +16,6 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
-        <category>对话</category>
-        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
@@ -96,6 +94,14 @@
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>XML</category>
+        <category>思维</category>
+        <category>资源管理</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2022/08/31/MRTK%20%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</guid>
             <title>MRTK开发记录</title>
@@ -217,6 +223,23 @@
 &lt;h4 id=&#34;基于ui的按钮&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基于ui的按钮&#34;&gt;#&lt;/a&gt; 基于 UI 的按钮&lt;/h4&gt;
 &lt;p&gt;创建一个 Canvas，点击按钮转换为 MR 的 Ui Canvas&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314972.png&#34; alt=&#34;image-20220815141142436&#34;&gt;&lt;/p&gt;
+&lt;p&gt;++ 注意在使用 UnityUi 形式的 button 时，在 HoloLens 实机上需要按下手势，不太方便操作，考虑使用 3D 按钮 ++&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301291520465.png&#34; alt=&#34;image-20230129152013229&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随后可以不使用 HoloLens 的图集，直接修改 Sprite 为自己要使用的即可：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301291521714.png&#34; alt=&#34;image-20230129152126667&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;让ui支持直接点击&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#让ui支持直接点击&#34;&gt;#&lt;/a&gt; 让 UI 支持直接点击&lt;/h4&gt;
+&lt;p&gt;需要添加如下几个组件：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301807614.png&#34; alt=&#34;image-20230130180717373&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301808469.png&#34; alt=&#34;image-20230130180802422&#34;&gt;&lt;/p&gt;
+&lt;p&gt;注意框选的这两个部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moving Button Visual 用于进行检测按钮 —— 这里使用自己即可&lt;/li&gt;
+&lt;li&gt;注意添加 Event 绑定刀 Trigger 中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301808204.png&#34; alt=&#34;image-20230130180853141&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;交互&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#交互&#34;&gt;#&lt;/a&gt; 交互&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL2ludGVyYWN0YWJsZT92aWV3PW1ydGt1bml0eS0yMDIyLTA1&#34;&gt;可交互 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;

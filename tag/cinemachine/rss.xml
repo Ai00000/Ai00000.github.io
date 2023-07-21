@@ -16,8 +16,6 @@
         <category>新技术体验</category>
         <category>unity</category>
         <category>Cinemachine</category>
-        <category>对话</category>
-        <category>剧情</category>
         <category>好物推荐</category>
         <category>shaderGraph</category>
         <category>Lua</category>
@@ -96,6 +94,14 @@
         <category>UE4</category>
         <category>switch</category>
         <category>回合制</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>XML</category>
+        <category>思维</category>
+        <category>资源管理</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
         <item>
             <guid isPermalink="true">https://www.fasty97.top/2021/09/13/%E5%85%B3%E4%BA%8ECinemachine%E7%AC%AC%E4%B8%89%E4%BA%BA%E7%A7%B0%E6%91%84%E5%83%8F%E6%9C%BA/</guid>
             <title>关于Cinemachine第三人称摄像机</title>
