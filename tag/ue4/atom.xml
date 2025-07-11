@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;ue4&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-06-07T01:53:56.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/06/07/%E8%B5%B0%E8%BF%9BUE2-%E4%BD%BF%E7%94%A8%E5%8A%A8%E7%94%BB%E6%A8%A1%E5%9E%8B/</id>
+        <title>走进UE2-使用动画模型</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/06/07/%E8%B5%B0%E8%BF%9BUE2-%E4%BD%BF%E7%94%A8%E5%8A%A8%E7%94%BB%E6%A8%A1%E5%9E%8B/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;上一节中，我们熟悉了 Ue 的基本操作并编写简单蓝图控制了一个椅子的移动，这一节我们来进一步完善我们的主角～&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;导入资源&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#导入资源&#34;&gt;#&lt;/a&gt; 导入资源&lt;/h1&gt;
+&lt;p&gt;首先我们选择一个人物模型导入。&lt;/p&gt;
+&lt;p&gt;删除原先的静态网格椅子模型，在 Mesh 中选择导入的模型 Skeletal Mesh。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210607103237.png&#34; alt=&#34;image-20210607103237589&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到我们的角色替换成了模型：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210607103417.png&#34; alt=&#34;image-20210607103416955&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="UE4" />
+        <updated>2021-06-07T01:53:56.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/06/02/%E8%B5%B0%E8%BF%9BUE1-%E8%BF%9B%E5%85%A5UE%E4%B8%96%E7%95%8C/</id>
+        <title>走进UE1-进入UE世界</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/06/02/%E8%B5%B0%E8%BF%9BUE1-%E8%BF%9B%E5%85%A5UE%E4%B8%96%E7%95%8C/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;UE4 每个月送免费资源，实在是太香了。 😄&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以本系列是一个进入 UE4 学习过程的记录。&lt;/p&gt;
+&lt;h1 id=&#34;参考文档&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#参考文档&#34;&gt;#&lt;/a&gt; 参考文档&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;官方文档： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLnVucmVhbGVuZ2luZS5jb20vNC4yNi96aC1DTi9CYXNpY3MvQWN0b3Jz&#34;&gt;https://docs.unrealengine.com/4.26/zh-CN/Basics/Actors&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;前置准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前置准备&#34;&gt;#&lt;/a&gt; 前置准备&lt;/h1&gt;
+&lt;p&gt;首先下载 EPIC，使用 EPIC 下载 UE4，这里使用的是 4.26.2。&lt;/p&gt;
+&lt;h2 id=&#34;设置语言为中文&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设置语言为中文&#34;&gt;#&lt;/a&gt; 设置语言为中文&lt;/h2&gt;
+&lt;p&gt;编辑器默认是英文的，可以根据需要设置为中文。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210602170135.png&#34; alt=&#34;image-20210602170135583&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210602170203.png&#34; alt=&#34;设置中文&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;基础概念介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础概念介绍&#34;&gt;#&lt;/a&gt; 基础概念介绍&lt;/h1&gt;
+&lt;h2 id=&#34;界面布局&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#界面布局&#34;&gt;#&lt;/a&gt; 界面布局&lt;/h2&gt;
+&lt;p&gt;基础的界面布局如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210602170639.png&#34; alt=&#34;image-20210602170639546&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;player-start-玩家出生点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#player-start-玩家出生点&#34;&gt;#&lt;/a&gt; Player Start 玩家出生点&lt;/h2&gt;
+&lt;p&gt;Player Start 为玩家的出生点（起点），游戏开始时，玩家从这里开始。&lt;/p&gt;
+&lt;h2 id=&#34;游戏模式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游戏模式&#34;&gt;#&lt;/a&gt; 游戏模式&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;游戏模式是游戏的基本设定，每一个游戏都必须有一个游戏模式设置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604194800.png&#34; alt=&#34;image-20210604194752974&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认 Pawn 类选择游戏角色。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;需要在世界场景设置中设置当前需要使用的游戏模式。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604195146.png&#34; alt=&#34;image-20210604195146023&#34;&gt;&lt;/p&gt;
+&lt;center&gt;世界场景设置&lt;/center&gt;
+&lt;h2 id=&#34;项目输入设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#项目输入设置&#34;&gt;#&lt;/a&gt; 项目输入设置&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了映射按键操作我们需要在项目设置中进行按键映射。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604195720.png&#34; alt=&#34;image-20210604195719983&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;设定角色使其移动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设定角色使其移动&#34;&gt;#&lt;/a&gt; 设定角色使其移动&lt;/h2&gt;
+&lt;h3 id=&#34;设定物件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设定物件&#34;&gt;#&lt;/a&gt; 设定物件&lt;/h3&gt;
+&lt;p&gt;首先需要设置，角色的静态网格（决定呈现内容），设置摄像机（用于拍摄游戏角色）。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604203512.png&#34; alt=&#34;image-20210604203512863&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604203525.png&#34; alt=&#34;image-20210604203525271&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;设定角色行为蓝图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设定角色行为蓝图&#34;&gt;#&lt;/a&gt; 设定角色行为蓝图&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过蓝图我们来进行角色行为设置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604204643.png&#34; alt=&#34;image-20210604204643632&#34;&gt;&lt;/p&gt;
+&lt;center&gt;前后左右移动基本蓝图&lt;/center&gt;
+&lt;p&gt;角色旋转值设定&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210604205720.png&#34; alt=&#34;image-20210604205720790&#34;&gt;&lt;/p&gt;
+&lt;p&gt;上下旋转设定&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210606143318.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;效果测试如下&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;video src=&#34;https://pic.fasty97.top/UE1.mp4&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+</content>
+        <category term="UE4" />
+        <updated>2021-06-02T08:50:29.000Z</updated>
+    </entry>
+</feed>

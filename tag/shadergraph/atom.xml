@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;shadergraph&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2020-03-21T09:03:57.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>LWRP下ShaderGraph的使用</title>
+        <link rel="alternate" href="https://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;丢失了好多文章，故更新一波，开一个新坑 CG&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不论是 LWRP 还是 ShaderGraph 都已经不是什么新技术了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;cg杂谈&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cg杂谈&#34;&gt;#&lt;/a&gt; CG 杂谈&lt;/h3&gt;
+&lt;p&gt;计算机图形学（ComputGraph）简称 &lt;code&gt;CG&lt;/code&gt; ，是一门研究计算机图形图像处理的学科，将符号或电子信号可视化是一门比较晦涩难懂的东西，比如 &lt;code&gt;傅里叶变换&lt;/code&gt; 用于研究声音和波的关系，让波得以表示。众所周知，建模时我们总是使用三角面来构成一个模型，以三角面的数量来衡量一个模型的精细程度。从三维物体坐标系到二维的屏幕坐标系，深度如何表示？遮挡关系如何计算？这就是 CG 所研究的东西，计算机图形学也被称为程序员的浪漫，这就是这个系列要说的东西。&lt;/p&gt;
+&lt;h3 id=&#34;lwrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp&#34;&gt;#&lt;/a&gt; LWRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;LWRP&lt;/code&gt;  (轻度渲染管线) 是 unity 推出的可自定义的渲染管线，其初衷是为了移动平台和轻度主机平台。在轻度渲染管线下，我们可以对渲染管线做更多的设置和处理，并且可以使用 shaderGraph 可视化的 shader 编辑器像连连看一样完成 shader 的编写。&lt;br&gt;
+通过 shader 我们可以实现许多视觉效果，如飘动的红旗，水面的倒影，卡通人物渲染等；有些可以使用模型来解决但使用 shader 不仅高效还能处理许多模型无法解决的东西。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不知道你是否看过游戏的模型，或者说取解包过游戏，很多游戏，模型可能并没有游戏中那么&lt;strong&gt;漂亮&lt;/strong&gt;！&lt;/em&gt;&lt;br&gt;
+但是通过 shader，光照，后处理等，玩家看到的就是非常赞的效果了！（就好像是美颜滤镜一样）&lt;/p&gt;
+&lt;h3 id=&#34;hdrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hdrp&#34;&gt;#&lt;/a&gt; HDRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;HDRP&lt;/code&gt;  (高清渲染管线) 如名字所言，是专门在对画面质量要求较高的主机或 PC 端开发游戏所使用的。（但 unity 开发大型游戏真的够呛，目前在我看来 ue4 可能更适合）&lt;br&gt;
+使用 HDRP 我们可以更高程度的自定义我们的渲染系统，要知道在游戏引擎中，渲染占据了很大的一块。&lt;/p&gt;
+&lt;h3 id=&#34;shader的基础认知&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shader的基础认知&#34;&gt;#&lt;/a&gt; Shader 的基础认知？&lt;/h3&gt;
+&lt;p&gt;关于 shader 的基础认知，我在之前曾写过一篇文章（虽然没写完），我会抽空把那篇文章写完的。&lt;br&gt;
+如果有兴趣不妨去看看：&lt;a href=&#34;http://www.fasty97.top/unity%e5%9b%be%e5%bd%a2%e5%ad%a6-%e6%b8%b2%e6%9f%93%e6%b5%81%e7%a8%8b/&#34; title=&#34;[传送门]unity图形学 渲染流程&#34;&gt;[传送门] unity 图形学 渲染流程&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lwrp下shadergraph的搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp下shadergraph的搭建&#34;&gt;#&lt;/a&gt; LWRP 下 Shadergraph 的搭建&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity版本 2019.3.0f6&lt;/code&gt; &lt;br&gt;
+ 听了这么多，也许你还是比较懵吧，没事。让我们来揭开 shader 的神秘面纱吧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先安装如下依赖包：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/IHRSz6lfegXD.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/BLWb4IR9U5wt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建渲染管线资源并设置：&lt;br&gt;
+值得一提的是，在 unity2019.3 中已经将 LWRP 更名为 UWRP 了，unity 想在之后让 LWRP 变成通用的渲染管线取代原先的 Stand 渲染管线；所以我们需要创建一个 UWRP 的资源。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/TR1o545kQ1Nz.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 UWRP&lt;br&gt;
+ 首先我们创建一个 Cube，一个材质，一个 PBRGraph（基于物理的 shader）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pbrgraph&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pbrgraph&#34;&gt;#&lt;/a&gt; PBRGraph?&lt;/h4&gt;
+&lt;p&gt;这里补充一点小知识，所谓 PBR 就是基于物理的渲染，什么叫做基于物理的渲染呢？简单的说就是原先的模型在绘制贴图时，贴图师就会直接在贴图上绘制好高光，粗糙度，磨损等，这是基于经验的固定化的处理。而基于物理的渲染则是通过复杂的计算和光照模型的影响，动态的计算出模型的细节，让模型处于不同的环境中能够有不同的表现，是基于环境影响的。&lt;/p&gt;
+&lt;p&gt;打开 PBRGraph：&lt;br&gt;
+创建如下结点并连接&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/KC6HrUGWV9pC.png&#34; alt=&#34;PBRGraph&#34;&gt;&lt;br&gt;
+ 然后将 shader 指定到对应材质，将材质指定到我们的 Cube，尝试调整数值吧。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/PkIawTx0mOAc.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+到这里我们已经知道如何基本的使用 shaderGraph 了呢，但你可能会说，这不是自带 shader 就拥有的功能吗？&lt;/p&gt;
+&lt;h3 id=&#34;做一个边缘发光效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个边缘发光效果&#34;&gt;#&lt;/a&gt; 做一个边缘发光效果&lt;/h3&gt;
+&lt;p&gt;下面我们使用菲涅尔效应做一个简单的边缘自发光，其 shadergraph 如图所示，通过菲涅尔结点指定一个发光颜色和强度来实现。（非常简单吧）&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/pmNHEXl7Y02o.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;效果图：&lt;/strong&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/dQdztRRmd7pH.gif&#34; alt=&#34;边缘发光效果&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;做一个顶点动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个顶点动画&#34;&gt;#&lt;/a&gt; 做一个顶点动画&lt;/h3&gt;
+&lt;p&gt;通过顶点偏移我们可以实现一个波浪或是，旗帜飘动的效果：&lt;br&gt;
+主要是使用顶点偏移通过 sin 正弦方式。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/oKWCf4A3lDxM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果如图：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/5yqXJieqbu2x.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="shaderGraph" />
+        <updated>2020-03-21T09:03:57.000Z</updated>
+    </entry>
+</feed>

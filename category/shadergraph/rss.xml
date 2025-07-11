@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;shadergraph&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 04 Dec 2021 13:56:51 +0800</pubDate>
+        <lastBuildDate>Sat, 04 Dec 2021 13:56:51 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/</guid>
+            <title>shaderGraph常用功能释义</title>
+            <link>https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/</link>
+            <pubDate>Sat, 04 Dec 2021 13:56:51 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;本文用于记录一些使用 Shader 实现的基础性效果&lt;/p&gt;
+&lt;p&gt;Unity2020.3.8f1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;基础设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础设置&#34;&gt;#&lt;/a&gt; 基础设置&lt;/h1&gt;
+&lt;p&gt;创建一个空 Shader，可以设置 Graph 以满足需要。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204140159.png&#34; alt=&#34;image-20211204140152535&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;顶点着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点着色器&#34;&gt;#&lt;/a&gt; 顶点着色器&lt;/h1&gt;
+&lt;h2 id=&#34;法线外扩&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#法线外扩&#34;&gt;#&lt;/a&gt; 法线外扩&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以改变一个模型的大小&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141255.png&#34; alt=&#34;image-20211204141255134&#34;&gt;&lt;/p&gt;
+&lt;p&gt;其中获取法线方向也可以使用：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204144226.png&#34; alt=&#34;image-20211204144226426&#34;&gt;&lt;/p&gt;
+&lt;p&gt;通过将法线位置（物体本地位置）归一化得到法线，然后乘以一个数值来实现。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141734.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;模型裁切&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#模型裁切&#34;&gt;#&lt;/a&gt; 模型裁切&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153235.png&#34; alt=&#34;image-20211204153235344&#34;&gt;&lt;/p&gt;
+&lt;p&gt;简单效果预览：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153431.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;p&gt;加强版本&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153433.png&#34; alt=&#34;image-20211207153426670&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153856.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remap-重映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#remap-重映射&#34;&gt;#&lt;/a&gt; Remap 重映射&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据输入 In 在 InMinMax 中的插值，计算输出。(按照比例位置输出)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比如输入 In 为 0，InMinMax 时（-10，10），那么 In 在 InMinMax 的&lt;br&gt;
+位置就是 0.5，如果 OutMinMax 为（0，10），那么输出 Out 就是 5&lt;br&gt;
+ 公式为： Out = OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y -&lt;br&gt;
+InMinMax.x)&lt;/p&gt;
+&lt;h3 id=&#34;one-minus-1减去&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#one-minus-1减去&#34;&gt;#&lt;/a&gt; One Minus 1 减去&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出 1-in&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;step-阶梯&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#step-阶梯&#34;&gt;#&lt;/a&gt; Step 阶梯&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输入 in 大于等于 Edge 取 1，否则取 0&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;溶解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#溶解&#34;&gt;#&lt;/a&gt; 溶解&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207162307.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;边缘发光&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207163904.png&#34; alt=&#34;image-20211207163904223&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207164030.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;subtract-减法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subtract-减法&#34;&gt;#&lt;/a&gt; Subtract 减法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A-B&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;saturate-0-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#saturate-0-1&#34;&gt;#&lt;/a&gt; Saturate 0-1&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;将输入控制在 [0-1]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;边缘发光-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光-2&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207165311.png&#34; alt=&#34;image-20211207165311854&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;简单卡通效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简单卡通效果&#34;&gt;#&lt;/a&gt; 简单卡通效果&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171547.png&#34; alt=&#34;image-20211207171547100&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dot-product-点乘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dot-product-点乘&#34;&gt;#&lt;/a&gt; Dot Product 点乘&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;计算 2 个向量点乘&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171656.png&#34; alt=&#34;image-20211207171656516&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表面叠加&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表面叠加&#34;&gt;#&lt;/a&gt; 表面叠加&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173140.png&#34; alt=&#34;image-20211207173140006&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173246.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tiling-and-offset-平铺和偏移&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tiling-and-offset-平铺和偏移&#34;&gt;#&lt;/a&gt; Tiling And Offset 平铺和偏移&lt;/h3&gt;
+&lt;p&gt;这个功能我们会经常用到，一般只要有贴图的材质上都会有 Tiling And Offset。&lt;br&gt;
+将输入参数 UV 的值，通过 Tiling 和 Offset 改变平铺和偏移。&lt;/p&gt;
+&lt;h2 id=&#34;像素化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#像素化&#34;&gt;#&lt;/a&gt; 像素化&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207182510.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;粒子消融&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#粒子消融&#34;&gt;#&lt;/a&gt; 粒子消融&lt;/h2&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

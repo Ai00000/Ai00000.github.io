@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"aseprite\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/02/04/%E5%83%8F%E7%B4%A0%E7%94%BB-1%20%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E5%92%8C%E5%BF%AB%E6%8D%B7%E9%94%AE/",
+            "url": "https://www.fasty97.top/2022/02/04/%E5%83%8F%E7%B4%A0%E7%94%BB-1%20%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E5%92%8C%E5%BF%AB%E6%8D%B7%E9%94%AE/",
+            "title": "像素画-1 常用功能和快捷键",
+            "date_published": "2022-02-04T04:21:25.000Z",
+            "content_html": "<h2 id=\"软件选择\"><a class=\"markdownIt-Anchor\" href=\"#软件选择\">#</a> 软件选择</h2>\n<blockquote>\n<p>在软件选择上，对于我这种没有绘画基础的程序员来说，果断选择了轻量级的 <code>Aseprite</code> 。</p>\n</blockquote>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/20220204122833.png\" alt=\"image-20220204122833691\"></p>\n<h3 id=\"工作界面\"><a class=\"markdownIt-Anchor\" href=\"#工作界面\">#</a> 工作界面</h3>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/20220204124222.png\" alt=\"image-20220204124222847\"></p>\n<center>工作界面</center>\n<p>如图可以看到工作界面，在界面上有 <code>菜单栏</code> 、 <code>颜色选择器</code> 、 <code>工具栏</code> 、 <code>主工作区</code> 和 <code>动画帧图层工作区</code> 几个部分组成。</p>\n<h3 id=\"快捷键\"><a class=\"markdownIt-Anchor\" href=\"#快捷键\">#</a> 快捷键</h3>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">快捷按键</th>\n<th>作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">B</td>\n<td>画笔</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">L</td>\n<td>线条工具</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">U</td>\n<td>形状工具</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">D</td>\n<td>轮廓工具，它的功能是在你画出任意形状的轮廓之后将这个轮廓自动填充颜色。这个工具能让你快速绘制任意形状的实色物体。</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">I</td>\n<td>拾色器</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">G</td>\n<td>油漆桶</td>\n</tr>\n<tr>\n<td style=\"text-align:center\"></td>\n<td></td>\n</tr>\n<tr>\n<td style=\"text-align:center\"></td>\n<td></td>\n</tr>\n<tr>\n<td style=\"text-align:center\"></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n",
+            "tags": [
+                "像素画",
+                "Aseprite"
+            ]
+        }
+    ]
+}

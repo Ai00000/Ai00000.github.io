@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;hdrp&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-06-08T03:42:01.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/06/08/Unity%20%E6%96%B0%E6%8A%80%E6%9C%AFHDRP/</id>
+        <title>Unity 新技术HDRP</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/06/08/Unity%20%E6%96%B0%E6%8A%80%E6%9C%AFHDRP/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本系列基于 Unity2021.1.5f1c1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装hdrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装hdrp&#34;&gt;#&lt;/a&gt; 安装 HDRP&lt;/h2&gt;
+&lt;p&gt;在管理器安装 hdrp 后会自动弹出此初始化对话框。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210608121937.png&#34; alt=&#34;image-20210608121930293&#34;&gt;&lt;/p&gt;
+&lt;p&gt;根据对话框检测的步骤，将需要修正的地方进行修正。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;修正后全部呈现绿√。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修正完成，系统自动添加了如下包。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210608122232.png&#34; alt=&#34;image-20210608122232513&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;添加天空盒子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加天空盒子&#34;&gt;#&lt;/a&gt; 添加天空盒子&lt;/h3&gt;
+&lt;p&gt;在 Volume 组件中添加如下组件，可以设置天空盒。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210730125729.png&#34; alt=&#34;image-20210730125722895&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;调节光线亮度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#调节光线亮度&#34;&gt;#&lt;/a&gt; 调节光线亮度&lt;/h3&gt;
+&lt;p&gt;在 Volume 组件中添加如下组件，可以设置调节光线。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210730125833.png&#34; alt=&#34;image-20210730125833770&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="unity" />
+        <category term="HDRP" />
+        <updated>2021-06-08T03:42:01.000Z</updated>
+    </entry>
+</feed>

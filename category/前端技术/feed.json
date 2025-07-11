@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"前端技术\" category",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2021/01/07/html%E5%8C%85%E5%90%AB/",
+            "url": "https://www.fasty97.top/2021/01/07/html%E5%8C%85%E5%90%AB/",
+            "title": "html包含",
+            "date_published": "2021-01-07T02:46:49.000Z",
+            "content_html": "<p>在编写 html 文件时，我们想把一些相同的部分比如头部和底部的共用部分编写在一个文件中，这样的话就可以保持网站风格一致性。</p>\n<p>⚔️在 spring 中我们可以使用模板引擎 <code>thymeleaf</code></p>\n<p>🎯在.net 中我们可以使用 <code>Razor</code></p>\n<p>🔽在不依靠任何模板引擎的情况下，我们可以使用 <code>object标签</code> 来实现模板作用</p>\n<figure class=\"highlight html\"><figcaption data-lang=\"HTML\"><span>包含</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>object</span><span class=\"token style-attr language-css\"><span class=\"token attr-name\"> <span class=\"token attr-name\">style</span></span><span class=\"token punctuation\">=\"</span><span class=\"token attr-value\"><span class=\"token property\">border</span><span class=\"token punctuation\">:</span>0px</span><span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>text/x-scriptlet<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">data</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>top.html<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">width</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span>100%</span> <span class=\"token attr-name\">height</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span>auto</span><span class=\"token punctuation\">></span></span></pre></td></tr></table></figure><p><img data-src=\"http://pic.fasty97.top/NotePad/20210107111314.png\" alt=\"image-20210107111127238\"></p>\n<center>效果</center>",
+            "tags": [
+                "前端小技巧"
+            ]
+        }
+    ]
+}

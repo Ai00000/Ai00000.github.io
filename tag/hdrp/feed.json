@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"hdrp\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2021/06/08/Unity%20%E6%96%B0%E6%8A%80%E6%9C%AFHDRP/",
+            "url": "https://www.fasty97.top/2021/06/08/Unity%20%E6%96%B0%E6%8A%80%E6%9C%AFHDRP/",
+            "title": "Unity 新技术HDRP",
+            "date_published": "2021-06-08T03:42:01.000Z",
+            "content_html": "<blockquote>\n<p>本系列基于 Unity2021.1.5f1c1</p>\n</blockquote>\n<h2 id=\"安装hdrp\"><a class=\"markdownIt-Anchor\" href=\"#安装hdrp\">#</a> 安装 HDRP</h2>\n<p>在管理器安装 hdrp 后会自动弹出此初始化对话框。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20210608121937.png\" alt=\"image-20210608121930293\"></p>\n<p>根据对话框检测的步骤，将需要修正的地方进行修正。</p>\n<blockquote>\n<p>修正后全部呈现绿√。</p>\n</blockquote>\n<p>修正完成，系统自动添加了如下包。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20210608122232.png\" alt=\"image-20210608122232513\"></p>\n<h3 id=\"添加天空盒子\"><a class=\"markdownIt-Anchor\" href=\"#添加天空盒子\">#</a> 添加天空盒子</h3>\n<p>在 Volume 组件中添加如下组件，可以设置天空盒。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20210730125729.png\" alt=\"image-20210730125722895\"></p>\n<h3 id=\"调节光线亮度\"><a class=\"markdownIt-Anchor\" href=\"#调节光线亮度\">#</a> 调节光线亮度</h3>\n<p>在 Volume 组件中添加如下组件，可以设置调节光线。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20210730125833.png\" alt=\"image-20210730125833770\"></p>\n",
+            "tags": [
+                "unity",
+                "HDRP"
+            ]
+        }
+    ]
+}

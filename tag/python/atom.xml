@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;python&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-04-21T01:38:02.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/04/21/%E4%B8%80%E4%B8%AAPyGame%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AF%9E%E7%94%9F/</id>
+        <title>一个PyGame游戏的诞生</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/04/21/%E4%B8%80%E4%B8%AAPyGame%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AF%9E%E7%94%9F/"/>
+        <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;得益于各种各样的原因，接手了几个 pygame 游戏的小项目。在自己完成项目设计的时候，发现网络上关于 pygame 的资料比较稀少而且有很多误区，特别是在制作控件，场景切换，资源加载方面。&lt;/p&gt;
+&lt;p&gt;趁着自己还有点映像，把一些学习感悟记录下来吧😼。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;想法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#想法&#34;&gt;#&lt;/a&gt; 想法&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不论是制作什么项目，都缺少不了你的想法。.&lt;/p&gt;
+&lt;p&gt;想法也代表着你的创意，在一个游戏中创意是至关重要的哦❤️。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在你有想法的时候你至少需要明确一下这些点:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;游戏的运行平台：手机、PC、网页…&lt;/li&gt;
+&lt;li&gt;游戏的玩家人数：单人、双人、更多人&lt;/li&gt;
+&lt;li&gt;游戏的获胜方式：合作、对抗、过关…&lt;/li&gt;
+&lt;li&gt;游戏的展现形式：2D，3D (pygame 似乎只支持 2D 😄)&lt;/li&gt;
+&lt;li&gt;游戏的视角：Top-Down、Left-Right…&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;有了想法的支撑，就好像有了方向，知道朝着哪个方向去做。&lt;/p&gt;
+&lt;h2 id=&#34;搜集或制作游戏的素材&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#搜集或制作游戏的素材&#34;&gt;#&lt;/a&gt; 搜集或制作游戏的素材&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;游戏和其他软件项目很大的不同就是，游戏需要很多素材，声音、模型、图片、视频…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里推荐一些比较好用的游戏素材处理软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;建模和贴图处理
+&lt;ul&gt;
+&lt;li&gt;blender 建模&lt;/li&gt;
+&lt;li&gt;Substance Painter 贴图处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;像素画和像素动画
+&lt;ul&gt;
+&lt;li&gt;Aseprite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;图片处理
+&lt;ul&gt;
+&lt;li&gt;photoshop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;搭建开发环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#搭建开发环境&#34;&gt;#&lt;/a&gt; 搭建开发环境&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于 pygame 来说，只需要按照 pygame 游戏库就足够了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开发工具可以使用 vscode、pycharm 等任何支持 python 的编辑器。&lt;/p&gt;
+&lt;h2 id=&#34;创造我们的游戏&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创造我们的游戏&#34;&gt;#&lt;/a&gt; 创造我们的游戏&lt;/h2&gt;
+&lt;h3 id=&#34;跑起来&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#跑起来&#34;&gt;#&lt;/a&gt; 跑起来&lt;/h3&gt;
+&lt;h3 id=&#34;写点控件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#写点控件&#34;&gt;#&lt;/a&gt; 写点控件&lt;/h3&gt;
+&lt;h3 id=&#34;资源加载&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#资源加载&#34;&gt;#&lt;/a&gt; 资源加载&lt;/h3&gt;
+&lt;h3 id=&#34;精灵和精灵组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#精灵和精灵组&#34;&gt;#&lt;/a&gt; 精灵和精灵组&lt;/h3&gt;
+&lt;h3 id=&#34;场景切换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#场景切换&#34;&gt;#&lt;/a&gt; 场景切换&lt;/h3&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+</content>
+        <category term="python" />
+        <updated>2021-04-21T01:38:02.000Z</updated>
+    </entry>
+</feed>

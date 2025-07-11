@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;python&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 22 Feb 2021 09:16:48 +0800</pubDate>
+        <lastBuildDate>Mon, 22 Feb 2021 09:16:48 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/02/22/python%E8%BF%9E%E6%8E%A5Mysql/</guid>
+            <title>python连接Mysql</title>
+            <link>https://www.fasty97.top/2021/02/22/python%E8%BF%9E%E6%8E%A5Mysql/</link>
+            <pubDate>Mon, 22 Feb 2021 09:16:48 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;python 3.x 开始需要下载安装 &lt;code&gt;PyMySQL&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pymysql&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ip &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;localhost&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;user &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;root&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;password &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;db &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;spr&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; __name__ &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;__main__&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;开始连接~&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 打开数据库连接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    con &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pymysql&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;connect&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;host&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;ip&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3306&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; user&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;user&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; passwd&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;password&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; db&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;db&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; charset&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;utf8&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 游标对象&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cur &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; con&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;cursor&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 执行 sql&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cur&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;execute&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;select * from food&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    res &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cur&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fetchall&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;res&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 插入&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    sql &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;insert into food (fName,fDesc) values(&#39;%s&#39;,&#39;%s&#39;)&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    data &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;小西瓜&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;一毛一个&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cur&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;execute&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sql &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    con&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;commit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;成功插入&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; cur&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rowcount&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;条数据&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 关闭连接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    con&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;close&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

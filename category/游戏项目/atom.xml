@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;游戏项目&#34; category</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-01-05T16:19:55.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/01/06/%E7%B1%BB%E6%9D%80%E6%88%AE%E5%B0%96%E5%A1%94-%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93/</id>
+        <title>类杀戮尖塔-卡牌游戏原型总结</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/01/06/%E7%B1%BB%E6%9D%80%E6%88%AE%E5%B0%96%E5%A1%94-%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;现在是 2022 年 12 月 29 日 16:22:06 没想到拖了整整一年才捡起这件事。&lt;/p&gt;
+&lt;p&gt;回顾整个项目，虽然完成了很多通用的模块，但这些模型也仅仅只是 demo 级别，尚还缺乏验证，且游戏设计思想仍然不够完整，对于游戏地图的设计也缺乏确定的解决方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212291634128.png&#34; alt=&#34;image-20221229163422695&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212291634235.png&#34; alt=&#34;image-20221229163443191&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="自制项目" />
+        <updated>2022-01-05T16:19:55.000Z</updated>
+    </entry>
+</feed>

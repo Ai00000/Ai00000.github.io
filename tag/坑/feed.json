@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"坑\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/04/01/Unity%20tip%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AA%E7%83%81/",
+            "url": "https://www.fasty97.top/2022/04/01/Unity%20tip%E6%8F%90%E7%A4%BA%E6%A1%86%E9%97%AA%E7%83%81/",
+            "title": "Unity tip提示框闪烁",
+            "date_published": "2022-04-01T09:51:42.000Z",
+            "content_html": "<h1 id=\"说明\"><a class=\"markdownIt-Anchor\" href=\"#说明\">#</a> 说明</h1>\n<p>在我们制作如下的提示框时，会使用到 <code>IPointerEnterHandler, IPointerExitHandler</code></p>\n<blockquote>\n<p>但是，会出现提示框闪烁（其实是进入离开疯狂调用）</p>\n</blockquote>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220401175208.png\" alt=\"image-20220401175200980\"></p>\n<h1 id=\"解决方案\"><a class=\"markdownIt-Anchor\" href=\"#解决方案\">#</a> 解决方案</h1>\n<ol>\n<li>将提示框射线检测去掉（避免新生成的提示框隔断）</li>\n<li>控制提示框的锚点远离一些</li>\n<li>为提示框添加组件</li>\n</ol>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220401175514.png\" alt=\"image-20220401175514800\"></p>\n",
+            "tags": [
+                "Unity",
+                "坑"
+            ]
+        }
+    ]
+}

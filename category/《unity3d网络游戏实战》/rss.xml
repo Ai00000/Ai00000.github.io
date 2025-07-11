@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;《unity3d网络游戏实战》&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 17 Jan 2020 14:09:32 +0800</pubDate>
+        <lastBuildDate>Fri, 17 Jan 2020 14:09:32 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2020/01/17/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89Poll&amp;Select/</guid>
+            <title>《Unity3D网络游戏实战》学习记录（四）Poll&amp;Select</title>
+            <link>https://www.fasty97.top/2020/01/17/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89Poll&amp;Select/</link>
+            <category>读书笔记</category>
+            <pubDate>Fri, 17 Jan 2020 14:09:32 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+  试想一下，有没有一种方法可以将&lt;font color=red&gt;异步&lt;/font&gt;的程序改为&lt;font color=blue&gt;同步&lt;/font&gt;，而又持有异步的效果呢？
+&lt;/blockquote&gt;
+&lt;h3&gt;Poll&lt;/h3&gt;
+&lt;p&gt;&lt;font color=4e72b8&gt;意义：使用同步的方式解决异步问题。&lt;/font&gt;&lt;br&gt;
+我们分析一下之前的程序逻辑，会发现我们使用 beginxxx 来开启新线程处理新的 socket，但是我们的客户端并不是实时的于服务器进行交互的（只在进行交互时，整个线程才是有效的，平时都处于阻塞等待状态。）&lt;br&gt;
+有这么一种方式：&lt;br&gt;
+&lt;code&gt;if (socket 有可读数据) socket.Receive ()&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;if (socket 缓冲区可写) socket.Send ()&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;if (socket 错误) 处理错误&lt;/code&gt;&lt;br&gt;
+只要在阻塞方法前，加上一层判断，有数据可读才读，有数据可写才写，这样不就解决了程序卡住的问题吗？&lt;br&gt;
+Ms 提供了 Poll 方法：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt;&lt;/span&gt; Poll&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; microSeconds；&lt;span class=&#34;token comment&#34;&gt;// 回应时间（ms） -1 一直等待  0 非阻塞&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SelectMode mode；&lt;span class=&#34;token comment&#34;&gt;//SelectRead 是否可读 SelectWrite 是否可写 SelectError 是否发生错误&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4&gt;使用Poll改进客户端和服务器&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;font size=5px color=red&gt;客户端&lt;/font&gt;
+对于客户端只需要在update中加一个&lt;code&gt;if(socket.Poll(0,SelectMode.SelectRead)) 执行读取&lt;/code&gt;就可以了。&lt;/li&gt;
+&lt;li&gt;&lt;font size=5px color=green&gt;服务器&lt;/font&gt;
+对于服务器，需要在主循环中对所有已连接的客户端进行状态监测，在其客户端可读时（即有数据发送给服务器时）进行读取操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Select&lt;/h3&gt;
+&lt;p&gt;&lt;font color=4e72b8&gt;意义：解决 Poll 下 Cpu 占用过高的问题&lt;/font&gt;&lt;/p&gt;
+在前面没有提到cpu占用的事情，这里说一下，使用poll时，我们会在update中持续监听，程序在同一线程中非阻塞式的处理请求，会导致cpu占用过高的问题。
+&lt;h4&gt;Select的解决思路&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;同时检测多个socket的状态&lt;/li&gt;
+&lt;li&gt;将需操作的socket放入一个集合中&lt;/li&gt;
+&lt;li&gt;如果没有可读写的socket就阻塞挂起&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;select 原型&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Select&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;IList&lt;/span&gt; checkRead&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 返回可读 Socket List&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;IList&lt;/span&gt; checkWrite&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 可写&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;IList&lt;/span&gt; checkError&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 错误&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; microSeconds    &lt;span class=&#34;token comment&#34;&gt;// 超时时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;font color=blue&gt;【2020 年 1 月 17 日 18:40:19 下午】&lt;/font&gt;&lt;br&gt;
+&lt;strong&gt;继续更新&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;使用 Select 时，我们需要定义几个列表，如上面原型所示这些列表应当实现了&lt;font size=4px color=red&gt; IList &lt;/font&gt;接口。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建可读列表CheckRead&lt;/li&gt;
+&lt;li&gt;将所有连接Socket放入CheckRead中&lt;/li&gt;
+&lt;li&gt;使用Socket.Select()对checkRead中的可读socket进行筛选&lt;/li&gt;
+&lt;li&gt;对筛选后的可读对象进行读取&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;通过以上步骤，我们就使用 Select 完成了筛选，非常简单吧！&lt;/p&gt;
+&lt;p&gt;从下一章开始按书的进度，我们就使用学习到的 Socket 知识写一个多人大乱斗游戏试试吧 ✌️ ~&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2020/01/16/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%E8%81%8A%E5%A4%A9%E5%AE%A4/</guid>
+            <title>《Unity3D网络游戏实战》学习记录（三）聊天室</title>
+            <link>https://www.fasty97.top/2020/01/16/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%E8%81%8A%E5%A4%A9%E5%AE%A4/</link>
+            <pubDate>Thu, 16 Jan 2020 14:59:29 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;在之前的基础上其实我们只需要将客户端发送给服务器的数据在服务器分发给连接的所有客户端即可实现聊天室的功能。&lt;br&gt;
+不过在这里我对服务器端的代码重新优化了一下。&lt;/p&gt;
+&lt;h3&gt;客户端连接实例&lt;/h3&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// 客户端连接实例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;/summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ClientEntity&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;Socket&lt;/span&gt; Socket &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; ReadBuff &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;/// 有效数据长度&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;/summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;/span&gt; DataLength &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3&gt;主要代码&lt;/h3&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;Socket&lt;/span&gt; Socket &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;List&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;ClientEntity&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; ClientEntities &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 所有连接的客户端实例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hi，服务器~&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ClientEntities &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;List&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;ClientEntity&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#&lt;span class=&#34;token directive keyword&#34;&gt;region&lt;/span&gt; 绑定ip&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;IPAddress&lt;/span&gt; ipAddress &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; IPAddress&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Parse&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;127.0.0.1&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;IPEndPoint&lt;/span&gt; ipEndPoint &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;IPEndPoint&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ipAddress&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2233&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Socket &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;AddressFamily&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;InterNetwork&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; SocketType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Stream&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ProtocolType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Tcp&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Bind&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ipEndPoint&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Listen&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 最多支持同时监听 10 个客户端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器]启动成功！&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#&lt;span class=&#34;token directive keyword&#34;&gt;endregion&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 绑定 Accept&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;BeginAccept&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;AcceptCallBack&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Socket&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;ReadLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3&gt;AcceptCallBack&lt;/h3&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;AcceptCallBack&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;IAsyncResult&lt;/span&gt; ar&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;try&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器]有新客户端连接&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; severSocket &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; ar&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;AsyncState &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; clientSocket &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; severSocket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;EndAccept&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ar&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 创建客户端连接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; clientEntity &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;ClientEntity&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; Socket &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; clientSocket&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ReadBuff &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 创建客户端实例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                ClientEntities&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;clientEntity&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 开始 Receive&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                clientEntity&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;BeginReceive&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;clientEntity&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ReadBuff&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; clientEntity&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ReadBuff&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Length&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; SocketFlags&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;None&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ReceiveCallBack&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; clientEntity&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 继续 Accept&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                Socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;BeginAccept&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;AcceptCallBack&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Socket&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;SocketException&lt;/span&gt; e&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器Accept-Error]&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ErrorCode &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;-&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Message&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3&gt;ReceiveCallBack&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csharp line-numbers&#34;&gt;  private static void ReceiveCallBack(IAsyncResult ar)
+        &amp;#123;
+            try
+            &amp;#123;
+                var clientEntity = ar.AsyncState as ClientEntity;   //获取传过来的客户端Socket
+                var count = clientEntity.Socket.EndReceive(ar);
+                if (count == 0)
+                &amp;#123;
+                    //关闭客户端连接
+                    clientEntity.Socket.Close();
+                    ClientEntities.Remove(clientEntity);
+                    Console.WriteLine(&#34;[服务器]一个客户端已断开连接&#34;);
+
+                    return;
+                &amp;#125;
+                var reciveStr = Encoding.UTF8.GetString(clientEntity.ReadBuff, 0, count); //读取客户端数据
+    
+                Console.WriteLine(&#34;[服务器]收到来自客户端数据：&#34; + reciveStr);
+
+
+                var sendBytes = Encoding.UTF8.GetBytes(&#34;[服务器] 已收到来自客户端的消息：&#34;);
+                clientEntity.DataLength = count;
+                //进行数据分发
+                foreach (var item in ClientEntities)
+                &amp;#123;
+                    item.Socket.BeginSend(sendBytes, 0, count, SocketFlags.None, SendCallBack, clientEntity);
+                &amp;#125;
+    
+                //继续获取数据
+                clientEntity.Socket.BeginReceive(clientEntity.ReadBuff, 0, clientEntity.ReadBuff.Length, SocketFlags.None, ReceiveCallBack, clientEntity);
+            &amp;#125;
+            catch (SocketException e)
+            &amp;#123;
+    
+                Console.WriteLine(&#34;[服务器Receive-Error]&#34; + e.ErrorCode + &#34;-&#34; + e.Message);
+            &amp;#125;
+        &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;SendCallBack&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csharp line-numbers&#34;&gt; private static void SendCallBack(IAsyncResult ar)
+        &amp;#123;
+            var clientEntity = ar.AsyncState as ClientEntity;
+            Console.WriteLine(&#34;[服务器]已向客户端发送数据:&#34; + Encoding.UTF8.GetString(clientEntity.ReadBuff, 0, clientEntity.DataLength));
+        &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;运行截图：&lt;/h3&gt;
+&lt;p&gt;!{运行截图}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTYvMjQ4RnFOS0dtN2poZ3YxLnBuZw==&#34;&gt;https://i.loli.net/2020/01/16/248FqNKGm7jhgv1.png&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2020/01/07/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%E5%A4%9A%E7%BA%BF%E7%A8%8B/</guid>
+            <title>《Unity3D网络游戏实战》学习记录（二）多线程</title>
+            <link>https://www.fasty97.top/2020/01/07/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%E5%A4%9A%E7%BA%BF%E7%A8%8B/</link>
+            <category>读书笔记</category>
+            <pubDate>Tue, 07 Jan 2020 14:00:35 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;font color=green&gt;[begin] 在 [/begin]&lt;/font&gt;第一章的学习内容中我们已经完成了基本的 Socket 通信，但是在第一章中我们只能处理一个客户端的消息。&lt;br&gt;
+在实际游戏中，我们服务器需要对多个客户端进行监听和处理。&lt;/p&gt;
+&lt;h3&gt;Begin XXX&lt;/h3&gt;
+&lt;p&gt;每一个同步 API 对应着两个异步 API，分别是在原名称前面加上 Begin 和 End（如 BeginConnect 和 EndConnect）。使用异步程序可以防止程序卡住  。&lt;/p&gt;
+&lt;h4&gt;例如：BenginConnect&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;参数&lt;/th&gt;
+  &lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;host&lt;/td&gt;
+  &lt;td&gt;远程主机ip地址&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;port&lt;/td&gt;
+  &lt;td&gt;端口号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;requestCallback&lt;/td&gt;
+  &lt;td&gt;异步回调函数，其函数必须包含一个实现 &lt;font color=red&gt;&lt;strong&gt;IAsynResult&lt;/strong&gt;&lt;/font&gt;的对象&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;state&lt;/td&gt;
+  &lt;td&gt;一个自定义对象，&lt;strong&gt;此对象会被传递给回调函数&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;EndConnect&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;参数&lt;/th&gt;
+  &lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;asyncResult&lt;/td&gt;
+  &lt;td&gt;接收一个异步结果对象&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;font color=red&gt;其他的都大致相同&lt;/font&gt;&lt;br&gt;
+[toc]&lt;/p&gt;
+&lt;h3&gt;客户端&lt;/h3&gt;
+&lt;p&gt;客户端使用 begin 和 end，修改为：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csharp line-numbers&#34;&gt;using System;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using UnityEngine;
+using UnityEngine.UI;
+public class Echo : MonoBehaviour
+&amp;#123;
+    public Button linkBtn;
+    public Button sendBtn;
+    public InputField inputField;
+    public Text infoText;
+    //套接字
+    private Socket _socket;
+    //接收缓冲区
+    private byte[] _readBuff=new byte[1024];
+    private string _recvStr=string.Empty;
+
+
+
+    private void Start()
+    &amp;#123;
+        linkBtn.onClick.AddListener(Connection);
+        sendBtn.onClick.AddListener(SendMessage);
+        //Timer线程计时器
+        var timer = new Timer((state) =&gt; &amp;#123; print(&#34;时间到&#34;); &amp;#125;,null,5000,0);
+    &amp;#125;
+    
+    private void Update()
+    &amp;#123;
+        infoText.text = &#34;接收到来自服务器的数据：&#34;+_recvStr;
+    &amp;#125;
+    
+    /// &lt;summary&gt;
+    /// 连接
+    /// &lt;/summary&gt;
+    void Connection()
+    &amp;#123;
+        _socket=new Socket(SocketType.Stream,ProtocolType.Tcp);
+        //异步进行连接
+        _socket.BeginConnect(&#34;127.0.0.1&#34;, 8888, ConnectCallback, _socket);
+        Debug.Log(&#34;开始连接...&#34;);
+        // _socket.Connect(&#34;127.0.0.1&#34;,8888);
+    &amp;#125;
+    /// &lt;summary&gt;
+    /// 连接回调
+    /// &lt;/summary&gt;
+    /// &lt;param name=&#34;ar&#34;&gt;&lt;/param&gt;
+    void ConnectCallback(IAsyncResult ar)
+    &amp;#123;
+        try
+        &amp;#123;
+            var socket = ar.AsyncState as Socket;
+            socket?.EndConnect(ar);    //连接完毕
+            Debug.Log(&#34;连接成功！&#34;);
+            //开始监听服务器端回复
+            socket?.BeginReceive(_readBuff, 0, _readBuff.Length, 0, ReceiveCallback, socket);
+        &amp;#125;
+        catch (SocketException e)
+        &amp;#123;
+            Debug.Log(&#34;Socket连接错误:&#34;+e);
+            throw;
+        &amp;#125;
+    &amp;#125;
+
+
+    /// &lt;summary&gt;
+    /// 接收回调
+    /// &lt;/summary&gt;
+    /// &lt;param name=&#34;ar&#34;&gt;&lt;/param&gt;
+    void ReceiveCallback(IAsyncResult ar)
+    &amp;#123;
+        //ps：作者在这里提到，假如在send缓冲区的数据量太多，并且删除服务端receive相关的内容，使这些数据不能得到及时的释放，这时候客户端就会卡住。
+        //所以我们也需要对send进行异步处理，防止堵塞。
+        try
+        &amp;#123;
+            var socket = ar.AsyncState as Socket;
+            var count = socket.EndReceive(ar);
+            //注意在unity中，UI对象只能在主线程中更新，由于异步回调是由其他线程更新的，所以我只在这儿对_recvStr进行记录
+            //并在主线程update中对UI对象进行更新。
+            _recvStr = Encoding.UTF8.GetString(_readBuff, 0, count);
+    
+            socket.BeginReceive(_readBuff, 0, _readBuff.Length, 0, ReceiveCallback, socket);
+        &amp;#125;
+        catch (SocketException e)
+        &amp;#123;
+            Debug.Log(&#34;Socket错误：&#34;+e);
+        &amp;#125;
+    &amp;#125;
+    
+    /// &lt;summary&gt;
+    /// 发送消息
+    /// &lt;/summary&gt;
+    void SendMessage()
+    &amp;#123;
+        var sendStr = inputField.text;
+        var sendBytes = System.Text.Encoding.UTF8.GetBytes(sendStr);
+        // _socket.Send(sendBytes);
+        /*
+         * 值得注意的是，send方法的过程只是将数据写入到缓冲区，由操作系统进行重传和确认。
+         * send成功只表示，数据成功吸入缓冲区，并不代表对方已经收到数据。
+         */
+        _socket.BeginSend(sendBytes, 0, sendBytes.Length, 0, SendCallback, _socket);
+    
+    &amp;#125;
+    
+    /// &lt;summary&gt;
+    /// Send回调
+    /// &lt;/summary&gt;
+    /// &lt;param name=&#34;ar&#34;&gt;&lt;/param&gt;
+    void SendCallback(IAsyncResult ar)
+    &amp;#123;
+        try
+        &amp;#123;
+            var socket = ar.AsyncState as Socket;
+            var count = socket?.EndSend(ar);
+            /*
+             * 在这里作者提到，一般来说收发的数据长度应当保持一致，但是当我们的数据大小超过缓冲区的大小时，我们需要再次调用相关的send或reivce方法
+             * 发送或接收剩余的数据。（在后面的章节再介绍）
+             */
+            Debug.Log(&#34;socket 发送成功 发送字节数：&#34;+count);
+        &amp;#125;
+        catch (SocketException e)
+        &amp;#123;
+           Debug.Log(&#34;Socket Send 错误：&#34;+e);
+        &amp;#125;
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;服务器&lt;/h3&gt;
+&lt;p&gt;在上一章中，我们的服务器使用单线程的阻塞，也就是说每次只能处理一个客户端的请求，现在我们也将服务器改为多线程模式，让他可以同时处理多个线程。（多个客户端请求）&lt;br&gt;
+其代码实现如下：&lt;/p&gt;
+&lt;h4&gt;创建一个clientState类存储客户端状态&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csharp line-numbers&#34;&gt;using System.Net.Sockets;
+
+namespace netWork_Server
+&amp;#123;
+    /// &lt;summary&gt;
+    /// 连接状态
+    /// &lt;/summary&gt;
+    public class ClientState
+    &amp;#123;
+        public Socket Socket &amp;#123; get; set; &amp;#125;
+        public byte[] ReadBuff &amp;#123; get; set; &amp;#125;
+
+        public ClientState()
+        &amp;#123;
+            ReadBuff=new byte[1024];
+        &amp;#125;
+    &amp;#125;
+&amp;#125;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;主代码&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csharp line-numbers&#34;&gt;using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+namespace netWork_Server
+&amp;#123;
+
+
+    internal class Program
+    &amp;#123;
+        private static Socket socket;
+        static  Dictionary&lt;Socket,ClientState&gt; _clientStates=new Dictionary&lt;Socket, ClientState&gt;();
+    
+        public static void Main(string[] args)
+        &amp;#123;
+
+
+            Console.WriteLine(&#34;Hi&#34;);
+    
+            socket=new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
+            IPAddress ipAddress = IPAddress.Parse(&#34;127.0.0.1&#34;);
+            IPEndPoint ipEndPoint=new IPEndPoint(ipAddress,8888);
+            socket.Bind(ipEndPoint);
+            //listen
+            socket.Listen(0);
+            Console.WriteLine(&#34;[服务器] 启动成功&#34;);
+            //Accept
+            //当客户端连接上服务器时，调用AcceptCallback
+            socket.BeginAccept(AcceptCallback,socket);
+            Console.ReadLine();
+        &amp;#125;
+    
+        /// &lt;summary&gt;
+        /// Accept回调
+        /// &lt;/summary&gt;
+        /// &lt;param name=&#34;ar&#34;&gt;&lt;/param&gt;
+        private static void AcceptCallback(IAsyncResult ar)
+        &amp;#123;
+            try
+            &amp;#123;
+                Console.WriteLine(&#34;[服务器] 连接到新客户端&#34;);
+                Socket listenfd=ar.AsyncState as Socket;
+                Socket clientfd = listenfd.EndAccept(ar);
+                ClientState state=new ClientState();
+                state.Socket = clientfd;
+                _clientStates.Add(clientfd,state);
+                //进行Receive
+                clientfd.BeginReceive(state.ReadBuff, 0, 1024, 0,ReceiveCallback, state);
+                //继续Accept
+                listenfd.BeginAccept(AcceptCallback, listenfd);
+            &amp;#125;
+            catch (SocketException e)
+            &amp;#123;
+                Console.WriteLine(&#34;Socket Accept错误：&#34;+e);
+                throw;
+            &amp;#125;
+    
+        &amp;#125;
+    
+        /// &lt;summary&gt;
+        /// Receive回调
+        /// &lt;/summary&gt;
+        /// &lt;param name=&#34;ar&#34;&gt;&lt;/param&gt;
+        static void ReceiveCallback(IAsyncResult ar)
+        &amp;#123;
+            try
+            &amp;#123;
+                var state = ar.AsyncState as ClientState;
+                var clientfd = state.Socket;
+                int count = clientfd.EndReceive(ar);
+                //关闭客户端
+                if (count==0)
+                &amp;#123;
+                    clientfd.Close();
+                    _clientStates.Remove(clientfd);
+                    Console.WriteLine(&#34;Socket Close!&#34;);
+                    return;
+                &amp;#125;
+    
+                string recvStr = Encoding.UTF8.GetString(state.ReadBuff,0,count);
+                Console.WriteLine(&#34;[客户端]&#34;+recvStr);
+                byte[] sendBytes = Encoding.UTF8.GetBytes(&#34;echo&#34; + recvStr);
+    
+                clientfd.Send(sendBytes);
+                //继续获取数据
+                clientfd.BeginReceive(state.ReadBuff, 0, 1024, 0, ReceiveCallback, state);
+    
+            &amp;#125;
+            catch (SocketException e)
+            &amp;#123;
+                Console.WriteLine(&#34;Socket Receive 错误：&#34;+e);
+            &amp;#125;
+        &amp;#125;
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;进行会话&lt;/h3&gt;
+&lt;p&gt;我们将客户端生成一份，让生成的客户端和编辑器客户端同时与服务器连接并进行会话操作。&lt;br&gt;
+其效果如图所示：&lt;br&gt;
+!{服务器端}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTQva1ZyUUlXcGVqWEJSbWFuLnBuZw==&#34;&gt;https://i.loli.net/2020/01/14/kVrQIWpejXBRman.png&lt;/span&gt;)&lt;br&gt;
+!{客户端}(&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pLmxvbGkubmV0LzIwMjAvMDEvMTQvSmRiYVJMcHQ1azFob2dzLnBuZw==&#34;&gt;https://i.loli.net/2020/01/14/JdbaRLpt5k1hogs.png&lt;/span&gt;)&lt;/p&gt;
+&lt;h3&gt;结语&lt;/h3&gt;
+&lt;p&gt;这是这一章的前半部分，完成了在 socket 下的多线程模式，其中在字符编码部分，原书使用了 Default，这导致可能没法解析中文字符，所以我将其改为了固定的 UTF8 做解析。&lt;br&gt;
+感谢您读完这篇文章，在本章的下半部分将实现一个聊天室。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2020/01/06/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89Echo/</guid>
+            <title>《Unity3D网络游戏实战》学习记录（一）Echo</title>
+            <link>https://www.fasty97.top/2020/01/06/%E3%80%8AUnity3D%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89Echo/</link>
+            <category>读书笔记</category>
+            <pubDate>Mon, 06 Jan 2020 22:51:34 +0800</pubDate>
+            <description><![CDATA[ &lt;h3&gt;序&lt;/h3&gt;
+&lt;p&gt;这本书买了蛮久的，趁着寒假的时间拿出来学习一下，争取这个假期把这本书看完，把里面的实例代码都自己敲一遍，加深理解。&lt;br&gt;
+这是一个长期更新的系列：全书共&lt;font color=red&gt;十二章&lt;/font&gt;就算是每个章节写一篇文章也至少要写十二篇文章，希望自己可以坚持着书看完，把博客写完。&lt;/p&gt;
+&lt;h3&gt;Socket连接步骤&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;示例图&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;type=&amp;quot;text/javascript&amp;quot;&amp;gt;document.write(&amp;quot;graph TD;\n    Client--&amp;gt;|连接服务器|Connect;\n    Connect--&amp;gt;|发送消息|Send;\n    Connect--&amp;gt;|三次握手|Accept;\n    Send--&amp;gt;|接收服务器消息|Receive;\n    Send--&amp;gt;|向服务器发送数据|ServerReceive;\n    Receive--&amp;gt;|断开连接|Close;\n    Close--&amp;gt;|四次挥手|ServerClose;\n    Server--&amp;gt;|绑定Ip和端口|Bind;\n    Bind--&amp;gt;|开启监听|Listen;\n    Listen--&amp;gt;|接收客户端连接请求|Accept;\n    Accept--&amp;gt;|接收客户端数据|ServerReceive;\n    ServerReceive--&amp;gt;|给客户端发送数据|ServerSend;\n    ServerSend--&amp;gt;|发送数据给客户端|Receive;\n    ServerSend--&amp;gt;|断开连接|ServerClose;\n&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Echo&lt;/h3&gt;
+&lt;p&gt;第一章主要讲解了网络的连接方式，在例子中初步实现了一个使用 Socket 的 TCP 通信的客户端和服务端案例。&lt;br&gt;
+客户端代码如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Net&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Sockets&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;UnityEngine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;UnityEngine&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;UI&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Echo&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;MonoBehaviour&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt; linkBtn&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Button&lt;/span&gt; sendBtn&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;InputField&lt;/span&gt; inputField&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Text&lt;/span&gt; infoText&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Socket&lt;/span&gt; _socket&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Start&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        linkBtn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;onClick&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;AddListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Connection&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        sendBtn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;onClick&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;AddListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;SendMessage&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// 连接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;/summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Connection&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        _socket&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;SocketType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Stream&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;ProtocolType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Tcp&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        _socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Connect&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;127.0.0.1&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8888&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// 发送消息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/// &amp;lt;/summary&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;SendMessage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; sendStr &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; inputField&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; sendBytes &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Text&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Encoding&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Default&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetBytes&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sendStr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        _socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Send&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sendBytes&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 接收&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; readBuff &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;//Receive 方法接收一个 byte [] 存储接收到的数据，并返回数据的大小，会阻塞线程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; count &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; _socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Receive&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readBuff&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; recvStr &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Text&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Encoding&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Default&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetString&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readBuff&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; count&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        infoText&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;提示信息：&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; recvStr&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        _socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Close&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;服务器端代码如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Net&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Net&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Sockets&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;netWork_Server&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;internal&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Program&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hi&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;Socket&lt;/span&gt; socket&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;AddressFamily&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;InterNetwork&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;SocketType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Stream&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;ProtocolType&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Tcp&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;IPAddress&lt;/span&gt; ipAddress &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; IPAddress&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Parse&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;127.0.0.1&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;IPEndPoint&lt;/span&gt; ipEndPoint&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;IPEndPoint&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ipAddress&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8888&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Bind&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ipEndPoint&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;//listen&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Listen&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器] 启动成功&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;//Accept&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;Socket&lt;/span&gt; connfd &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; socket&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Accept&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器] Accept&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;//Receive&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; readBuff&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token constructor-invocation class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;/span&gt; count &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; connfd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Receive&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readBuff&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; readStr &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; System&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Text&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Encoding&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Default&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetString&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readBuff&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; count&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                Console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;[服务器接收] &#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;readStr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;//send&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; reStr &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; DateTime&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Now&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;ToString&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;byte&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt; sendBytes &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Encoding&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Default&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetBytes&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;reStr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                connfd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Send&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sendBytes&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样我们就可以在客户端和服务器之间构建 Socket 连接咯，至此第一章的内容就结束了，第一章并没有讲太多东西，只是简单的介绍了以下 Socket 通信的基本原理和一些 Socket 相关的方法 API，东西虽然不多但是此时此刻我们已经不是一个人了。我们的游戏&lt;font color=blue&gt;联网了&lt;/font&gt;！&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

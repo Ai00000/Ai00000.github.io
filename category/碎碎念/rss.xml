@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;碎碎念&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 24 Oct 2022 10:00:14 +0800</pubDate>
+        <lastBuildDate>Mon, 24 Oct 2022 10:00:14 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/10/24/%E4%BB%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E5%88%B0%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85/</guid>
+            <title>从程序员到独立游戏开发者</title>
+            <link>https://www.fasty97.top/2022/10/24/%E4%BB%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E5%88%B0%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85/</link>
+            <category>自我认知</category>
+            <pubDate>Mon, 24 Oct 2022 10:00:14 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;💨 每朵云都下落不明，每盏月亮都不知所踪。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;按照传统程序员思维来开发游戏或许并不那么合适&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#按照传统程序员思维来开发游戏或许并不那么合适&#34;&gt;#&lt;/a&gt; 按照传统程序员思维来开发游戏或许并不那么合适。&lt;/h2&gt;
+&lt;p&gt;从大一开始接触程序设计时，老师让我们学习 &lt;code&gt;编程思维&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;所谓编程思维，也就是将一个复杂问题进行拆解，然后按部就班的去完成的能力。&lt;/p&gt;
+&lt;p&gt;对于大多数程序开发来说，这种思维确实是至关重要的，可以公式化处理问题，但在需求多变的游戏开发中，很难做到公式化处理。&lt;/p&gt;
+&lt;h2 id=&#34;是否过分重视框架式设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#是否过分重视框架式设计&#34;&gt;#&lt;/a&gt; 是否过分重视框架式设计&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;ins&gt;过早优化是大忌，对于游戏开发来说这一点尤为明显。&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;有一些水平的程序员总是期望自己写出优雅的代码：逻辑清晰、结构稳定、高效复用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然而在实际开发时，往往我们很难一次性就处理好软件之间的结构和复杂逻辑，我们需要一边实践一边证明自己的想法是否可行，并不断修正直到自己觉得满意。&lt;/p&gt;
+&lt;p&gt;有时我们为了写出 &lt;code&gt;完美的代码&lt;/code&gt; 而花费许多时间和精力，也许此时看来完美的代码在反而制约了你新功能的实现，在我们没有确定需求时不要过早过度的优化程序。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;算法 —— 解决问题的有限步骤，我们习惯按部就班的完成任务，这显得逻辑清晰。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在一开始我们就试图搭建一个完美的框架，考虑性能高效、逻辑严密，作为商业游戏这是没问题的，但作为独立游戏这往往制约了游戏的完成。&lt;/p&gt;
+&lt;h2 id=&#34;是什么在制约我们完成游戏&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#是什么在制约我们完成游戏&#34;&gt;#&lt;/a&gt; 是什么在制约我们完成游戏&lt;/h2&gt;
+&lt;p&gt;不乏能力很强的游戏开发人，并没有真正属于自己的独立游戏。&lt;ins&gt;是什么在制约我们完成游戏制作呢，明明我们那么热爱游戏开发.&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;从小时候到现在我都是一个相比零食更爱玩具的人，精神世界比现实世界更为富足，有很多天马行空的想法。&lt;/p&gt;
+&lt;h2 id=&#34;如何能更好的完成自己的游戏&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何能更好的完成自己的游戏&#34;&gt;#&lt;/a&gt; 如何能更好的完成自己的游戏&lt;/h2&gt;
+&lt;p&gt;📖 坚持去做是完成一个游戏始终要去做的事。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;找到自己的生活节奏，例如在下班后，坚持去写 2 小时的游戏并持之以恒。&lt;/li&gt;
+&lt;li&gt;搭建纸面原型或者简单游戏原型对自己的想法进行校验和校正。&lt;/li&gt;
+&lt;li&gt;制定 &lt;code&gt;TODOList&lt;/code&gt;  让目标清晰可见。&lt;/li&gt;
+&lt;li&gt;及时提供正向反馈（做视频、写心得等）&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/09/04/%E4%B8%8B%E7%8F%AD%E5%90%8E%E5%BC%80%E5%A7%8B%E6%96%B0%E7%9A%84%E4%B8%80%E5%A4%A9/</guid>
+            <title>下班后开始新的一天</title>
+            <link>https://www.fasty97.top/2022/09/04/%E4%B8%8B%E7%8F%AD%E5%90%8E%E5%BC%80%E5%A7%8B%E6%96%B0%E7%9A%84%E4%B8%80%E5%A4%A9/</link>
+            <category>自我认知</category>
+            <category>人生意义</category>
+            <pubDate>Sun, 04 Sep 2022 11:39:43 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;最近，我在微信读书上看到可这本书，感觉正是处在我这个阶段所需要的，几个问题深深的抓住了我。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;晚上还有 4 个小时，缺在苦苦等待周末&lt;/li&gt;
+&lt;li&gt;光靠工资，可能财富自由吗&lt;/li&gt;
+&lt;li&gt;辞职之后，就能做想做的事情吗&lt;/li&gt;
+&lt;li&gt;一辈子只做工作这一件事，就能感到幸福吗？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;ins&gt;要把生活过得幸福又笃定～&lt;/ins&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不论处在什么样的生活环境下，我们都要笃定的去生活，不必让自己成为某一个行业的顶尖或者是专家，而是持续去做自己想做的，能让自己感到幸福的事情，并为此付出巨大努力。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/10/15/%E6%9C%89%E5%A4%AA%E5%A4%9A%E8%A6%81%E6%89%93%E7%A0%B4%E7%9A%84%E4%B8%9C%E8%A5%BF/</guid>
+            <title>有太多要打破的东西</title>
+            <link>https://www.fasty97.top/2021/10/15/%E6%9C%89%E5%A4%AA%E5%A4%9A%E8%A6%81%E6%89%93%E7%A0%B4%E7%9A%84%E4%B8%9C%E8%A5%BF/</link>
+            <pubDate>Fri, 15 Oct 2021 22:26:56 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;因在世界上与他人的联系，我们的存在有了价值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是我很久之前，大概是在《四月是你的谎言》里听 &lt;code&gt;薰&lt;/code&gt; 对 &lt;code&gt;有马&lt;/code&gt; 说的话，我们享受着这份链接，也受制于这份链接。&lt;/p&gt;
+&lt;p&gt;每个人都有必须要去做的事情，可能是使命一样的东西，有的是自己给自己的，有的是被社会或环境所强压的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;受制于这种链接，要想去打破，就像是打破规则，要挣脱太多的锁链捆绑。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;和人世分得太清楚就会孤寡。和人世走得太近则会前行受困。&lt;/p&gt;
+&lt;p&gt;如何保持一种微妙平衡已成为全面认识事物的希冀📬 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;比起为无能为力的事而后悔，还不如去做力所能及的事！—— 侑子&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img data-src=&#34;http://i2.3conline.com/images/piclib/201004/27/batch/1/58767/127233758094237zw8ypjg6.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:50%;&#34; /&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/03/09/%E5%AD%A4%E7%8B%AC&amp;%E7%8B%AC%E7%AB%8B/</guid>
+            <title>孤独&amp;独立</title>
+            <link>https://www.fasty97.top/2021/03/09/%E5%AD%A4%E7%8B%AC&amp;%E7%8B%AC%E7%AB%8B/</link>
+            <category>生活</category>
+            <pubDate>Tue, 09 Mar 2021 10:04:29 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;我不喜热闹，甚至很多时候会有逃避人群的念头；与其于人为伍，有时候我更喜欢与自己独处。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可能我并不是一个好相处的人，虽然我周围的朋友都觉得我是一个随和的人；我常常感觉到社交的疲劳和烦躁，和大多数人不同我很多时候并没有感受到真正的社交的快乐。我羡慕那些能很快融入集体，自来熟的人；他们的快乐感觉比我来得简单🙂 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我享受着孤独，我习惯性的沉溺在自己的小世界中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这大概也是我喜欢计算机，喜欢编程的原因吧；从小我的思想就和别人不同，因此也常受人排挤；人们总是对不符合自己预期的事物提出质疑和否定。那时候我觉得可能我真是个怪人吧😅。不和别人玩，大概就是奇怪吧。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从开始实习后，和朋友疯玩了一阵，最后还是觉得索然无味，还是于自己独处最为有趣。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/01/25/%E5%AD%A6%E7%9D%80%E7%94%9F%E6%B4%BB/</guid>
+            <title>学着生活</title>
+            <link>https://www.fasty97.top/2021/01/25/%E5%AD%A6%E7%9D%80%E7%94%9F%E6%B4%BB/</link>
+            <category>生活</category>
+            <pubDate>Mon, 25 Jan 2021 11:13:02 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuanV6aWtvbmcuY29tL3Bvc3RzLzQ0MzkxODk1LTFmNDYtNDU0OS1iMTY4LWVmNmIyZDc2NDA1Yg==&#34;&gt;去交会让你开心的朋友，去爱不会让你流泪的人，去向自己想去的方向，去完成不论大小的梦想，生活应该是美好而又温柔的，你也是。&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大概是以前太贪玩了，亦或者是自己内心的世界太丰富多彩了吧，不会孤独，在自己的小天地里就仿佛拥有了整个世界。—— 宅着真爽♥️&lt;/p&gt;
+&lt;p&gt;有时候我觉得就这样宅着过一辈子也许也不错吧。&lt;/p&gt;
+&lt;p&gt;但其实，生活还有很多美好等着我去发现，早上的一杯热茶，一缕阳光，午后的一阵微风，幸福感就在我们身边左右徘徊等着我们去发现。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大人才考虑傻不傻，小孩子只考虑能不能做&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不要觉得自己的做法很傻，只要做这件事能让自己开心，就放心去做吧，没有那么多机会在等待，没有那么多人原地徘徊。—— 希望我们永远都能做孩子💝&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个人旅行，遇见更好的自己&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不知道你们有没有试过自己一个人去旅行，一个人解决吃饭，住宿。在这段时间我真正去一个人的旅行，婉言拒绝了朋友的陪同，想自己去走走，感受生活，也是为了更好的自己。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人是群居动物，总是抱团取暖&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人们总是聚在一起，互相关心，以填补精神世界上的空洞；正是因为这些链接把我们串起来；让我们对彼此有了眷恋和感情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;多出去走走，多看看自己&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以后的自己看到此文一定会觉得自己很傻吧，但是每一次觉得自己很傻的时刻，就代表了自己的进步吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;—— 此文 记于 2021 年 1 月 25 日 12:01:06  在昨天和朋友玩了一整天后🙂.&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

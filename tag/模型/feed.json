@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"模型\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/07/08/MMD%E5%AF%BC%E5%85%A5Unity/",
+            "url": "https://www.fasty97.top/2022/07/08/MMD%E5%AF%BC%E5%85%A5Unity/",
+            "title": "MMD导入Unity",
+            "date_published": "2022-07-08T05:27:59.000Z",
+            "content_html": "<h2 id=\"通过blender\"><a class=\"markdownIt-Anchor\" href=\"#通过blender\">#</a> 通过 Blender</h2>\n<blockquote>\n<p>下载：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2Fic29sdXRlLXF1YW50dW0vY2F0cy1ibGVuZGVyLXBsdWdpbg==\">https://github.com/absolute-quantum/cats-blender-plugin</span></p>\n</blockquote>\n<p>安装插件后：</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220708134034.png\" alt=\"image-20220708133125255\"></p>\n<p>然后选择，Fix Model 修正。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220708134203.png\" alt=\"image-20220708134203907\"></p>\n<p>修正后选择 Export Modle 导出为 Fbx 即可。</p>\n<h2 id=\"通过unity插件\"><a class=\"markdownIt-Anchor\" href=\"#通过unity插件\">#</a> 通过 Unity 插件</h2>\n<blockquote>\n<p>安装 MMD4unity 插件可以直接导入到 Unity，不经过 Blender，实测在某些模型下会发生一些奇怪的错误。</p>\n</blockquote>\n<h2 id=\"改变渲染材质\"><a class=\"markdownIt-Anchor\" href=\"#改变渲染材质\">#</a> 改变渲染材质</h2>\n<blockquote>\n<p>可以使用卡渲来优化渲染效果</p>\n</blockquote>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220708150520.png\" alt=\"image-20220708150520449\"></p>\n",
+            "tags": [
+                "MMD",
+                "PMX",
+                "模型"
+            ]
+        }
+    ]
+}

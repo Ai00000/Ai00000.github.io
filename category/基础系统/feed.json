@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"基础系统\" category",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/05/17/Unity%20Animator%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/",
+            "url": "https://www.fasty97.top/2022/05/17/Unity%20Animator%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/",
+            "title": "Unity Animator深入理解",
+            "date_published": "2022-05-16T21:42:54.000Z",
+            "content_html": "",
+            "tags": [
+                "状态机",
+                "动画"
+            ]
+        }
+    ]
+}

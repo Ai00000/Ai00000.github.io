@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"ase\" category",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/05/25/ASE%20Shader%E7%BB%83%E4%B9%A0/",
+            "url": "https://www.fasty97.top/2022/05/25/ASE%20Shader%E7%BB%83%E4%B9%A0/",
+            "title": "ASE Shader练习",
+            "date_published": "2022-05-25T09:51:31.000Z",
+            "content_html": "<blockquote>\n<p>Ase 是一个节点化的 Shader 编辑插件，支持各种渲染管线。</p>\n</blockquote>\n<p>Ase 创建 Shder 后的主界面如下图所示：</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220525191418.png\" alt=\"image-20220525191418045\"></p>\n<center>详细说明</center>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220525194244.png\" alt=\"image-20220525194244519\"></p>\n",
+            "tags": [
+                "Shder",
+                "Graph",
+                "unity插件"
+            ]
+        }
+    ]
+}

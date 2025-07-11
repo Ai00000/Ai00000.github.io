@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;游戏项目&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 06 Jan 2022 00:19:55 +0800</pubDate>
+        <lastBuildDate>Thu, 06 Jan 2022 00:19:55 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/01/06/%E7%B1%BB%E6%9D%80%E6%88%AE%E5%B0%96%E5%A1%94-%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93/</guid>
+            <title>类杀戮尖塔-卡牌游戏原型总结</title>
+            <link>https://www.fasty97.top/2022/01/06/%E7%B1%BB%E6%9D%80%E6%88%AE%E5%B0%96%E5%A1%94-%E5%8D%A1%E7%89%8C%E6%B8%B8%E6%88%8F%E5%8E%9F%E5%9E%8B%E6%80%BB%E7%BB%93/</link>
+            <category>自制项目</category>
+            <pubDate>Thu, 06 Jan 2022 00:19:55 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;现在是 2022 年 12 月 29 日 16:22:06 没想到拖了整整一年才捡起这件事。&lt;/p&gt;
+&lt;p&gt;回顾整个项目，虽然完成了很多通用的模块，但这些模型也仅仅只是 demo 级别，尚还缺乏验证，且游戏设计思想仍然不够完整，对于游戏地图的设计也缺乏确定的解决方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212291634128.png&#34; alt=&#34;image-20221229163422695&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212291634235.png&#34; alt=&#34;image-20221229163443191&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;shadergraph&#34; category</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-12-04T05:56:51.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/</id>
+        <title>shaderGraph常用功能释义</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本文用于记录一些使用 Shader 实现的基础性效果&lt;/p&gt;
+&lt;p&gt;Unity2020.3.8f1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;基础设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础设置&#34;&gt;#&lt;/a&gt; 基础设置&lt;/h1&gt;
+&lt;p&gt;创建一个空 Shader，可以设置 Graph 以满足需要。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204140159.png&#34; alt=&#34;image-20211204140152535&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;顶点着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点着色器&#34;&gt;#&lt;/a&gt; 顶点着色器&lt;/h1&gt;
+&lt;h2 id=&#34;法线外扩&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#法线外扩&#34;&gt;#&lt;/a&gt; 法线外扩&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以改变一个模型的大小&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141255.png&#34; alt=&#34;image-20211204141255134&#34;&gt;&lt;/p&gt;
+&lt;p&gt;其中获取法线方向也可以使用：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204144226.png&#34; alt=&#34;image-20211204144226426&#34;&gt;&lt;/p&gt;
+&lt;p&gt;通过将法线位置（物体本地位置）归一化得到法线，然后乘以一个数值来实现。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141734.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;模型裁切&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#模型裁切&#34;&gt;#&lt;/a&gt; 模型裁切&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153235.png&#34; alt=&#34;image-20211204153235344&#34;&gt;&lt;/p&gt;
+&lt;p&gt;简单效果预览：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153431.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;p&gt;加强版本&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153433.png&#34; alt=&#34;image-20211207153426670&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153856.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remap-重映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#remap-重映射&#34;&gt;#&lt;/a&gt; Remap 重映射&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据输入 In 在 InMinMax 中的插值，计算输出。(按照比例位置输出)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比如输入 In 为 0，InMinMax 时（-10，10），那么 In 在 InMinMax 的&lt;br&gt;
+位置就是 0.5，如果 OutMinMax 为（0，10），那么输出 Out 就是 5&lt;br&gt;
+ 公式为： Out = OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y -&lt;br&gt;
+InMinMax.x)&lt;/p&gt;
+&lt;h3 id=&#34;one-minus-1减去&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#one-minus-1减去&#34;&gt;#&lt;/a&gt; One Minus 1 减去&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出 1-in&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;step-阶梯&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#step-阶梯&#34;&gt;#&lt;/a&gt; Step 阶梯&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输入 in 大于等于 Edge 取 1，否则取 0&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;溶解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#溶解&#34;&gt;#&lt;/a&gt; 溶解&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207162307.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;边缘发光&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207163904.png&#34; alt=&#34;image-20211207163904223&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207164030.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;subtract-减法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subtract-减法&#34;&gt;#&lt;/a&gt; Subtract 减法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A-B&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;saturate-0-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#saturate-0-1&#34;&gt;#&lt;/a&gt; Saturate 0-1&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;将输入控制在 [0-1]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;边缘发光-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光-2&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207165311.png&#34; alt=&#34;image-20211207165311854&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;简单卡通效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简单卡通效果&#34;&gt;#&lt;/a&gt; 简单卡通效果&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171547.png&#34; alt=&#34;image-20211207171547100&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dot-product-点乘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dot-product-点乘&#34;&gt;#&lt;/a&gt; Dot Product 点乘&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;计算 2 个向量点乘&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171656.png&#34; alt=&#34;image-20211207171656516&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表面叠加&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表面叠加&#34;&gt;#&lt;/a&gt; 表面叠加&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173140.png&#34; alt=&#34;image-20211207173140006&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173246.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tiling-and-offset-平铺和偏移&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tiling-and-offset-平铺和偏移&#34;&gt;#&lt;/a&gt; Tiling And Offset 平铺和偏移&lt;/h3&gt;
+&lt;p&gt;这个功能我们会经常用到，一般只要有贴图的材质上都会有 Tiling And Offset。&lt;br&gt;
+将输入参数 UV 的值，通过 Tiling 和 Offset 改变平铺和偏移。&lt;/p&gt;
+&lt;h2 id=&#34;像素化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#像素化&#34;&gt;#&lt;/a&gt; 像素化&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207182510.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;粒子消融&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#粒子消融&#34;&gt;#&lt;/a&gt; 粒子消融&lt;/h2&gt;
+</content>
+        <updated>2021-12-04T05:56:51.000Z</updated>
+    </entry>
+</feed>

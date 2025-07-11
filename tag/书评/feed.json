@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"书评\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/06/14/%E3%80%8A%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%E3%80%8B-%E4%B9%A6%E8%AF%84/",
+            "url": "https://www.fasty97.top/2022/06/14/%E3%80%8A%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%BC%8F%E3%80%8B-%E4%B9%A6%E8%AF%84/",
+            "title": "《游戏编程模式》-书评",
+            "date_published": "2022-06-13T17:17:36.000Z",
+            "content_html": "<h2 id=\"开始\"><a class=\"markdownIt-Anchor\" href=\"#开始\">#</a> 开始</h2>\n<p>第一次打开《游戏编程模式》这本书已经好像已经是两年前的事情了，断断续续的算是读完了，其实花费的时间应该是大于 9 小时的，</p>\n<p>相比传统的设计模式来说，本书结合了游戏设计方面的思考，让我这个游戏程序员读的很起劲。</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220614012226.png\" alt=\"\"></p>\n<h2 id=\"感悟\"><a class=\"markdownIt-Anchor\" href=\"#感悟\">#</a> 感悟</h2>\n<p>书中使用 C<ins> 进行讲解，除了设计模式本身，也让我使用底层 c</ins> 搭建游戏引擎有了一个基本认知，其实很多设计模式我们在平时已经在不经意间使用到了，只是不明确我们使用的是什么模式而已❤️。结合之前学习的 <code>《大话设计模式》</code> , 这算是第二次学习设计模式相关内容了，但我自我感觉自己在代码架构设计方面还是存在一些薄弱。之后考虑再读一下 <code>《设计模式与游戏完美开发》</code> ，主要是结合 C# 看一下在 Unity 中使用设计模式的具体方式。</p>\n",
+            "tags": [
+                "书评"
+            ]
+        }
+    ]
+}

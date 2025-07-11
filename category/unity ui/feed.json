@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"unity ui\" category",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/09/20/Unity%20UI%E5%90%88%E6%89%B9/",
+            "url": "https://www.fasty97.top/2022/09/20/Unity%20UI%E5%90%88%E6%89%B9/",
+            "title": "Unity Ui 合批学习",
+            "date_published": "2022-09-20T13:15:09.000Z",
+            "content_html": "<h1 id=\"unity-ui-合批学习\"><a class=\"markdownIt-Anchor\" href=\"#unity-ui-合批学习\">#</a> Unity Ui 合批学习</h1>\n<h2 id=\"stats-统计面板\"><a class=\"markdownIt-Anchor\" href=\"#stats-统计面板\">#</a> Stats 统计面板</h2>\n<blockquote>\n<p>stats 面板可以展示摄像机范围内，所有游戏对象元素的顶点、面片、批处理次数、CPU 耗时等。</p>\n</blockquote>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202209191011750.png\" alt=\"image-20220919101137617\"></p>\n<table>\n<thead>\n<tr>\n<th>参数</th>\n<th>说明</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>tris</td>\n<td>三角形面数</td>\n<td></td>\n</tr>\n<tr>\n<td>verts</td>\n<td>顶点数</td>\n<td></td>\n</tr>\n<tr>\n<td>Batches</td>\n<td>批处理个数</td>\n<td></td>\n</tr>\n<tr>\n<td>Saved By batching</td>\n<td>批处理被合并后的批处理个数</td>\n<td>实际执行的批处理个数 Draw Call</td>\n</tr>\n<tr>\n<td>CPU</td>\n<td>cpu 执行耗时</td>\n<td></td>\n</tr>\n<tr>\n<td>FPS</td>\n<td>时间段执行次数</td>\n<td>流畅度</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"天空盒子\"><a class=\"markdownIt-Anchor\" href=\"#天空盒子\">#</a> 天空盒子</h3>\n<blockquote>\n<p>新建一个场景发现，有 1.7k 的三角和 5k 的顶点。</p>\n<p>++ 这些顶点和三角面其实来源于天空盒，天空盒也是一个模型。 ++</p>\n</blockquote>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202209191019934.png\" alt=\"image-20220919101907862\"></p>\n<p>修改为适用纯色背景：</p>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202211281448056.png\" alt=\"image-20221128144803967\"></p>\n<p>可以看到此时，降低到了 2 个三角面和 4 个顶点。如下图所示的分割情况.</p>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202211281449253.png\" alt=\"image-20221128144922221\"></p>\n<h2 id=\"批处理\"><a class=\"markdownIt-Anchor\" href=\"#批处理\">#</a> 批处理</h2>\n<blockquote>\n<p>我们最常看到的优化技术大概就是批处理了。批处理的实现原理就是为了减少每一帧需要的 draw call 数目。为了把一个对象渲染到屏幕上，CPU 需要检查哪些光源影响了该物体，绑定 Shader 被设置它的参数，再把渲染纹理发送给 GPU。当场景中包含了大量对象时，这些操作就会非常耗时。一个极端的例子是， <code>如果我们需要渲染一千个三角形，把它们按一千个单独的网格进行渲染所花费的时间要远远大于渲染一个包含了一千个三角形的网格。在这两种情况下，GPU的性能消耗其实并没有多大的区别，但CPU的draw call数目就会成为性能瓶颈。</code> 因此，批处理的思想很简单，就是在每次面对 draw call 时尽可能多地处理多个物体。<br>\n使用同一个材质的物体可以一起处理。对于使用同一个材质的物体，它们之间的不同仅仅在于顶点数据的差别。我们可以把这些顶点数据合并在一起，再一起发送给 GPU，就可以完成一次批处理。</p>\n</blockquote>\n<h3 id=\"batches和saved-by-batching\"><a class=\"markdownIt-Anchor\" href=\"#batches和saved-by-batching\">#</a> Batches 和 Saved by batching</h3>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202211281518976.png\" alt=\"image-20221128151826942\"></p>\n<ul>\n<li>Batches 表示批处理次数</li>\n<li>Saved byBatching 表示节省的批处理次数</li>\n</ul>\n<h3 id=\"动态批处理和静态批处理\"><a class=\"markdownIt-Anchor\" href=\"#动态批处理和静态批处理\">#</a> 动态批处理和静态批处理</h3>\n<p>将物体标记为 <code>Static</code>  可以大幅优化批处理。—— 静态批处理</p>\n<h2 id=\"参考资料\"><a class=\"markdownIt-Anchor\" href=\"#参考资料\">#</a> 参考资料</h2>\n<ol>\n<li>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMTIzODg2Mzg=\">Unity3D UGUI 系列之合批_WangShade 的博客 - CSDN 博客_ugui 合批</span></p>\n</li>\n<li>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMDQzODM3Mzg=\">Unity3D 客户端项目优化总结之 Stats 统计面板_WangShade 的博客 - CSDN 博客</span></p>\n</li>\n<li>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMDQ0MTk1NzE=\">Unity3D 客户端项目优化总结之静态批处理 Static Batching_WangShade 的博客 - CSDN 博客</span></p>\n</li>\n</ol>\n",
+            "tags": [
+                "Shader",
+                "ui",
+                "性能优化"
+            ]
+        }
+    ]
+}

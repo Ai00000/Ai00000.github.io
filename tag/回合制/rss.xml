@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;回合制&#34; tag</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 14 Dec 2021 17:14:43 +0800</pubDate>
+        <lastBuildDate>Tue, 14 Dec 2021 17:14:43 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/12/14/%E9%89%B4%E8%B5%8F%E3%80%90%E7%81%AB%E7%84%B0%E7%BA%B9%E7%AB%A0%20%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88%E3%80%91/</guid>
+            <title>鉴赏【火焰纹章 风花雪月】</title>
+            <link>https://www.fasty97.top/2021/12/14/%E9%89%B4%E8%B5%8F%E3%80%90%E7%81%AB%E7%84%B0%E7%BA%B9%E7%AB%A0%20%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88%E3%80%91/</link>
+            <category>switch</category>
+            <category>回合制</category>
+            <pubDate>Tue, 14 Dec 2021 17:14:43 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;起&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#起&#34;&gt;#&lt;/a&gt; 起&lt;/h2&gt;
+&lt;p&gt;第一次接触到战旗回合制游戏是在初中时，那时候玩了一个 xx 神剑录（大概吧，记不清了）的游戏。自那之后对于战旗游戏就一发不可收拾，后来认识了 &lt;code&gt;火焰纹章&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;那个时候，通过 GBA 模拟器玩的火焰纹章封印之剑和圣魔之光石陪我度过了初中。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;封印之剑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223456.jpg&#34; alt=&#34;封面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223621.jpeg&#34; alt=&#34;战斗&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223641.jpeg&#34; alt=&#34;人物面板&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;圣魔之光石&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;200&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224251.jpg&#34; alt=&#34;开始界面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224258.jpg&#34; alt=&#34;A&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224302.png&#34; alt=&#34;C&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;现在&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#现在&#34;&gt;#&lt;/a&gt; 现在&lt;/h2&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

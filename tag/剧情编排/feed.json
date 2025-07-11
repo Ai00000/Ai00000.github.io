@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"剧情编排\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/11/18/SLATE-%E6%97%B6%E9%97%B4%E8%BD%B4%E6%8F%92%E4%BB%B6/",
+            "url": "https://www.fasty97.top/2022/11/18/SLATE-%E6%97%B6%E9%97%B4%E8%BD%B4%E6%8F%92%E4%BB%B6/",
+            "title": "SLATE-时间轴插件",
+            "date_published": "2022-11-18T06:00:34.000Z",
+            "content_html": "<blockquote>\n<p>对于 Unity 官方的 TimeLine 相必我们都很熟悉了，使用时间轴我们可以实现许多功能，这里推荐一款同样优秀的第三方 TimeLine 插件 —— <code>SLATE</code> 。</p>\n</blockquote>\n<h2 id=\"快速食用\"><a class=\"markdownIt-Anchor\" href=\"#快速食用\">#</a> 快速食用</h2>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202211181413161.png\" alt=\"image-20221118141337920\"></p>\n<p>首先，让我们创建一个 <code>CuteScene</code> , 点击 EDIT 打开编辑窗口。</p>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/202211181415502.png\" alt=\"image-20221118141536452\"></p>\n<h2 id=\"相关链接\"><a class=\"markdownIt-Anchor\" href=\"#相关链接\">#</a> 相关链接</h2>\n<ol>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly9zbGF0ZS5wYXJhZG94bm90aW9uLmNvbS8=\">SLATE | Realtime Cinematic Sequencer for Unity (paradoxnotion.com)</span></li>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cubGZ6eGIudG9wL3VuaXR5LXNsYXRlLXN0dWR5LWFuZC1leHRlbmRwbGFuLw==\">ParadoxNotion-Slate 学习笔记与拓展计划 | 烟雨迷离半世殇的成长之路 (lfzxb.top)</span></li>\n</ol>\n",
+            "tags": [
+                "TimeLine",
+                "剧情编排"
+            ]
+        }
+    ]
+}

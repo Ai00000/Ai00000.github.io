@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;《effective c#》&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 30 Jun 2022 01:16:30 +0800</pubDate>
+        <lastBuildDate>Thu, 30 Jun 2022 01:16:30 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/06/30/Effective%20C#%20%E7%AC%94%E8%AE%B01/</guid>
+            <title>Effective C# 笔记1</title>
+            <link>https://www.fasty97.top/2022/06/30/Effective%20C#%20%E7%AC%94%E8%AE%B01/</link>
+            <pubDate>Thu, 30 Jun 2022 01:16:30 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;今天我要再开一个新坑，学习一下《Effective C#》, 百闻不如一见，确实有必要好好梳理一下自己的代码方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;第1条优先使用隐式类型的局部变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第1条优先使用隐式类型的局部变量&#34;&gt;#&lt;/a&gt; 第 1 条：优先使用隐式类型的局部变量&lt;/h2&gt;
+&lt;p&gt;用 var 来声明变量而不指明其类型，可以令开发者把注意力更多地集中在名称上面，从而更好地了解其含义。&lt;/p&gt;
+&lt;h2 id=&#34;第2条考虑用readonly代替const&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第2条考虑用readonly代替const&#34;&gt;#&lt;/a&gt; 第 2 条：考虑用 readonly 代替 const&lt;/h2&gt;
+&lt;p&gt;C# 有两种常量，一种是编译期（compile-time）的常量，另一种是运行期（runtime）的常量，它们的行为大不相同。常量如果选得不合适，那么程序开发工作可能会受影响。编译期的常量虽然能令程序运行得稍快一点，但却远不如运行期的常量那样灵活。只有当程序性能极端重要且常量取值不会随版本而变化的情况下，才可以考虑选用这种常量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;运行期的常量用 &lt;code&gt;readonly&lt;/code&gt;  关键字来声明，编译期的常量用 &lt;code&gt;const&lt;/code&gt;  关键字来声明&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

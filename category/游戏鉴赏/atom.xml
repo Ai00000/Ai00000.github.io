@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;游戏鉴赏&#34; category</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-12-14T09:14:43.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/12/14/%E9%89%B4%E8%B5%8F%E3%80%90%E7%81%AB%E7%84%B0%E7%BA%B9%E7%AB%A0%20%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88%E3%80%91/</id>
+        <title>鉴赏【火焰纹章 风花雪月】</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/12/14/%E9%89%B4%E8%B5%8F%E3%80%90%E7%81%AB%E7%84%B0%E7%BA%B9%E7%AB%A0%20%E9%A3%8E%E8%8A%B1%E9%9B%AA%E6%9C%88%E3%80%91/"/>
+        <content type="html">&lt;h2 id=&#34;起&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#起&#34;&gt;#&lt;/a&gt; 起&lt;/h2&gt;
+&lt;p&gt;第一次接触到战旗回合制游戏是在初中时，那时候玩了一个 xx 神剑录（大概吧，记不清了）的游戏。自那之后对于战旗游戏就一发不可收拾，后来认识了 &lt;code&gt;火焰纹章&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;那个时候，通过 GBA 模拟器玩的火焰纹章封印之剑和圣魔之光石陪我度过了初中。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;封印之剑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223456.jpg&#34; alt=&#34;封面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223621.jpeg&#34; alt=&#34;战斗&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221223641.jpeg&#34; alt=&#34;人物面板&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;圣魔之光石&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;200&#34;&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224251.jpg&#34; alt=&#34;开始界面&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224258.jpg&#34; alt=&#34;A&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211221224302.png&#34; alt=&#34;C&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;现在&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#现在&#34;&gt;#&lt;/a&gt; 现在&lt;/h2&gt;
+</content>
+        <category term="switch" />
+        <category term="回合制" />
+        <updated>2021-12-14T09:14:43.000Z</updated>
+    </entry>
+</feed>

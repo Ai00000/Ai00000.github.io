@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;vr/ar/mr&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-08-31T05:12:15.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/08/31/MRTK%20%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</id>
+        <title>MRTK开发记录</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/08/31/MRTK%20%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/"/>
+        <content type="html">&lt;h1 id=&#34;mrtk-开发记录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mrtk-开发记录&#34;&gt;#&lt;/a&gt; MRTK 开发记录&lt;/h1&gt;
+&lt;p&gt;MRTK 是微软官方推出的针对 MR ( &lt;code&gt;混合现实&lt;/code&gt; ) 开发的一套工具集。&lt;/p&gt;
+&lt;p&gt;同时官方提供了一个 MRFT 工具进行相关工具包的管理。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311312682.png&#34; alt=&#34;image-20220812095331431&#34;&gt;&lt;/p&gt;
+&lt;p&gt;MRTK 的体系架构：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313036.png&#34; alt=&#34;image-20220815105452428&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mrft&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mrft&#34;&gt;#&lt;/a&gt; MRFT&lt;/h2&gt;
+&lt;p&gt;在选定一个 Unity 项目之后可以使用此工具导入相关的工具。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313494.png&#34; alt=&#34;image-20220812095525069&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用此工具其实是通过修改 Unity 的包管理器中的 Json 来管理&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们至少需要安装:&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313477.png&#34; alt=&#34;image-20220812104205094&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 Unity2021.x 之后版本我们官方推荐使用 &lt;code&gt;OpenXR&lt;/code&gt;  工具来管理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;😄当然我们可以选择性的使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313228.png&#34; alt=&#34;image-20220812104327280&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;unity设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity设置&#34;&gt;#&lt;/a&gt; Unity 设置&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Unity版本:2020.3.8f1&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;导入 Unity 项目中后，可以看到如下提示。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313899.png&#34; alt=&#34;image-20220812103958699&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313019.png&#34; alt=&#34;image-20220812165915460&#34;&gt;&lt;/p&gt;
+&lt;p&gt;同时我们需要做如下设置：&lt;/p&gt;
+&lt;p&gt;切换平台到通用平台：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313007.png&#34; alt=&#34;image-20220812104526170&#34;&gt;&lt;/p&gt;
+&lt;p&gt;依据导入的选择设置 XR 相关设置：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313869.png&#34; alt=&#34;image-20220812104933901&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我这里没有使用 OPen XR 所以没有勾选支持。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可以导入相关的 example 来查看示例：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313331.png&#34; alt=&#34;image-20220812111136533&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用上下左右移动视角。鼠标右键按住旋转视角。&lt;/p&gt;
+&lt;p&gt;鼠标左键点击。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可以在这里打开相关的打包工具：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313346.png&#34; alt=&#34;image-20220812110738654&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到如下所示的打包工具：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313426.png&#34; alt=&#34;image-20220812110816035&#34;&gt;&lt;/p&gt;
+&lt;p&gt;默认是打包生成 VS 项目：&lt;/p&gt;
+&lt;p&gt;生成的项目是一个使用 c++ 的 Windows UWP 项目。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313535.png&#34; alt=&#34;image-20220812110949329&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在设置项目中可以设置要获取的权限。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313135.png&#34; alt=&#34;image-20220812113114132&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PS: 😿打包的时候务必将画质调到最低，模拟器性能极差。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装hololens2模拟器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装hololens2模拟器&#34;&gt;#&lt;/a&gt; 安装 HoloLens2 模拟器&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L2RldmVsb3AvYWR2YW5jZWQtY29uY2VwdHMvdXNpbmctdGhlLWhvbG9sZW5zLWVtdWxhdG9yI2luc3RhbGxpbmctdGhlLWhvbG9sZW5zLWVtdWxhdG9y&#34;&gt;使用 HoloLens 仿真器 - Mixed Reality | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在使用模拟器之前，还需要打开 Hype-V&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;安装好之后，会在 Vs 中看到：&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311313970.png&#34; alt=&#34;image-20220812111306982&#34;&gt;&lt;/p&gt;
+&lt;p&gt;选择到此设备后启动项目：&lt;/p&gt;
+&lt;p&gt;弹出一个黑框：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314514.png&#34; alt=&#34;image-20220812111414847&#34;&gt;&lt;/p&gt;
+&lt;p&gt;等待模拟器启动.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314965.png&#34; alt=&#34;image-20220812113600735&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照公司的电脑 i5-8400 32g 1060 的配置，在模拟器下运行 MRTK 的示例场景都是困难的，一打开 CPU 马上占用 100%😢。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;后续我自建了一个场景只放了一个 Cube，将所有质量拉到低之后勉强可以运行，还好可以在 Unity 下流畅运行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;创建一个新场景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建一个新场景&#34;&gt;#&lt;/a&gt; 创建一个新场景&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MR 场景和我们通常的场景不同，需要特点的摄像机和移动方式。&lt;/p&gt;
+&lt;p&gt;MRTK 已经为我们准备好了这些。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;创建一个新场景，从选项卡选择 Add to…&lt;/p&gt;
+&lt;p&gt;发现左侧面板为我们增加了 3 个对象：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ToolKit&lt;/li&gt;
+&lt;li&gt;MR 玩家空间 - 摄像机&lt;/li&gt;
+&lt;li&gt;MR 屏幕内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314233.png&#34; alt=&#34;image-20220815100722745&#34;&gt;&lt;/p&gt;
+&lt;p&gt;此时运行场景：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314636.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以看到鼠标变成一个小店，而且会有一个能量条类似的东西用于描述当前的程序性能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mixedrealitytoolkit&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mixedrealitytoolkit&#34;&gt;#&lt;/a&gt; MixedRealityToolkit&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvY29uZmlndXJhdGlvbi9taXhlZC1yZWFsaXR5LWNvbmZpZ3VyYXRpb24tZ3VpZGU/dmlldz1tcnRrdW5pdHktMjAyMi0wNQ==&#34;&gt;MRTK2 配置文件配置指南 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314143.png&#34; alt=&#34;image-20220815101123490&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在这里我们可以对 MRTK 进行配置，点击 &lt;code&gt;Copy&lt;/code&gt;  可以复制一份配置文件。&lt;/p&gt;
+&lt;p&gt;通过修改这个来控制性能面板的开关：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314036.png&#34; alt=&#34;image-20220815103841608&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ux组件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ux组件&#34;&gt;#&lt;/a&gt; UX 组件&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MRTK 为我们提供了一组规范的 UI 组件，通过这些组件我们可以方便的构建出常用的 UX。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;边界控制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边界控制&#34;&gt;#&lt;/a&gt; 边界控制&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL2JvdW5kcy1jb250cm9sP3ZpZXc9bXJ0a3VuaXR5LTIwMjItMDU=&#34;&gt;边界控制 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314142.png&#34; alt=&#34;Bounds control&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;边界控制在我实际使用时发现了很多坑💭&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用边界控制的物体依赖于 &lt;code&gt;Box Collider&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在移动了使用边界组件的物体后，其边界框的绘制位置可能出错，需要手动调用 UpdateBound 更新。&lt;/li&gt;
+&lt;li&gt;需要关闭 BoxCollider 才能关闭绘制，设置 Active 有可能无法去除边界框。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;按钮&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#按钮&#34;&gt;#&lt;/a&gt; 按钮&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有基于碰撞的按钮和基于 UI 的按钮&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314706.png&#34; alt=&#34;image-20220815140928969&#34;&gt;&lt;/p&gt;
+&lt;center&gt;基于物理碰撞的按钮&lt;/center&gt;
+&lt;h4 id=&#34;基于ui的按钮&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基于ui的按钮&#34;&gt;#&lt;/a&gt; 基于 UI 的按钮&lt;/h4&gt;
+&lt;p&gt;创建一个 Canvas，点击按钮转换为 MR 的 Ui Canvas&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314972.png&#34; alt=&#34;image-20220815141142436&#34;&gt;&lt;/p&gt;
+&lt;p&gt;++ 注意在使用 UnityUi 形式的 button 时，在 HoloLens 实机上需要按下手势，不太方便操作，考虑使用 3D 按钮 ++&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301291520465.png&#34; alt=&#34;image-20230129152013229&#34;&gt;&lt;/p&gt;
+&lt;p&gt;随后可以不使用 HoloLens 的图集，直接修改 Sprite 为自己要使用的即可：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301291521714.png&#34; alt=&#34;image-20230129152126667&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;让ui支持直接点击&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#让ui支持直接点击&#34;&gt;#&lt;/a&gt; 让 UI 支持直接点击&lt;/h4&gt;
+&lt;p&gt;需要添加如下几个组件：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301807614.png&#34; alt=&#34;image-20230130180717373&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301808469.png&#34; alt=&#34;image-20230130180802422&#34;&gt;&lt;/p&gt;
+&lt;p&gt;注意框选的这两个部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moving Button Visual 用于进行检测按钮 —— 这里使用自己即可&lt;/li&gt;
+&lt;li&gt;注意添加 Event 绑定刀 Trigger 中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202301301808204.png&#34; alt=&#34;image-20230130180853141&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;交互&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#交互&#34;&gt;#&lt;/a&gt; 交互&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL2ludGVyYWN0YWJsZT92aWV3PW1ydGt1bml0eS0yMDIyLTA1&#34;&gt;可交互 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;添加此脚本为对象增加可交互性，并且可设置交互时的动画或效果变化。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314216.png&#34; alt=&#34;image-20220815143319004&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置不同行为的状态表现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314309.png&#34; alt=&#34;image-20220815143435847&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;可操作对象&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#可操作对象&#34;&gt;#&lt;/a&gt; 可操作对象&lt;/h3&gt;
+&lt;p&gt;对于我们需要控制移动的对象为其添加脚本：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设定使用单手、双手控制对象移动&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314471.png&#34; alt=&#34;image-20220815155426005&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PS: 😄我们可以通过指定 HostTransform 来设定以谁作为轴，默认以自身为轴，此时移动时是独立的。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;以父对象为 Host 则移动此对象时，所有以此父对象为 Host 的对象都会移动&lt;/li&gt;
+&lt;li&gt;以外部对象为 Host 则移动此对象时，此对象将会绕着 Host.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;🎫可以添加约束管理器组件来约束行为表现。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ℹ️此组件同样依赖于 &lt;code&gt;BoxCollider&lt;/code&gt; 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;约束管理器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#约束管理器&#34;&gt;#&lt;/a&gt; 约束管理器&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL2NvbnN0cmFpbnQtbWFuYWdlcj92aWV3PW1ydGt1bml0eS0yMDIyLTA1&#34;&gt;约束管理器 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用约束管理器，可以将一组约束组件应用于转换。 可以考虑使用附加到游戏对象的 &lt;a href=&#34;https://docs.microsoft.com/zh-CN/dotnet/api/microsoft.mixedreality.toolkit.ui.transformconstraint&#34;&gt; &lt;code&gt;TransformConstraint&lt;/code&gt; &lt;/a&gt; 类型的组件。 默认情况下，约束管理器将自动收集附加到游戏对象的所有&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL2NvbnN0cmFpbnQtbWFuYWdlcj92aWV3PW1ydGt1bml0eS0yMDIyLTA1I3RyYW5zZm9ybS1jb25zdHJhaW50cw==&#34;&gt;约束组件&lt;/span&gt;，并将其应用于已处理的转换。 但是，用户可以选择手动配置应用的约束列表，只允许应用附加约束的一个子集。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311314078.png&#34; alt=&#34;image-20220815161016632&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;求解器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#求解器&#34;&gt;#&lt;/a&gt; 求解器&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvZmVhdHVyZXMvdXgtYnVpbGRpbmctYmxvY2tzL3NvbHZlcnMvc29sdmVyP3ZpZXc9bXJ0a3VuaXR5LTIwMjItMDU=&#34;&gt;求解器概述 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;orbital&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#orbital&#34;&gt;#&lt;/a&gt; Orbital&lt;/h4&gt;
+&lt;p&gt;Orbital 用于保持对象与视线的相对位置。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315321.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;follow&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#follow&#34;&gt;#&lt;/a&gt; Follow&lt;/h4&gt;
+&lt;p&gt;Follow 用于让某对象跟随视线。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315967.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tooltips&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tooltips&#34;&gt;#&lt;/a&gt; ToolTips&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 MRTK 中自制使用 TextMeshPro 当做提示文件会导致边界框组件渲染异常😢，网络上也没有任何相关的资料。所以想要在 MR 中对相关的游戏对象显示 ToolTip 可能只能使用官方的组件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;📖官方的 ToolTips 组件，相比 TextMeshPro 还有一个优点是可以始终面向摄像机或始终面向游戏对象。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315335.png&#34; alt=&#34;image-20220823141857540&#34;&gt;&lt;/p&gt;
+&lt;p&gt;添加此组件设定好使用的 Prefab 和要显示的提示内容，有需要可重新指定锚点。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315826.png&#34; alt=&#34;image-20220823142055145&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;皮肤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#皮肤&#34;&gt;#&lt;/a&gt; 皮肤&lt;/h2&gt;
+&lt;p&gt;在 MRTK 中，使用 ScripttableObject 来配置使用的样式。&lt;/p&gt;
+&lt;p&gt;例如在边界框组件中在 Visuals 下就可以配置不同的边界框显示样式。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315774.png&#34; alt=&#34;image-20220823101336950&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在可交互对象中，也可以配置具体的动画交互表现：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202208311315781.png&#34; alt=&#34;image-20220823101508110&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;相关链接&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#相关链接&#34;&gt;#&lt;/a&gt; 相关链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vd2luZG93cy9taXhlZC1yZWFsaXR5L21ydGstdW5pdHkvbXJ0azIvP3ZpZXc9bXJ0a3VuaXR5LTIwMjItMDU=&#34;&gt;MRTK2-Unity 开发人员文档 - MRTK 2 | Microsoft Docs&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vemgtY24vZG90bmV0L2FwaS9taWNyb3NvZnQubWl4ZWRyZWFsaXR5LnRvb2xraXQ/dmlldz1taXhlZC1yZWFsaXR5LXRvb2xraXQtdW5pdHktMjAyMC1kb3RuZXQtMi44LjA=&#34;&gt;Microsoft.MixedReality.Toolkit Namespace | Microsoft Docs&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="VR/AR/MR" />
+        <updated>2022-08-31T05:12:15.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;解密探索&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-05-01T19:00:00.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/05/02/%E5%9C%A8%E5%BC%80%E5%8F%91%E4%BA%92%E5%8A%A8%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%B8%B8%E6%88%8F%E6%97%B6%E7%9A%84%E6%80%9D%E8%80%83/</id>
+        <title>在开发互动叙事类游戏时的思考</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/05/02/%E5%9C%A8%E5%BC%80%E5%8F%91%E4%BA%92%E5%8A%A8%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%B8%B8%E6%88%8F%E6%97%B6%E7%9A%84%E6%80%9D%E8%80%83/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;以下用于记录我在开发 &lt;code&gt;《如果世界没有你》&lt;/code&gt; 时的一些思考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220502031244.png&#34; alt=&#34;image-20220502031244404&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;《如果世界没有你》&lt;/code&gt; 是一款互动叙事类游戏，以下简称 &lt;code&gt;没你&lt;/code&gt; ，起初我在接手时，一听伪 3D 的对话冒险游戏，我觉得我不是轻轻松松解决嘛，事实上在实际的游戏开发中，我还是发现了一些特殊的地方，由此文记录，以便日后自己在面对类似情况时少踩坑。&lt;/p&gt;
+&lt;h2 id=&#34;策划设计方面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#策划设计方面&#34;&gt;#&lt;/a&gt; 策划设计方面&lt;/h2&gt;
+&lt;p&gt;在这种注重游戏互动叙事的游戏中，策划设计方案显得尤为重要 ，以下从游戏性和美术学方面讨论。&lt;/p&gt;
+&lt;h3 id=&#34;游戏性&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游戏性&#34;&gt;#&lt;/a&gt; 游戏性&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;游戏性的重要组成是游戏的核心玩法，对于普遍的解密探索类游戏来说，通过玩家点击，找到相关线索，使用道具，推进故事。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1734105737323&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;55&#34; style=&#34;max-width: 534px;&#34; viewBox=&#34;0 0 534 55&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-玩家互动 LE-寻找线索&#34; id=&#34;L-玩家互动-寻找线索&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M92,27.5L117,27.5L142,27.5&#34; marker-end=&#34;url(#arrowhead17)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead17&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-寻找线索 LE-使用相关道具&#34; id=&#34;L-寻找线索-使用相关道具&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M226,27.5L251,27.5L276,27.5&#34; marker-end=&#34;url(#arrowhead18)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead18&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-使用相关道具 LE-推进故事&#34; id=&#34;L-使用相关道具-推进故事&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M392,27.5L417,27.5L442,27.5&#34; marker-end=&#34;url(#arrowhead19)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead19&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-玩家互动-4&#34; transform=&#34;translate(50,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-42&#34; y=&#34;-19.5&#34; width=&#34;84&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-32,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;玩家互动&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-寻找线索-5&#34; transform=&#34;translate(184,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-42&#34; y=&#34;-19.5&#34; width=&#34;84&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-32,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;寻找线索&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-使用相关道具-6&#34; transform=&#34;translate(334,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58&#34; y=&#34;-19.5&#34; width=&#34;116&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;使用相关道具&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-推进故事-7&#34; transform=&#34;translate(484,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-42&#34; y=&#34;-19.5&#34; width=&#34;84&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-32,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;推进故事&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;p&gt;这是一套大家总结出来的通用的游戏流程，也是市面上最多的游戏流程。&lt;/p&gt;
+&lt;p&gt;拿第一个场景（学校）来说几个可交互地点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;学校大门&lt;/li&gt;
+&lt;li&gt;猫&lt;/li&gt;
+&lt;li&gt;商店&lt;/li&gt;
+&lt;li&gt;路牌&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;作为一个不大的场景，有 4 个交互点，其实并不算少，只是我们能否在有限的空间内利用出最大的效能，让玩家能够记住这个场景（除了外形之外情节上的记忆）。如果我们只是在这 4 个交互点显示一些暗淡冰冷的文字，玩家对于这些交互大概也不会留下什么感情，而且大概玩家在 3 分钟之内就会玩透这些交互并厌倦。&lt;/p&gt;
+&lt;h4 id=&#34;让玩家投入更多&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#让玩家投入更多&#34;&gt;#&lt;/a&gt; 让玩家投入更多&lt;/h4&gt;
+&lt;p&gt;玩家可以投入什么？&lt;/p&gt;
+&lt;p&gt;不论是 &lt;code&gt;时间&lt;/code&gt; 、 &lt;code&gt;感情&lt;/code&gt; 、 &lt;code&gt;精神&lt;/code&gt; 、 &lt;code&gt;金钱&lt;/code&gt; 、… 总之得去做点什么&lt;/p&gt;
+&lt;p&gt;让我们改变这个场景的设计，让玩家给我们的游戏 &lt;code&gt;投入&lt;/code&gt; 。&lt;/p&gt;
+&lt;h4 id=&#34;让交互关联&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#让交互关联&#34;&gt;#&lt;/a&gt; 让交互关联&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;无巧不成书，我们看书都知道，书总是围绕这那么几个角色在讲述 ，这些角色承担着剧情中不同的因素。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;游戏性的一大体现，让 &lt;code&gt;要素相关&lt;/code&gt; 。&lt;/p&gt;
+&lt;h4 id=&#34;游戏反馈&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游戏反馈&#34;&gt;#&lt;/a&gt; 游戏反馈&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;游戏反馈作为老生常谈的话题，在任何游戏都至关重要。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在横版过关游戏中，例如超级玛丽，使用金币为玩家建立正反馈，因为金币，游戏作者可以 &lt;code&gt;控制&lt;/code&gt; 玩家的路线，因为金币玩家不觉得这一路往前走是跑步模拟器，也因为金币玩家愿意到一些压根不用走的道路，金币给道路赋予了意义。&lt;/p&gt;
+&lt;p&gt;现在来看这个游戏，玩家的行走的意义在于什么？对于故事谜团的好奇。&lt;/p&gt;
+&lt;p&gt;这应该是最核心最能抓住玩家的 &lt;code&gt;意义&lt;/code&gt; 。&lt;/p&gt;
+&lt;h4 id=&#34;如何设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何设计&#34;&gt;#&lt;/a&gt; 如何设计&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作为游戏的第一个场景，承担了很大的责任，要交代故事，同时也要教会玩家游戏的操作方式和核心玩法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;美术学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#美术学&#34;&gt;#&lt;/a&gt; 美术学&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;美术就像是一个人的衣服，玩家的第一印象多半来自于美术。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在项目中，使用 3D 模型 + 2D 纸片的复合方式来搭建游戏场景，这样的设计并非是我们独创，例如在八方旅人中就使用了这种设计风格。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20220515010626.png&#34; alt=&#34;image-20220515010608309&#34;&gt;&lt;/p&gt;
+&lt;p&gt;PS🎏 : 以前是因为硬件和软件的多方限制导致游戏表现，现在的游戏可以选择很多不同方面的技术来提升游戏效果，传统意义上的 2D 和 3D 游戏的界限已经变得逐渐模糊。&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h2&gt;
+&lt;p&gt;关于在游戏程序向设计和开发中的思考，请看在开发互动叙事类游戏的程序设计思考。&lt;/p&gt;
+</content>
+        <category term="互动叙事" />
+        <category term="实战项目" />
+        <category term="解密探索" />
+        <category term="开发总结" />
+        <updated>2022-05-01T19:00:00.000Z</updated>
+    </entry>
+</feed>

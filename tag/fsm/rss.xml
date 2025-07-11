@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;fsm&#34; tag</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 08 Sep 2021 22:27:11 +0800</pubDate>
+        <lastBuildDate>Wed, 08 Sep 2021 22:27:11 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/</guid>
+            <title>NodeCanvas之FSM有限状态机</title>
+            <link>https://www.fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/</link>
+            <category>Unity Tool</category>
+            <category>FSM</category>
+            <category>状态机</category>
+            <category>有限状态机</category>
+            <pubDate>Wed, 08 Sep 2021 22:27:11 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;FSM 有限状态机是一种设计方式，用于处理不同状态的切换&lt;/p&gt;
+&lt;p&gt;其主要包含以下几个部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;状态（进入、更新、离开）&lt;/li&gt;
+&lt;li&gt;过渡条件 【 &lt;code&gt;用于控制状态的切换&lt;/code&gt; 】&lt;/li&gt;
+&lt;li&gt;状态机控制器【 &lt;code&gt;用于控制状态机&lt;/code&gt; 】&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文主要介绍 &lt;code&gt;NodeCanvas&lt;/code&gt;  的 FSM 使用，具体基础 FSM 概念不做解释。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210908225324.png&#34; alt=&#34;image-20210908225324425&#34;&gt;&lt;/p&gt;
+&lt;center&gt;FSM示例图&lt;/center&gt;
+&lt;h2 id=&#34;开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h2&gt;
+&lt;p&gt;为游戏对象添加如下脚本：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210909125307.png&#34; alt=&#34;image-20210909125300176&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;结点类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结点类型&#34;&gt;#&lt;/a&gt; 结点类型&lt;/h2&gt;
+&lt;p&gt;NodeCanvas 中结点分为几个类型：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Action State（动作状态，只处理进入状态）&lt;/li&gt;
+&lt;li&gt;Super Action State （超级动作状态，能处理进入、更新、离开状态）&lt;/li&gt;
+&lt;li&gt;Pass（过渡态，不做任何处理）&lt;/li&gt;
+&lt;li&gt;Parallel（并行。 在状态机处于任意状态时，并行执行）&lt;/li&gt;
+&lt;li&gt;Any State（能够从任意状态进行状态切换，在状态机过程中，时刻监听）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;结语&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结语&#34;&gt;#&lt;/a&gt; 结语&lt;/h2&gt;
+&lt;p&gt;在 FSM 中，也没什么太多可以讲的，其条件和行为结点为 &lt;code&gt;NodeCanvas&lt;/code&gt;  行为树、状态机、对话树所共用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;个人感觉，NodeCanvas 设计最棒的一点就是，他三种系统用的同一个底层，而且可以互相嵌套兼容。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

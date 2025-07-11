@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"多人协作\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/10/18/%E5%85%B3%E4%BA%8EGit%E7%9A%84%E7%AC%94%E8%AE%B0/",
+            "url": "https://www.fasty97.top/2022/10/18/%E5%85%B3%E4%BA%8EGit%E7%9A%84%E7%AC%94%E8%AE%B0/",
+            "title": "关于Git的笔记",
+            "date_published": "2022-10-18T05:48:07.000Z",
+            "content_html": "<h2 id=\"常用指令\"><a class=\"markdownIt-Anchor\" href=\"#常用指令\">#</a> 常用指令</h2>\n<table>\n<thead>\n<tr>\n<th>说明</th>\n<th>指令</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>克隆</td>\n<td>git clone xxx</td>\n<td></td>\n</tr>\n<tr>\n<td>拉取</td>\n<td>git pull</td>\n<td></td>\n</tr>\n<tr>\n<td>推送</td>\n<td>git push</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"分支指令\"><a class=\"markdownIt-Anchor\" href=\"#分支指令\">#</a> 分支指令</h2>\n<table>\n<thead>\n<tr>\n<th>说明</th>\n<th>指令</th>\n<th>备注</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>创建分支</td>\n<td>git branch (branchname)</td>\n<td></td>\n</tr>\n<tr>\n<td>切换分支</td>\n<td>git checkout (branchname)</td>\n<td></td>\n</tr>\n<tr>\n<td>合并分支</td>\n<td>git merge</td>\n<td>将指定分支合并到当前分支</td>\n</tr>\n<tr>\n<td>删除分支</td>\n<td>git branch -d</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n",
+            "tags": [
+                "git",
+                "版本管理",
+                "多人协作"
+            ]
+        }
+    ]
+}

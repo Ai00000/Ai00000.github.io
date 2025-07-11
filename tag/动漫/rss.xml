@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;动漫&#34; tag</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 19 Jan 2021 09:30:57 +0800</pubDate>
+        <lastBuildDate>Tue, 19 Jan 2021 09:30:57 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2021/01/19/%E3%80%8AHELLO%20WORLD%20%E3%80%8B%E5%BD%B1%E8%AF%84/</guid>
+            <title>《HELLO WORLD 》影评</title>
+            <link>https://www.fasty97.top/2021/01/19/%E3%80%8AHELLO%20WORLD%20%E3%80%8B%E5%BD%B1%E8%AF%84/</link>
+            <category>动漫</category>
+            <pubDate>Tue, 19 Jan 2021 09:30:57 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;相信作为一个程序员面对 &lt;code&gt;Helloworld&lt;/code&gt;  应该不会陌生吧！&lt;/p&gt;
+&lt;p&gt;不论我们学习神门语言，第一段程序就是输出一段 &lt;code&gt;HelloWorld&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;向世界问好～&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;print(&amp;quot;HelloWorld&amp;quot;);
+Console.log(&amp;quot;HelloWorld&amp;quot;);
+Console.WriteLine(&amp;quot;HelloWorld&amp;quot;);
+cout &amp;lt;&amp;lt; &amp;quot;HelloWorld&amp;quot; &amp;lt;&amp;lt; endl;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;🔸一看到这个特别的名字，我就被深深的吸引了，想着难不成是讲编程的故事吧&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119093235.png&#34; alt=&#34;2027&#34;&gt;&lt;/p&gt;
+&lt;center&gt;2027 京都&lt;/center&gt;
+&lt;blockquote&gt;
+&lt;p&gt;看了一段，我才发现这是一部爱情故事，男主为了找回女主的存在跨越时间空间去挽救，像极了《命运石之门》里面的世界线桥段。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;数据世界&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据世界&#34;&gt;#&lt;/a&gt; 数据世界&lt;/h2&gt;
+&lt;p&gt;在未来的世界，科技无限的发展，任何事物都可以用数据来存储通过所谓的量子计算和无限存储来保存世界。&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145734.jpg&#34; alt=&#34;数据世界&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145752.jpg&#34; alt=&#34;数据世界&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145801.jpg&#34; alt=&#34;等车&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145813.jpg&#34; alt=&#34;读书&#34;&gt;&lt;/p&gt;
+&lt;p&gt;男主在未来的自己的指导下，手把手教撩妹？🙂&lt;/p&gt;
+&lt;h2 id=&#34;真实世界&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#真实世界&#34;&gt;#&lt;/a&gt; 真实世界？&lt;/h2&gt;
+&lt;p&gt;在男主成功追到妹子后，突然世界变了，原来未来的自己是为了拯救真实世界的自己，打算用数据世界的女主的数据来修复真实世界的女主的大脑。——— 反转😏&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145823.jpg&#34; alt=&#34;真实世界？&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145835.jpg&#34; alt=&#34;真实世界？&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145846.jpg&#34; alt=&#34;真实世界？&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145858.jpg&#34; alt=&#34;真实世界？&#34;&gt;&lt;/p&gt;
+&lt;p&gt;其中有一个桥段还是很感人的，现实世界的男主为了让女主苏醒，费尽心力，甚至让自己落下了肢体麻痹的毛病，在女主苏醒的时候，现实世界的男主紧紧抱住女主，喜悦无法言表。但女主感觉的出来，眼前的人并不是往日的男主，尽管男主按照未来自己的步骤去实施其印象却是不同的。&lt;/p&gt;
+&lt;p&gt;虽然如此，在最后男主带她回家时，她还是给了未来的男主一个拥抱。并说出了 &lt;code&gt;你一定爱着我吧&lt;/code&gt; 这样的话。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;确实啊，能被人爱着是多么幸福的一件事，她给不了他什么，也不可能留下来，但对爱着自己的人说 &lt;code&gt;谢谢&lt;/code&gt; 是对他最大的认可吧💖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;新世界&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#新世界&#34;&gt;#&lt;/a&gt; 新世界&lt;/h2&gt;
+&lt;p&gt;最后，一个转场，看到的是未来的女主在守候着男主。原来这一切都是男主客服的困难，从沉睡中苏醒的故事。&lt;/p&gt;
+&lt;p&gt;—— 反转😏&lt;/p&gt;
+&lt;p class=&#34;gallery&#34; data-height=&#34;220&#34;&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145911.jpg&#34; alt=&#34;新世界&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/20210119145920.jpg&#34; alt=&#34;新世界&#34;&gt;&lt;/p&gt;
+&lt;p&gt;未来他们已经在月球了吧，蔚蓝的地球在远方，究竟这个世界又是不是一个虚拟的数据世界呢，&lt;/p&gt;
+&lt;p&gt;这都不重要了，未来的生活总是充满期待！&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+&lt;p&gt;这是一部蛮创新的动漫电影，名字创新，剧情反转，立意深刻。&lt;/p&gt;
+&lt;p&gt;其中提到的内存地址冲突，系统排异，像极了我们的编程系统。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;要好好管理内存地址鸭😄&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>指尖小屋 • Posts by &#34;每年目标&#34; category</title>
+        <link>https://www.fasty97.top</link>
+        <description>学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 15 Mar 2022 10:34:22 +0800</pubDate>
+        <lastBuildDate>Tue, 15 Mar 2022 10:34:22 +0800</lastBuildDate>
+        <category>生活</category>
+        <category>年终总结</category>
+        <category>总结</category>
+        <category>目标</category>
+        <category>Shder</category>
+        <category>Graph</category>
+        <category>unity插件</category>
+        <category>协程</category>
+        <category>Async</category>
+        <category>新技术体验</category>
+        <category>unity</category>
+        <category>Cinemachine</category>
+        <category>好物推荐</category>
+        <category>热更新</category>
+        <category>代码</category>
+        <category>框架</category>
+        <category>shaderGraph</category>
+        <category>Lua</category>
+        <category>MMD</category>
+        <category>PMX</category>
+        <category>模型</category>
+        <category>VR/AR/MR</category>
+        <category>XML</category>
+        <category>unity Tool</category>
+        <category>多人</category>
+        <category>Unity Tool</category>
+        <category>FSM</category>
+        <category>状态机</category>
+        <category>有限状态机</category>
+        <category>行为树</category>
+        <category>TimeLine</category>
+        <category>剧情编排</category>
+        <category>Shader</category>
+        <category>读书笔记</category>
+        <category>Spine</category>
+        <category>2D</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
+        <category>ui</category>
+        <category>链式编程</category>
+        <category>响应式编程</category>
+        <category>观察者模式</category>
+        <category>异步</category>
+        <category>动画</category>
+        <category>输入系统</category>
+        <category>手柄</category>
+        <category>Unity</category>
+        <category>UI组件</category>
+        <category>性能优化</category>
+        <category>Ui</category>
+        <category>小技巧</category>
+        <category>坑</category>
+        <category>HDRP</category>
+        <category>编辑器扩展</category>
+        <category>uitoolkit</category>
+        <category>不规则检测</category>
+        <category>设计模式</category>
+        <category>存档系统</category>
+        <category>截图</category>
+        <category>DI</category>
+        <category>IOC</category>
+        <category>资源管理</category>
+        <category>前端小技巧</category>
+        <category>动漫</category>
+        <category>vs</category>
+        <category>书评</category>
+        <category>python</category>
+        <category>自我认知</category>
+        <category>人生意义</category>
+        <category>读游戏</category>
+        <category>互动叙事</category>
+        <category>像素画</category>
+        <category>Aseprite</category>
+        <category>git</category>
+        <category>版本管理</category>
+        <category>多人协作</category>
+        <category>框架设计</category>
+        <category>思维</category>
+        <category>并发状态机</category>
+        <category>分层状态机</category>
+        <category>下推状态机</category>
+        <category>AI</category>
+        <category>游戏开发小工具</category>
+        <category>自制工具</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
+        <category>实战项目</category>
+        <category>解密探索</category>
+        <category>开发总结</category>
+        <category>数学</category>
+        <category>Unity插件</category>
+        <category>自制项目</category>
+        <category>市场</category>
+        <category>创业</category>
+        <category>工作</category>
+        <category>UE4</category>
+        <category>switch</category>
+        <category>回合制</category>
+        <item>
+            <guid isPermalink="true">https://www.fasty97.top/2022/03/15/2022-%E7%9B%AE%E6%A0%87%E5%92%8C%E6%96%B9%E5%90%91/</guid>
+            <title>2022-目标和方向</title>
+            <link>https://www.fasty97.top/2022/03/15/2022-%E7%9B%AE%E6%A0%87%E5%92%8C%E6%96%B9%E5%90%91/</link>
+            <category>总结</category>
+            <category>目标</category>
+            <pubDate>Tue, 15 Mar 2022 10:34:22 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;此文用于计划 &lt;code&gt;2022&lt;/code&gt;  年的目标。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;总体目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总体目标&#34;&gt;#&lt;/a&gt; 🔝 总体目标&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 找到一份合适工作&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 购置一台 4K 显示器&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 发布一套课程&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; Bili Bili 粉丝 &amp;gt; 3000&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unity技术目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity技术目标&#34;&gt;#&lt;/a&gt; 📜 Unity 技术目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;研究新的技术配套游戏框架&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; UIElement 学习&lt;/label&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_5&#34;&gt; 考虑设计一套资源管理器替换 Odin&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_6&#34;&gt; GraphView 学习 （尝试之后考虑使用原先的 xnode 方式）&lt;/label&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_7&#34;&gt; 设计一套通用的 graph 框架&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_8&#34;&gt; 移植天赋树系统&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shader&#34;&gt;#&lt;/a&gt; Shader&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_9&#34;&gt; shader 入门精要&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;️美术音乐目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#️美术音乐目标&#34;&gt;#&lt;/a&gt; ❤️美术音乐目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了独立游戏梦，程序员也要学美术​音乐😄。&lt;/p&gt;
+&lt;p&gt;这个部分的目标较为不明确，会将学习成果记录在下面的各项中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;绘画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绘画&#34;&gt;#&lt;/a&gt; 绘画&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习像素画和板绘，角色原画，特效等&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动画&#34;&gt;#&lt;/a&gt; 动画&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习 Spine 骨骼 2D 动画&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;建模&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#建模&#34;&gt;#&lt;/a&gt; 建模&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考虑学习 Blender 的角色建模，简单场景的搭建&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;编曲&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编曲&#34;&gt;#&lt;/a&gt; 编曲&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;学习基础乐理和常用的电子乐器，目标是能编制简单的曲子。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;项目目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#项目目标&#34;&gt;#&lt;/a&gt; 💭 项目目标&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_10&#34;&gt; 完善卡牌游戏&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_11&#34;&gt; 制作一个练手塔防游戏&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;读书目标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#读书目标&#34;&gt;#&lt;/a&gt; 📚 读书目标&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;读一点杂书，开阔自己的视野。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;阅读2本以上课外书&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_12&#34;&gt; 追风筝的人 - 完成书评&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_13&#34;&gt; 1Q84 - 完成书评&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_14&#34;&gt; 《游戏编程模式》&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

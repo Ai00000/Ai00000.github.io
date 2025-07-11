@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"pygame\" category",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2021/04/21/%E4%B8%80%E4%B8%AAPyGame%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AF%9E%E7%94%9F/",
+            "url": "https://www.fasty97.top/2021/04/21/%E4%B8%80%E4%B8%AAPyGame%E6%B8%B8%E6%88%8F%E7%9A%84%E8%AF%9E%E7%94%9F/",
+            "title": "一个PyGame游戏的诞生",
+            "date_published": "2021-04-21T01:38:02.000Z",
+            "content_html": "<h2 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h2>\n<blockquote>\n<p>得益于各种各样的原因，接手了几个 pygame 游戏的小项目。在自己完成项目设计的时候，发现网络上关于 pygame 的资料比较稀少而且有很多误区，特别是在制作控件，场景切换，资源加载方面。</p>\n<p>趁着自己还有点映像，把一些学习感悟记录下来吧😼。</p>\n</blockquote>\n<h2 id=\"想法\"><a class=\"markdownIt-Anchor\" href=\"#想法\">#</a> 想法</h2>\n<blockquote>\n<p>不论是制作什么项目，都缺少不了你的想法。.</p>\n<p>想法也代表着你的创意，在一个游戏中创意是至关重要的哦❤️。</p>\n</blockquote>\n<p>在你有想法的时候你至少需要明确一下这些点:</p>\n<ol>\n<li>游戏的运行平台：手机、PC、网页…</li>\n<li>游戏的玩家人数：单人、双人、更多人</li>\n<li>游戏的获胜方式：合作、对抗、过关…</li>\n<li>游戏的展现形式：2D，3D (pygame 似乎只支持 2D 😄)</li>\n<li>游戏的视角：Top-Down、Left-Right…</li>\n<li>…</li>\n</ol>\n<p>有了想法的支撑，就好像有了方向，知道朝着哪个方向去做。</p>\n<h2 id=\"搜集或制作游戏的素材\"><a class=\"markdownIt-Anchor\" href=\"#搜集或制作游戏的素材\">#</a> 搜集或制作游戏的素材</h2>\n<blockquote>\n<p>游戏和其他软件项目很大的不同就是，游戏需要很多素材，声音、模型、图片、视频…</p>\n</blockquote>\n<p>这里推荐一些比较好用的游戏素材处理软件：</p>\n<ul>\n<li>建模和贴图处理\n<ul>\n<li>blender 建模</li>\n<li>Substance Painter 贴图处理</li>\n</ul>\n</li>\n<li>像素画和像素动画\n<ul>\n<li>Aseprite</li>\n</ul>\n</li>\n<li>图片处理\n<ul>\n<li>photoshop</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"搭建开发环境\"><a class=\"markdownIt-Anchor\" href=\"#搭建开发环境\">#</a> 搭建开发环境</h2>\n<blockquote>\n<p>对于 pygame 来说，只需要按照 pygame 游戏库就足够了</p>\n</blockquote>\n<p>开发工具可以使用 vscode、pycharm 等任何支持 python 的编辑器。</p>\n<h2 id=\"创造我们的游戏\"><a class=\"markdownIt-Anchor\" href=\"#创造我们的游戏\">#</a> 创造我们的游戏</h2>\n<h3 id=\"跑起来\"><a class=\"markdownIt-Anchor\" href=\"#跑起来\">#</a> 跑起来</h3>\n<h3 id=\"写点控件\"><a class=\"markdownIt-Anchor\" href=\"#写点控件\">#</a> 写点控件</h3>\n<h3 id=\"资源加载\"><a class=\"markdownIt-Anchor\" href=\"#资源加载\">#</a> 资源加载</h3>\n<h3 id=\"精灵和精灵组\"><a class=\"markdownIt-Anchor\" href=\"#精灵和精灵组\">#</a> 精灵和精灵组</h3>\n<h3 id=\"场景切换\"><a class=\"markdownIt-Anchor\" href=\"#场景切换\">#</a> 场景切换</h3>\n<h2 id=\"总结\"><a class=\"markdownIt-Anchor\" href=\"#总结\">#</a> 总结</h2>\n",
+            "tags": [
+                "python"
+            ]
+        }
+    ]
+}

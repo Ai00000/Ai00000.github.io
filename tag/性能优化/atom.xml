@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;性能优化&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-09-20T13:15:09.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/09/20/Unity%20UI%E5%90%88%E6%89%B9/</id>
+        <title>Unity Ui 合批学习</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/09/20/Unity%20UI%E5%90%88%E6%89%B9/"/>
+        <content type="html">&lt;h1 id=&#34;unity-ui-合批学习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity-ui-合批学习&#34;&gt;#&lt;/a&gt; Unity Ui 合批学习&lt;/h1&gt;
+&lt;h2 id=&#34;stats-统计面板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#stats-统计面板&#34;&gt;#&lt;/a&gt; Stats 统计面板&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;stats 面板可以展示摄像机范围内，所有游戏对象元素的顶点、面片、批处理次数、CPU 耗时等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209191011750.png&#34; alt=&#34;image-20220919101137617&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;tris&lt;/td&gt;
+&lt;td&gt;三角形面数&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;verts&lt;/td&gt;
+&lt;td&gt;顶点数&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Batches&lt;/td&gt;
+&lt;td&gt;批处理个数&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Saved By batching&lt;/td&gt;
+&lt;td&gt;批处理被合并后的批处理个数&lt;/td&gt;
+&lt;td&gt;实际执行的批处理个数 Draw Call&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CPU&lt;/td&gt;
+&lt;td&gt;cpu 执行耗时&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FPS&lt;/td&gt;
+&lt;td&gt;时间段执行次数&lt;/td&gt;
+&lt;td&gt;流畅度&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;天空盒子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#天空盒子&#34;&gt;#&lt;/a&gt; 天空盒子&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;新建一个场景发现，有 1.7k 的三角和 5k 的顶点。&lt;/p&gt;
+&lt;p&gt;++ 这些顶点和三角面其实来源于天空盒，天空盒也是一个模型。 ++&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209191019934.png&#34; alt=&#34;image-20220919101907862&#34;&gt;&lt;/p&gt;
+&lt;p&gt;修改为适用纯色背景：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202211281448056.png&#34; alt=&#34;image-20221128144803967&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到此时，降低到了 2 个三角面和 4 个顶点。如下图所示的分割情况.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202211281449253.png&#34; alt=&#34;image-20221128144922221&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;批处理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#批处理&#34;&gt;#&lt;/a&gt; 批处理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们最常看到的优化技术大概就是批处理了。批处理的实现原理就是为了减少每一帧需要的 draw call 数目。为了把一个对象渲染到屏幕上，CPU 需要检查哪些光源影响了该物体，绑定 Shader 被设置它的参数，再把渲染纹理发送给 GPU。当场景中包含了大量对象时，这些操作就会非常耗时。一个极端的例子是， &lt;code&gt;如果我们需要渲染一千个三角形，把它们按一千个单独的网格进行渲染所花费的时间要远远大于渲染一个包含了一千个三角形的网格。在这两种情况下，GPU的性能消耗其实并没有多大的区别，但CPU的draw call数目就会成为性能瓶颈。&lt;/code&gt; 因此，批处理的思想很简单，就是在每次面对 draw call 时尽可能多地处理多个物体。&lt;br&gt;
+使用同一个材质的物体可以一起处理。对于使用同一个材质的物体，它们之间的不同仅仅在于顶点数据的差别。我们可以把这些顶点数据合并在一起，再一起发送给 GPU，就可以完成一次批处理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;batches和saved-by-batching&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#batches和saved-by-batching&#34;&gt;#&lt;/a&gt; Batches 和 Saved by batching&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202211281518976.png&#34; alt=&#34;image-20221128151826942&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Batches 表示批处理次数&lt;/li&gt;
+&lt;li&gt;Saved byBatching 表示节省的批处理次数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;动态批处理和静态批处理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动态批处理和静态批处理&#34;&gt;#&lt;/a&gt; 动态批处理和静态批处理&lt;/h3&gt;
+&lt;p&gt;将物体标记为 &lt;code&gt;Static&lt;/code&gt;  可以大幅优化批处理。—— 静态批处理&lt;/p&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#参考资料&#34;&gt;#&lt;/a&gt; 参考资料&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMTIzODg2Mzg=&#34;&gt;Unity3D UGUI 系列之合批_WangShade 的博客 - CSDN 博客_ugui 合批&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMDQzODM3Mzg=&#34;&gt;Unity3D 客户端项目优化总结之 Stats 统计面板_WangShade 的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzI1NDE1MDk1L2FydGljbGUvZGV0YWlscy8xMDQ0MTk1NzE=&#34;&gt;Unity3D 客户端项目优化总结之静态批处理 Static Batching_WangShade 的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Shader" />
+        <category term="ui" />
+        <category term="性能优化" />
+        <updated>2022-09-20T13:15:09.000Z</updated>
+    </entry>
+</feed>

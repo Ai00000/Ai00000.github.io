@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;博客开发&#34; category</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2020-02-09T16:43:29.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2020/02/10/%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E4%BD%9C%E4%B8%BA%E5%9B%BE%E5%BA%8A/</id>
+        <title>使用七牛云作为图床</title>
+        <link rel="alternate" href="https://www.fasty97.top/2020/02/10/%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E4%BD%9C%E4%B8%BA%E5%9B%BE%E5%BA%8A/"/>
+        <content type="html">&lt;blockquote&gt;
+  之前一直使用的SM.MS的图床个人感觉也蛮好的，直到前几天突然被墙了（虽然现在又好了），但以此作为教训，还是弄个稳定的图床好了。
+&lt;/blockquote&gt;
+&lt;h3&gt;快速开始&lt;/h3&gt;
+&lt;p&gt;首先你需要一个已经&lt;font color=blue&gt;备案&lt;/font&gt;的域名。其次你需要创建一个七牛云账号并绑定一个&lt;font color=blue&gt;加速域名&lt;/font&gt;。&lt;/p&gt;
+&lt;h4&gt;创建加速域名&lt;/h4&gt;
+&lt;p&gt;创建好一个空间，点击绑定加速域名，输入一个二级地址。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/2020-02-10-11-57-04.png&#34; alt=&#34;创建加速域名&#34;&gt;&lt;/p&gt;
+&lt;h4&gt;在域名服务商处开启CAME&lt;/h4&gt;
+&lt;p&gt;创建完成后，复制对应的 CAME 值：&lt;br&gt;
+如我创建的加速域名为&lt;code&gt;cdn.fasty97.top&lt;/code&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/2020-02-10-12-00-10.png&#34; alt=&#34;CAME&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在域名解析里添加一条记录：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/2020-02-10-12-04-56.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+然后你可以在七牛云里面看到：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/2020-02-10-12-07-38.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;处理&lt;/h3&gt;
+&lt;p&gt;为了方便大家上传图片，我这里使用 2 种不同的方案，大家&lt;font color=red&gt;选择其一&lt;/font&gt;即可。&lt;/p&gt;
+&lt;h4&gt;下载MPic&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21waWMubHpoYW9mdS5jbi8=&#34;&gt;MPic&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;下载MarkdownPicPicker&lt;/h4&gt;
+&lt;p&gt;MarkdownPicPicker 是一个 md 写作工具，用于上传图片。&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2tpbmduYW1lL01hcmtkb3duUGljUGlja2VyL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjAuMC9NYXJrZG93blBpY1BpY2tlcl92MS4wLjAuemlw&#34;&gt;下载程式&lt;/span&gt;&lt;br&gt;
+下载后创建一个 config 文件夹，并将 config.ini 配置好再放进去。&lt;/p&gt;
+&lt;p&gt;config.ini 示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;line-numbers&#34;&gt;[basic]
+picture_folder = pic #必需，用来在本地保存图片的副本，名字任意
+picture_suffix = png #必需，图片后缀名，请使用png
+# 图片上传插件的文件名，不带&#34;.py&#34;
+picture_host = QiniuUploader
+
+[QiniuUploader]
+access_key = Q6sS422O0fasfsassadasdfahqasdftqvyQasdf5Zvzw
+secret_key = 6QtA121TxoSxZadffsdfasdfaaffasCmoOaB2aLObM
+container_name = picturebed
+url = http://7sbpmp.com1.z0.glb.clouddn.com/&amp;#123;&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意：在实际使用中，请将上面的注释部分去掉，避免出现不必要的问题。&lt;/p&gt;
+&lt;p&gt;如果你希望只将图片的 url 复制到剪贴板中，而不是复制&lt;code&gt;&lt;img data-src=&#34;%E5%9B%BE%E7%89%87url&#34; alt=&#34;&#34;&gt;&lt;/code&gt;， 你可以为 markdownpicpicker.exe 添加上 -linkonly 参数。在 markdownpicpicker.exe 所在目录打开 cmd, 输入:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;line-numbers&#34;&gt;markdownpicpicker.exe -linkonly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;建议大家使用 AutoHotKey 来启动程序。这样可以把整个流程缩短到 2 秒钟。AutoHotKey 的配置示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;line-numbers&#34;&gt;#n::Run D:\Program Files\MarkdownPicPicker_v1.0.0\MarkdownPicPicker_v1.0.0\MarkdownPicPicker.exe -linkonly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;需要首先使用 QQ 截图或者其他截图工具将图片保存到剪贴板中，然后按下设定好的快捷键即可。Markdown 格式的图片链接就已经保存到剪贴板中了。在需要使用的地方直接粘贴。&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2Foa2NuLnNvdXJjZWZvcmdlLm5ldC9kb2NzL1R1dG9yaWFsLmh0bQ==&#34;&gt;AutoHotKey 的中文文档&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2020-02-09T16:43:29.000Z</updated>
+    </entry>
+</feed>

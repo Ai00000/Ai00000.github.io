@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"vs\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/05/20/vs%E5%8F%91%E5%B8%83exe%E7%A8%8B%E5%BA%8F/",
+            "url": "https://www.fasty97.top/2022/05/20/vs%E5%8F%91%E5%B8%83exe%E7%A8%8B%E5%BA%8F/",
+            "title": "vs发布exe程序",
+            "date_published": "2022-05-19T22:59:51.000Z",
+            "content_html": "<blockquote>\n<p>之前我打包 vs 开发的小项目时都会将 Debug 整个文件夹复制下来使用。</p>\n<p>最近突然发现，可以使用另一种方式来方便的打包项目。</p>\n</blockquote>\n<p>在需要发布的项目右键选择发布即可。</p>\n<p><img data-src=\"C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220520070159195.png\" alt=\"image-20220520070159195\"></p>\n<p>虽然这种方式生成的 exe 没有安装过程，可能不太规范，但是很容易操作。</p>\n<p>安装后的程序可以在 windows 的程序列表中查看</p>\n<p><img data-src=\"https://pic.fasty97.top/NotePad/20220520070428.png\" alt=\"image-20220520070428006\"></p>\n",
+            "tags": [
+                "vs"
+            ]
+        }
+    ]
+}

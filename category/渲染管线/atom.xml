@@ -1,0 +1,1005 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;渲染管线&#34; category</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2022-12-26T03:34:17.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2022/12/26/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%8D%81%E4%B8%80%EF%BC%89%E8%AE%A9%E7%94%BB%E9%9D%A2%E5%8A%A8%E8%B5%B7%E6%9D%A5/</id>
+        <title>Unity入门精要（十一）让画面动起来</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/12/26/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%8D%81%E4%B8%80%EF%BC%89%E8%AE%A9%E7%94%BB%E9%9D%A2%E5%8A%A8%E8%B5%B7%E6%9D%A5/"/>
+        <content type="html">&lt;h2 id=&#34;unityshader的内置时间变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unityshader的内置时间变量&#34;&gt;#&lt;/a&gt; UnityShader 的内置时间变量&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212261137373.png&#34; alt=&#34;image-20221226113747301&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;序列帧动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#序列帧动画&#34;&gt;#&lt;/a&gt; 序列帧动画&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202212261519510.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过使用 Time 实现循环的特效播放。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;Unlit/Exp2Shader&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Properties&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Color&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Color Tint&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Color&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_MainTex&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Texture&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;D&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;white&#34;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_HorizontalAmount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Horizontal Amount&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Float&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_VerticalAmount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Vertical Amount&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Float&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Speed&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Speed&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Range&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token string&#34;&gt;&#34;Queue&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Transparent&#34;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;IgnoreProjector&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;True&#34;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;RenderType&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Transparent&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Pass&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            CGPROGRAM&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;vertex vert&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;fragment frag&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// make fog work&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;multi_compile_fog&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;UnityCG.cginc&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;appdata&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float4 vertex &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float2 uv &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;v2f&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float2 uv &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float4 vertex &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; SV_POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;sampler2D&lt;/span&gt; _MainTex&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            float4 _MainTex_ST&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            v2f &lt;span class=&#34;token function&#34;&gt;vert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;appdata v&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                v2f o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;UnityObjectToClipPos&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;TRANSFORM_TEX&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _MainTex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; _Speed&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; _HorizontalAmount&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _VerticalAmount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 _Color&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 &lt;span class=&#34;token function&#34;&gt;frag&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v2f i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; SV_Target&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; time &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_Time&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;y &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _Speed&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; row &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;time &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt; _HorizontalAmount&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; column &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; time &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; row &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _VerticalAmount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                half2 uv &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;half2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;column&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;row&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x &lt;span class=&#34;token operator&#34;&gt;/=&lt;/span&gt; _HorizontalAmount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;y &lt;span class=&#34;token operator&#34;&gt;/=&lt;/span&gt; _VerticalAmount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed4 c &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;tex2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_MainTex&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; uv&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                c&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*=&lt;/span&gt; _Color&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;68&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;69&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;70&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ENDCG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;71&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;72&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;    Fallback &lt;span class=&#34;token string&#34;&gt;&#34;Transparent/VertexLit&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;73&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;74&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;无限滚动背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#无限滚动背景&#34;&gt;#&lt;/a&gt; 无限滚动背景&lt;/h2&gt;
+&lt;p&gt;很多无限滚动的背景也是使用了纹理动画。纹理资源： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vcGVuZ2FtZWFydC5vcmcv&#34;&gt;OpenGameArt.org&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意： uv 现已经不存在 zw 值。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;Unlit/BackGroundShader&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Properties&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        _MainTex &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Texture&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;white&#34;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_DetailTex&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;2nd Layer (RGB)&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;white&#34;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_ScrollX&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Base Layer Scrool Speed&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Float&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Scroll2X&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;2nd Layer Scroll Speed&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Float&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Multiplier&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Layer Multiplier&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Float&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token string&#34;&gt;&#34;RenderType&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Opaque&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        LOD &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Pass&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            CGPROGRAM&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; vertex vert&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; fragment frag&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// make fog work&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; multi_compile_fog&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token preprocessor property&#34;&gt;#include &lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;UnityCG.cginc&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;appdata&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;float4&lt;/span&gt; vertex &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;float2&lt;/span&gt; uv &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;v2f&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;float2&lt;/span&gt; uv &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token function&#34;&gt;UNITY_FOG_COORDS&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;float4&lt;/span&gt; vertex &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; SV_POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;sampler2D&lt;/span&gt; _MainTex&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _DetailTex&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;float4&lt;/span&gt; _MainTex_ST&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt;&lt;/span&gt; _ScrollX&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _Scroll2X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _Multiplier&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;float4&lt;/span&gt; _DetailTex_ST&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token return-type class-name&#34;&gt;v2f&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;vert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;appdata&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;v2f&lt;/span&gt; o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;UnityObjectToClipPos&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xy &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;TRANSFORM_TEX&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _MainTex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;frac&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;float2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_ScrollX&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _Time&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;zw &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;TRANSFORM_TEX&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _DetailTex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;frac&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;float2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_Scroll2X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _Time&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token function&#34;&gt;UNITY_TRANSFER_FOG&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;o&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token return-type class-name&#34;&gt;fixed4&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;frag&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;v2f&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; SV_Target&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;fixed4&lt;/span&gt; firstLayer &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;tex2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_MainTex&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xy&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;fixed4&lt;/span&gt; secondLayer &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;tex2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_DetailTex&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;zw&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token class-name&#34;&gt;fixed4&lt;/span&gt; c &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;lerp&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;firstLayer&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; secondLayer&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; secondLayer&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                c&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*=&lt;/span&gt; _Multiplier&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ENDCG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;68&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;69&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;70&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Fallback &lt;span class=&#34;token string&#34;&gt;&#34;VertexLit&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;71&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;顶点动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点动画&#34;&gt;#&lt;/a&gt; 顶点动画&lt;/h2&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2022-12-26T03:34:17.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2022/12/26/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%83%EF%BC%89%20%E5%9F%BA%E7%A1%80%E7%BA%B9%E7%90%86/</id>
+        <title>Unity入门精要（七）基础纹理</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/12/26/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%83%EF%BC%89%20%E5%9F%BA%E7%A1%80%E7%BA%B9%E7%90%86/"/>
+        <content type="html">&lt;h1 id=&#34;unity-shader-第七章-基础纹理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity-shader-第七章-基础纹理&#34;&gt;#&lt;/a&gt; Unity Shader 第七章 基础纹理&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;纹理 —— 使用一张图片来控制模型的外观，使用纹理映射技术把一张图黏在模型表面，逐纹素地控制模型的颜色。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;通常使用纹理映射坐标对应纹理中的 2D 坐标，这被称为是 UV 坐标。&lt;/p&gt;
+&lt;p&gt;顶点 UV 坐标的范围通常被归一到 [0,1] 范围内。&lt;/p&gt;
+&lt;p&gt;DirectX 中原点位于左上角，OpenGL 中原点位于左下角。&lt;/p&gt;
+&lt;p Unity=&#34;&#34; 使用的是OpenGL的坐标，即原点位于左下角=&#34;&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathcolor=&#34;red&#34;&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\color{red}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131416024.png&#34; alt=&#34;image-20220824104021468&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;纹理采样&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#纹理采样&#34;&gt;#&lt;/a&gt; 纹理采样&lt;/h2&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Upgrade NOTE: replaced &#39;mul(UNITY_MATRIX_MVP,*)&#39; with &#39;UnityObjectToClipPos(*)&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;Book/SingleTexture&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Properties&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Color Tint&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Color&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_MainTex&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Texture&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;D&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;white&#34;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;//        反射&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Specular&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Specular&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;Color&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;//        高光&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;_Gloss&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Gloss&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Range&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;256&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token string&#34;&gt;&#34;RenderType&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Opaque&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token string&#34;&gt;&#34;LightMode&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;ForwardBase&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        LOD &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Pass&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            CGPROGRAM&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;vertex vert&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;fragment frag&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// make fog work&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;multi_compile_fog&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;UnityCG.cginc&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Lighting.cginc&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 声明对应变量&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 _Color&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;sampler2D&lt;/span&gt; _MainTex&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            float4 _MainTex_ST&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 _Specular&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;float&lt;/span&gt; _Gloss&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 输入&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;a2v&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float4 vertex&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float3 normal&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; NORMAL&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float4 texcoord&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;v2f&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float4 pos&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; SV_POSITION&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float3 worldNormal&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float3 worldPos&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                float2 uv&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; TEXCOORD2&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 进行顶点着色器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            v2f &lt;span class=&#34;token function&#34;&gt;vert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a2v v&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                v2f o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pos &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;UnityObjectToClipPos&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;worldNormal &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;UnityObjectToWorldNormal&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;normal&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;worldPos &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;mul&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;unity_ObjectToWorld&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;vertex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xyz&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;68&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 计算 Thing And Offset&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;69&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                o&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;texcoord&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xy &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _MainTex_ST&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xy &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; _MainTex_ST&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;zw&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;70&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 可使用 Unity 内置宏&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;71&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;72&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; o&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;73&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;74&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;75&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 进行片元着色器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;76&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 &lt;span class=&#34;token function&#34;&gt;frag&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;v2f i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; SV_Target&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;77&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;78&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 光线方向&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;79&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 worldNormal &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;normalize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;worldNormal&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;80&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 worldLightDir &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;normalize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;UnityWorldSpaceLightDir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;worldPos&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;81&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;82&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 纹理采样&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;83&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 albedo &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;tex2D&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;_MainTex&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uv&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _Color&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;84&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 环境光&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;85&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 ambient &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; UNITY_LIGHTMODEL_AMBIENT&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xyz &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; albedo&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;86&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;87&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 漫反射 - 半兰伯特模型&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;88&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 diffuse &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; _LightColor0&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; albedo &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;worldNormal&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; worldLightDir&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;89&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;90&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 viewDir &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;normalize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;UnityWorldSpaceViewDir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;worldPos&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;91&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;92&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 halfDir &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;normalize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;worldLightDir &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; viewDir&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;93&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 高光反射&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;94&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                fixed3 specular &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; _LightColor0&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; _Specular&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rgb &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;pow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;worldNormal&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; halfDir&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; _Gloss&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;95&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;96&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;fixed4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ambient &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; diffuse &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; specular&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;97&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;98&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ENDCG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;99&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;100&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;101&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;102&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;103&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Fallback &lt;span class=&#34;token string&#34;&gt;&#34;Specular&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;104&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;105&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131416080.png&#34; alt=&#34;image-20220824164058414&#34;&gt;&lt;/p&gt;
+&lt;p&gt;值得注意的是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果导入的纹理大小超过了 Max Texture Size 中的设置值，那么 Unity 将会把该纹理缩放为这个最大分辨率。理想情况下，导入的纹理可以是非正方形的，但长宽的大小应该是 2 的幂，例如 2、4、8、16、32、64 等。如果使用了非 2 的幂大小（Non Power of Two, NPOT）的纹理，那么这些纹理往往会占用更多的内存空间，而且 GPU 读取该纹理的速度也会有所下降。有一些平台甚至不支持这种 NPOT 纹理，这时 Unity 在内部会把它缩放成最近的 2 的幂大小。出于性能和空间的考虑，我们应该尽量使用 2 的幂大小的纹理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;凹凸映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#凹凸映射&#34;&gt;#&lt;/a&gt; 凹凸映射&lt;/h2&gt;
+&lt;p&gt;纹理的一种应用是凹凸映射（使用一张纹理来修改模型表面的法线，以便为模型提供更多的细节。）——++ 法线贴图 ++。&lt;/p&gt;
+&lt;p&gt;有以下两种映射方式【高度纹理，法线纹理】：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131416788.png&#34; alt=&#34;image-20220830094021154&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;高度纹理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高度纹理&#34;&gt;#&lt;/a&gt; 高度纹理&lt;/h3&gt;
+&lt;p&gt;存储颜色强度值来表示海拔高度，颜色越深表面越向外凸起，颜色越钱表面越向内凹陷。&lt;/p&gt;
+&lt;p&gt;优点：直观明显&lt;/p&gt;
+&lt;p&gt;缺点：计算复杂，不能实时计算得到表面法线，消耗性能。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131416546.png&#34; alt=&#34;image-20220830094546307&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;法线纹理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#法线纹理&#34;&gt;#&lt;/a&gt; 法线纹理&lt;/h3&gt;
+&lt;p&gt;存储表面法线方向，范围值为 [-1,1], 而像素分量范围为 [0,1]，需要进行映射。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131417006.png&#34; alt=&#34;image-20220830094820422&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在对法线纹理进行采样后，还需要对结果进行一次反映射得到法线方向：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;normal=pixel*2-1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;根据使用的坐标系分为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;模型空间的法线纹理&lt;/p&gt;
+&lt;p&gt;因为法线方向各不相同，在对应到贴图上是会呈现出不同的颜色，不同的颜色就对应不同的法线方向。—— 直观&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;切线空间的法线纹理&lt;/p&gt;
+&lt;p&gt;切线空间下的法线则呈现浅蓝色&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2022-12-26T03:13:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2022/09/20/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%8D%81%EF%BC%89%E9%AB%98%E7%BA%A7%E7%BA%B9%E7%90%86/</id>
+        <title>Unity入门精要（十）高级纹理</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/09/20/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%8D%81%EF%BC%89%E9%AB%98%E7%BA%A7%E7%BA%B9%E7%90%86/"/>
+        <content type="html">&lt;h1 id=&#34;高级纹理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高级纹理&#34;&gt;#&lt;/a&gt; 高级纹理&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;基础纹理：法线纹理、渐变纹理、遮罩纹理等。&lt;/li&gt;
+&lt;li&gt;高级纹理：CubeMap、Render Texture、Procedure Texture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cubemap立方体纹理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cubemap立方体纹理&#34;&gt;#&lt;/a&gt; CubeMap 立方体纹理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在图形学中，立方体纹理是环境映射的一种实现方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131407838.png&#34; alt=&#34;image-20220913140753789&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;center&gt;立方体纹理采样&lt;/center&gt;
+&lt;p&gt;立方体纹理常常用于天空盒、环境映射。&lt;/p&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2022-09-20T13:14:05.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2022/05/20/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B9%9D%EF%BC%89%E5%A4%8D%E6%9D%82%E5%85%89%E7%85%A7/</id>
+        <title>Unity入门精要（九）复杂光照</title>
+        <link rel="alternate" href="https://www.fasty97.top/2022/05/20/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B9%9D%EF%BC%89%E5%A4%8D%E6%9D%82%E5%85%89%E7%85%A7/"/>
+        <content type="html">&lt;h1 id=&#34;复杂光照&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#复杂光照&#34;&gt;#&lt;/a&gt; 复杂光照&lt;/h1&gt;
+&lt;p&gt;在之前的学习中，我们使用的都是单一光照，实际在游戏中可能存在多个光源，不同的光源会互相影响构成真正的光照系统，在这一节我们将实现一个真正可用的光照模型。&lt;/p&gt;
+&lt;h2 id=&#34;渲染路径-rendering-path&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#渲染路径-rendering-path&#34;&gt;#&lt;/a&gt; 渲染路径 Rendering Path&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📖 决定了光照是如何应用到 Unity Shader 中的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们只有为 Shader 正确地选择和设置了需要的渲染路径，该 Shader 的光照计算才能被正确执行。&lt;/p&gt;
+&lt;p&gt;🏷渲染路径的分类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前向渲染路径（Forward Rendering Path）&lt;/li&gt;
+&lt;li&gt;延迟渲染路径（Deferred Rendering Path）&lt;/li&gt;
+&lt;li&gt;顶点照明渲染路径（Vertex Lit Rendering Path）—— 已经被弃用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前 unity 提供了新的渲染路径代替了原来的渲染路径。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认使用 Graphics 中的设置，可以在摄像机中对设置进行覆盖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021127030.png&#34; alt=&#34;image-20220902112709918&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 Shader Pass 中来指定该 Pass 使用的渲染路径：&lt;/p&gt;
+&lt;figure class=&#34;highlight scss&#34;&gt;&lt;figcaption data-lang=&#34;Sass (Scss)&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;Pass  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token selector&#34;&gt;Tags  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;  &lt;span class=&#34;token string&#34;&gt;&#34;LightMode&#34;&lt;/span&gt;  =  &lt;span class=&#34;token string&#34;&gt;&#34;ForwardBase&#34;&lt;/span&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;LightMode 标签可供使用的渲染路径：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021129823.png&#34; alt=&#34;image-20220902112959760&#34;&gt;&lt;/p&gt;
+&lt;p&gt;💭为 Pass 指定正确的渲染路径对于 Unity 光照变量正确赋值具有重要意义。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unity 默认使用前向渲染光照路径.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;前向渲染路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前向渲染路径&#34;&gt;#&lt;/a&gt; 前向渲染路径&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前向渲染是传统渲染方式，也是我们常用的一种渲染路径。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;📖 原理：每进行一次完整的前向渲染，我们需要渲染该对象的渲染图元，并计算两个缓冲区的信息：颜色缓冲区和深度缓冲区。&lt;/p&gt;
+&lt;center&gt;前向渲染伪代码&lt;/center&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021402465.png&#34; alt=&#34;image-20220902140220407&#34;&gt;&lt;/p&gt;
+&lt;p&gt;每个光照下的物体都需要进行一次逐像素的 Pass，也就是在一个场景中，n 个物体 m 个光源的下，渲染场景需要 n*m 次 Pass。&lt;/p&gt;
+&lt;h3 id=&#34;unity中的前向渲染&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity中的前向渲染&#34;&gt;#&lt;/a&gt; Unity 中的前向渲染&lt;/h3&gt;
+&lt;p&gt;Unity 中照亮物体有 3 种方式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;逐顶点处理 Spherical&lt;/li&gt;
+&lt;li&gt;逐像素处理 Harmonics&lt;/li&gt;
+&lt;li&gt;球谐函数 SH&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;光源使用哪一种处理方式取决于它的类型和渲染模式。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021411344.png&#34; alt=&#34;image-20220902141112298&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;将渲染类型设置为 Important（重要的）来告诉 Unity 这个光源是重要的，把它当成一个逐像素光源来处理。&lt;/p&gt;
+&lt;p&gt;通常，Unity 会自动根据远近、强度等参数对光源的重要性进行排序。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;场景中最亮的平行光总是按逐像素处理的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;渲染模式被设置成 Not Important 的光源，会按逐顶点或者 SH 处理。・渲染模式被设置成 Important 的光源，会按逐像素处理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果根据以上规则得到的逐像素光源数量小于 Quality Setting 中的逐像素光源数量 (Pixel Light Count)，会有更多的光源以逐像素的方式进行渲染。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;内置变量函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#内置变量函数&#34;&gt;#&lt;/a&gt; 内置变量函数&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021420443.png&#34; alt=&#34;image-20220902142017381&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021420246.png&#34; alt=&#34;image-20220902142034183&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;相关参考&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#相关参考&#34;&gt;#&lt;/a&gt; 相关参考&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC85Mzg0NjAwMA==&#34;&gt;Unity 渲染路径 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;顶点照明渲染路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点照明渲染路径&#34;&gt;#&lt;/a&gt; 顶点照明渲染路径&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;顶点照明渲染路径是对硬件配置要求最少、运算性能最高，但同时也是得到的效果最差的一种类型，它不支持那些逐像素才能得到的效果，例如阴影、法线映射、高精度的高光反射等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;📖同理，使用逐顶点的方式进行光照计算。—— 是前向渲染的一个子集。&lt;/p&gt;
+&lt;h2 id=&#34;延迟渲染路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#延迟渲染路径&#34;&gt;#&lt;/a&gt; 延迟渲染路径&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当场景中包含大量实时光源时，前向选人的性能会急速下降。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;除了前向渲染中使用的颜色缓冲和深度缓冲之外，延迟渲染还需要利用额外的缓冲 —— 这些缓冲被统称为 GBuffer。&lt;/p&gt;
+&lt;h3 id=&#34;原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#原理&#34;&gt;#&lt;/a&gt; 原理&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209021438497.png&#34; alt=&#34;image-20220902143817442&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在光照计算 Pass 中直接存储法线，表面情况等，从 Gbuff 取到数据后直接在光照 Pass 中计算，故而延迟渲染和场景复杂度不挂钩，通常就只使用两个 Pass 完成故而效率较高。&lt;/p&gt;
+&lt;h3 id=&#34;缺点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#缺点&#34;&gt;#&lt;/a&gt; 缺点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;不支持真正的抗锯齿（anti-aliasing）功能。&lt;/li&gt;
+&lt;li&gt;不能处理半透明物体。&lt;/li&gt;
+&lt;li&gt;对显卡有一定要求。如果要使用延迟渲染的话，显卡必须支持 MRT（Multiple Render Targets）、Shader Mode 3.0 及以上、深度渲染纹理以及双面的模板缓冲。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通常我们使用前向渲染路径类型：)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;unity光源类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity光源类型&#34;&gt;#&lt;/a&gt; Unity 光源类型&lt;/h2&gt;
+&lt;h2 id=&#34;阴影&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#阴影&#34;&gt;#&lt;/a&gt; 阴影&lt;/h2&gt;
+&lt;h3 id=&#34;不透明物体的阴影&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#不透明物体的阴影&#34;&gt;#&lt;/a&gt; 不透明物体的阴影&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;http://pic.fasty97.top/NotePad/202209131137666.png&#34; alt=&#34;image-20220913113734111&#34;&gt;&lt;/p&gt;
+&lt;center&gt;通过MeshRender可以设置阴影&lt;/center&gt;
+&lt;p&gt;将 CastShaows 设置为 &lt;code&gt;Two Sided&lt;/code&gt;  可以双面渲染。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unity 选择使用一个额外的 Pass 来专门更新光源的阴影映射纹理，这个 Pass 就是 &lt;code&gt;LightMode&lt;/code&gt;  标签被设置为 &lt;code&gt;ShadowCaster&lt;/code&gt;  的 &lt;code&gt;Pass&lt;/code&gt; 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;接收阴影：对阴影纹理进行采样，最终把阴影纹理和光照进行相乘。&lt;/li&gt;
+&lt;li&gt;投射阴影：加入到光源的阴影纹理计算中，通过指定的 Pass 来实现，如果使用了屏幕空间投射，还会生成一张摄像机的深度图。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;接收阴影&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#接收阴影&#34;&gt;#&lt;/a&gt; 接收阴影&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;在 BasePass 中包含内置文件：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;AutoLight.cginc&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;在顶点着色器的输出结构体中添加 &lt;code&gt;SHADOW_COORDS&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;SHADOW_COORDS(2)&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;在顶点着色器返回之前添加一个内置宏 &lt;code&gt;TRANSFER_SHADOW&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;TRANSFER_SHADOW(o)&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;在片元着色器中计算阴影值，使用 &lt;code&gt;SHADOW_ATTENUATION&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;fixed shadow=SHADOW_ATTENUATION(i)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📖PS: 由于这些宏中会使用上下文变量来进行相关计算，例如 TRANSFER_SHADOW 会使用 v.vertex 或 a.pos 来计算坐标，因此为了能够让这些宏正确工作，我们需要保证自定义的变量名和这些宏中使用的变量名相匹配。我们需要保证：a2f 结构体中的顶点坐标变量名必须是 vertex，顶点着色器的输出结构体 v2f 必须命名为 v，且 v2f 中的顶点位置变量必须命名为 pos。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;透明物体的阴影&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#透明物体的阴影&#34;&gt;#&lt;/a&gt; 透明物体的阴影&lt;/h3&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2022-05-19T22:58:51.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/12/07/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%BA%94%EF%BC%89Shader%E5%85%A5%E9%97%A8/</id>
+        <title>Unity入门精要（五）Shader入门</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/12/07/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%BA%94%EF%BC%89Shader%E5%85%A5%E9%97%A8/"/>
+        <content type="html"></content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2021-12-07T07:31:05.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/</id>
+        <title>shaderGraph常用功能释义</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/12/04/shaderGraph%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%87%8A%E4%B9%89/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本文用于记录一些使用 Shader 实现的基础性效果&lt;/p&gt;
+&lt;p&gt;Unity2020.3.8f1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;基础设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础设置&#34;&gt;#&lt;/a&gt; 基础设置&lt;/h1&gt;
+&lt;p&gt;创建一个空 Shader，可以设置 Graph 以满足需要。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204140159.png&#34; alt=&#34;image-20211204140152535&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;顶点着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点着色器&#34;&gt;#&lt;/a&gt; 顶点着色器&lt;/h1&gt;
+&lt;h2 id=&#34;法线外扩&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#法线外扩&#34;&gt;#&lt;/a&gt; 法线外扩&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以改变一个模型的大小&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141255.png&#34; alt=&#34;image-20211204141255134&#34;&gt;&lt;/p&gt;
+&lt;p&gt;其中获取法线方向也可以使用：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204144226.png&#34; alt=&#34;image-20211204144226426&#34;&gt;&lt;/p&gt;
+&lt;p&gt;通过将法线位置（物体本地位置）归一化得到法线，然后乘以一个数值来实现。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204141734.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;模型裁切&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#模型裁切&#34;&gt;#&lt;/a&gt; 模型裁切&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153235.png&#34; alt=&#34;image-20211204153235344&#34;&gt;&lt;/p&gt;
+&lt;p&gt;简单效果预览：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211204153431.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;p&gt;加强版本&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153433.png&#34; alt=&#34;image-20211207153426670&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207153856.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remap-重映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#remap-重映射&#34;&gt;#&lt;/a&gt; Remap 重映射&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据输入 In 在 InMinMax 中的插值，计算输出。(按照比例位置输出)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比如输入 In 为 0，InMinMax 时（-10，10），那么 In 在 InMinMax 的&lt;br&gt;
+位置就是 0.5，如果 OutMinMax 为（0，10），那么输出 Out 就是 5&lt;br&gt;
+ 公式为： Out = OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y -&lt;br&gt;
+InMinMax.x)&lt;/p&gt;
+&lt;h3 id=&#34;one-minus-1减去&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#one-minus-1减去&#34;&gt;#&lt;/a&gt; One Minus 1 减去&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输出 1-in&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;step-阶梯&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#step-阶梯&#34;&gt;#&lt;/a&gt; Step 阶梯&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输入 in 大于等于 Edge 取 1，否则取 0&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;溶解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#溶解&#34;&gt;#&lt;/a&gt; 溶解&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： &lt;code&gt;AlphaClip&lt;/code&gt;  的值如果比 &lt;code&gt;Alpha&lt;/code&gt;  的值大，则会不显示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207162307.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;边缘发光&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207163904.png&#34; alt=&#34;image-20211207163904223&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果预览&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207164030.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;subtract-减法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subtract-减法&#34;&gt;#&lt;/a&gt; Subtract 减法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A-B&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;saturate-0-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#saturate-0-1&#34;&gt;#&lt;/a&gt; Saturate 0-1&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;将输入控制在 [0-1]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;边缘发光-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边缘发光-2&#34;&gt;#&lt;/a&gt; 边缘发光&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207165311.png&#34; alt=&#34;image-20211207165311854&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;简单卡通效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简单卡通效果&#34;&gt;#&lt;/a&gt; 简单卡通效果&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171547.png&#34; alt=&#34;image-20211207171547100&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dot-product-点乘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dot-product-点乘&#34;&gt;#&lt;/a&gt; Dot Product 点乘&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;计算 2 个向量点乘&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207171656.png&#34; alt=&#34;image-20211207171656516&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表面叠加&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表面叠加&#34;&gt;#&lt;/a&gt; 表面叠加&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173140.png&#34; alt=&#34;image-20211207173140006&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207173246.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tiling-and-offset-平铺和偏移&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tiling-and-offset-平铺和偏移&#34;&gt;#&lt;/a&gt; Tiling And Offset 平铺和偏移&lt;/h3&gt;
+&lt;p&gt;这个功能我们会经常用到，一般只要有贴图的材质上都会有 Tiling And Offset。&lt;br&gt;
+将输入参数 UV 的值，通过 Tiling 和 Offset 改变平铺和偏移。&lt;/p&gt;
+&lt;h2 id=&#34;像素化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#像素化&#34;&gt;#&lt;/a&gt; 像素化&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211207182510.gif&#34; alt=&#34;112&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;粒子消融&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#粒子消融&#34;&gt;#&lt;/a&gt; 粒子消融&lt;/h2&gt;
+</content>
+        <updated>2021-12-04T05:56:51.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/12/03/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%9B%9B%EF%BC%89%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</id>
+        <title>Unity入门精要（四） 数学基础</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/12/03/Unity%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E5%9B%9B%EF%BC%89%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;最常使用到的就是矢量和矩阵（数学的分支之一 —— 线性代数）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;笛卡尔坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#笛卡尔坐标系&#34;&gt;#&lt;/a&gt; 笛卡尔坐标系&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大部分的计算位置、距离和角度等变量都是在笛卡尔坐标系下进行的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;二维笛卡尔坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二维笛卡尔坐标系&#34;&gt;#&lt;/a&gt; 二维笛卡尔坐标系&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一个特殊的位置，原点，它是整个坐标系的中心&lt;/li&gt;
+&lt;li&gt;两条过原点相互垂直的矢量，x 轴和 y 轴。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203134502.png&#34; alt=&#34;image-20211203134455788&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不同的渲染方式，坐标系不同&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203134650.png&#34; alt=&#34;image-20211203134650147&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三维笛卡尔坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三维笛卡尔坐标系&#34;&gt;#&lt;/a&gt; 三维笛卡尔坐标系&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;三个坐标轴相互垂直，长度为 1，这样的基矢量被称为标准正交基&lt;/li&gt;
+&lt;li&gt;这三个坐标轴被称为是基矢量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203134755.png&#34; alt=&#34;image-20211203134755628&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;左手坐标系和右手坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#左手坐标系和右手坐标系&#34;&gt;#&lt;/a&gt; 左手坐标系和右手坐标系&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在二维笛卡尔坐标系中，我们可以通过旋转将任何的坐标系重合，也就是说所有的二维笛卡尔坐标系都是等价的。&lt;/p&gt;
+&lt;p&gt;但对于 &lt;code&gt;三维坐标系&lt;/code&gt; ，有时不能靠这种旋转来使 2 个不同朝向的坐标系重合。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;左手坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#左手坐标系&#34;&gt;#&lt;/a&gt; 左手坐标系&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203135648.png&#34; alt=&#34;image-20211203135647988&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;右手坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#右手坐标系&#34;&gt;#&lt;/a&gt; 右手坐标系&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203135727.png&#34; alt=&#34;image-20211203135727456&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;unity的坐标系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity的坐标系&#34;&gt;#&lt;/a&gt; Unity 的坐标系&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在模型空间和世界空间中，使用左手坐标系&lt;/li&gt;
+&lt;li&gt;观察空间，使用右手坐标系，z 轴坐标的减少意味着场景深度的增加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211203140041.png&#34; alt=&#34;image-20211203140041620&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;练习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#练习&#34;&gt;#&lt;/a&gt; 练习&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;右手坐标系&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;点和矢量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#点和矢量&#34;&gt;#&lt;/a&gt; 点和矢量&lt;/h1&gt;
+&lt;h1 id=&#34;矩阵&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#矩阵&#34;&gt;#&lt;/a&gt; 矩阵&lt;/h1&gt;
+&lt;h1 id=&#34;矩阵变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#矩阵变换&#34;&gt;#&lt;/a&gt; 矩阵变换&lt;/h1&gt;
+&lt;h1 id=&#34;坐标空间&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#坐标空间&#34;&gt;#&lt;/a&gt; 坐标空间&lt;/h1&gt;
+&lt;h1 id=&#34;法线变换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#法线变换&#34;&gt;#&lt;/a&gt; 法线变换&lt;/h1&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2021-12-03T15:18:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/11/30/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%89%EF%BC%89UnityShader/</id>
+        <title>Shader入门精要（三）UnityShader</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/11/30/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%89%EF%BC%89UnityShader/"/>
+        <content type="html">&lt;h1 id=&#34;第三章-unityshader基础&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第三章-unityshader基础&#34;&gt;#&lt;/a&gt; 第三章 UnityShader 基础&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;正式进入 shader 学习了，好耶！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;使用 UnityShader 的流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个材质&lt;/li&gt;
+&lt;li&gt;创建一个 UnityShader，为材质添加&lt;/li&gt;
+&lt;li&gt;把材质赋给对象&lt;/li&gt;
+&lt;li&gt;调整 shader 属性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130223524.png&#34; alt=&#34;image-20211130223524763&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;创建shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建shader&#34;&gt;#&lt;/a&gt; 创建 Shader&lt;/h2&gt;
+&lt;p&gt;Unity 包含了多种 shader 模板供我们使用。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Standard Surface Shader&lt;/th&gt;
+&lt;th&gt;标准光照模型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Unlit Shader&lt;/td&gt;
+&lt;td&gt;不包含光照（但包含雾效）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mage Effect Shader&lt;/td&gt;
+&lt;td&gt;实现各种屏幕后处理效果&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Unity Shader 的导入面板还可以方便地查看其使用的渲染队列（Render queue）、是否关闭批处理（Disablebatching）、属性列表（Properties）等信息。&lt;/p&gt;
+&lt;h2 id=&#34;shaderlab&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shaderlab&#34;&gt;#&lt;/a&gt; ShaderLab&lt;/h2&gt;
+&lt;p&gt;ShaderLab 是 Unity 为我们抽象的一种 shader 语言，可以更方便的通用。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130224529.png&#34; alt=&#34;image-20211130224529408&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;基本结构&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本结构&#34;&gt;#&lt;/a&gt; 基本结构&lt;/h3&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;ShaderName&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	Properties&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;// 属性&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;display name&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; PropertyType&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;DefaultValue&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;//A 着色器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;//B 着色器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	Fallback &lt;span class=&#34;token string&#34;&gt;&#34;VertexLit&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;属性类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#属性类型&#34;&gt;#&lt;/a&gt; 属性类型&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130225328.png&#34; alt=&#34;image-20211130225328452&#34;&gt;&lt;/p&gt;
+&lt;p&gt;根据以上属性得到的 Shader 放置在材质上效果：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211201122201.png&#34; alt=&#34;image-20211201122154053&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;subshader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subshader&#34;&gt;#&lt;/a&gt; SubShader&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个 Unityshader 可以包含多个 SubShader， &lt;code&gt;最少要有一个&lt;/code&gt; 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;加载时会自动选择第一个可以执行的 SubShader，如果都不支持的话，使用 FallBack 指定的 shader。（为了解决不同显卡的差异）&lt;/p&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 可选的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Tages&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 可选的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;RenderSetup&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Pass &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;//other Passes&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;每个 Pass 定义了一次完整的渲染流程，Pass 过多，性能下降。&lt;/p&gt;
+&lt;h4 id=&#34;状态设置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#状态设置&#34;&gt;#&lt;/a&gt; 状态设置&lt;/h4&gt;
+&lt;p&gt;在 SubShader 中我们可以设置渲染的一些状态。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211201123019.png&#34; alt=&#34;image-20211201123019333&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 SubShader 中设置的状态会应用到所有的 Pass，也可以在 Pass 中单独设置。&lt;/p&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Tags&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;TagName1&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Value1&#34;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;TagName2&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;CC&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//Tags 是一些 str 键值对&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;subshader标签类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subshader标签类型&#34;&gt;#&lt;/a&gt; SubShader 标签类型&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211201123359.png&#34; alt=&#34;image-20211201123359479&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这些标签只能在 SubShader 中申明不可在 Pass 中申明&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;pass&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pass&#34;&gt;#&lt;/a&gt; Pass&lt;/h3&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Pass&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Name&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Tags&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;RenderSetup&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;//Other&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;可以通过 Name 来使用 Pass，例如：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;UsePass &amp;quot;MyShader/PASSNAME&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认 Unity 会将所有 Pass 名称转换为大写，所以使用时需要使用大写名称&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;pass标签类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pass标签类型&#34;&gt;#&lt;/a&gt; Pass 标签类型&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211201124000.png&#34; alt=&#34;image-20211201124000121&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;・UsePass：如我们之前提到的一样，可以使用该命令来复用其他 Unity Shader 中的 Pass；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;・GrabPass：该 Pass 负责抓取屏幕并将结果存储在一张纹理中，以用于后续的 Pass 处理（详见 10.2.2 节）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fallback&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#fallback&#34;&gt;#&lt;/a&gt; FallBack&lt;/h3&gt;
+&lt;p&gt;在 SubShader 后定义，如果上述的都不支持，用这个最低级的 Shader 吧！&lt;/p&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Fallback &lt;span class=&#34;token string&#34;&gt;&#34;name&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Fallback off&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;FallBack 还会影响阴影的透射&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;unity-shader形式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unity-shader形式&#34;&gt;#&lt;/a&gt; Unity Shader 形式&lt;/h2&gt;
+&lt;p&gt;着色器代码可以写在 SubShader 中（表面着色器做法），也可以写在 Pass 语义块中（顶点 / 片元着色器和固定函数着色器的做法）。&lt;/p&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;MyShader&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Properties&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 所需的各种属性&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 真正意义上的 shader 代码会放在这里&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 表面着色器（Surface Shader）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 顶点 / 片元着色器（Vertex/Fragment Shader)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 固定函数着色器（Fixed Function Shader）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 和上一哥 SubShader 类似&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;表面着色器surface-shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表面着色器surface-shader&#34;&gt;#&lt;/a&gt; 表面着色器 (Surface Shader)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是 Unity 自己创造的一种着色器代码类型，需要的代码量少，渲染代价比较大&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在背后，任然转换为顶点片元着色器。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-glSL&#34;&gt;Shader &amp;quot;Custom/Simple&amp;quot;&amp;#123;
+    SubShader&amp;#123;
+        Tags&amp;#123;&amp;quot;RenderType&amp;quot;= &amp;quot;Opaque&amp;quot;&amp;#125;
+        CGPROGRAM
+        #pragma suface surf lambert
+            struct Input&amp;#123;
+                float4 color: COLOR;
+            &amp;#125;
+        void surf(Input In,in out SurfaceOutput o)&amp;#123;
+            o.Albedo=1;
+        &amp;#125;
+        ENDCG
+    &amp;#125;
+    Fallback &amp;quot;Diffuse&amp;quot;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;表面着色器不需要关心，有多少个 Pass，每个 Pass 如何渲染&lt;/p&gt;
+&lt;p&gt;CGPROGRAM 和 ENDCG 之间的代码是使用 CG/HLSL 编写的，也就是说，我们需要把 CG/HLSL 语言嵌套在 ShaderLab 语言中。&lt;/p&gt;
+&lt;h3 id=&#34;顶点片元着色器vertexfragment-shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点片元着色器vertexfragment-shader&#34;&gt;#&lt;/a&gt; 顶点片元着色器（Vertex/Fragment Shader）&lt;/h3&gt;
+&lt;figure class=&#34;highlight glsl&#34;&gt;&lt;figcaption data-lang=&#34;GLSL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Shader &lt;span class=&#34;token string&#34;&gt;&#34;Custom/Simple VertexFragment Shader&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    SubShader&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        Pass&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            CGPROGRAM&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;vertex vert&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;pragma&lt;/span&gt; &lt;span class=&#34;token expression&#34;&gt;fragment frag float4 &lt;span class=&#34;token function&#34;&gt;vert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;float4 v&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; POSITION&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;SV_POSITION&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;mul&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;UNITY_MATRIX_MVP&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            fixed4 &lt;span class=&#34;token function&#34;&gt;frag&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;SV_Target&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;fixed4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ENDCG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;顶点 / 片元着色器的代码也需要定义在 CGPROGRAM 和 ENDCG 之间，但不同的是，顶点 / 片元着色器是写在 Pass 语义块内，而非 SubShader 内的.&lt;/p&gt;
+&lt;h3 id=&#34;固定函数着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#固定函数着色器&#34;&gt;#&lt;/a&gt; 固定函数着色器&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于一些比较老旧的设备，不支持可编程管线着色器，就需要使用固定函数着色器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;使用哪种形式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用哪种形式&#34;&gt;#&lt;/a&gt; 使用哪种形式？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;如果你想和各种光源打交道，你可能更喜欢使用表面着色器，但需要小心它在移动平台的性能表现。&lt;/li&gt;
+&lt;li&gt;如果你需要使用的光照数目非常少，例如只有一个平行光，那么使用顶点 / 片元着色器是一个更好的选择。&lt;/li&gt;
+&lt;li&gt;最重要的是，如果你有很多自定义的渲染效果，那么请选择顶点 / 片元着色器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;至此，第三章完！&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2021-11-30T14:30:18.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/09/10/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
+        <title>Shader入门精要（二）</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/10/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;因为第一章内容太少，就再更一章吧～&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;第二篇-渲染流水线&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第二篇-渲染流水线&#34;&gt;#&lt;/a&gt; 第二篇 渲染流水线&lt;/h1&gt;
+&lt;p&gt;Q: 渲染流水线在干什么？&lt;/p&gt;
+&lt;p&gt;A: 渲染流水线的最终目的在于生成或者说是渲染一张二维纹理，即我们在电脑屏幕上看到的所有效果。它的输入是一个虚拟摄像机、一些光源、一些 Shader 以及纹理等。&lt;/p&gt;
+&lt;p&gt;使用流水线的好处在于可以提高单位时间的生产量。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210911215359.png&#34; alt=&#34;image-20210911215352715&#34;&gt;&lt;/p&gt;
+&lt;p&gt;流水线系统中决定最后生产速度的是最慢的工序所需的时间 ( &lt;code&gt;短板效应&lt;/code&gt; )&lt;/p&gt;
+&lt;p&gt;理想情况下，如果把一个非流水线系统分成 n 个流水线阶段，且每个阶段耗费时间相同的话，会使整个系统得到 n 倍的速度提升。（多线渲染？）&lt;/p&gt;
+&lt;h2 id=&#34;渲染流程概念上的流水线&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#渲染流程概念上的流水线&#34;&gt;#&lt;/a&gt; 渲染流程 (概念上的流水线)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;渲染流程分成 3 个阶段：应用阶段（Application Stage）、几何阶段（Geometry Stage）、光栅化阶段（Rasterizer Stage）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210911215704.png&#34; alt=&#34;image-20210911215704318&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;应用阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#应用阶段&#34;&gt;#&lt;/a&gt; 应用阶段&lt;/h3&gt;
+&lt;p&gt;这个阶段 &lt;code&gt;是由我们的应用主导&lt;/code&gt; 的，因此通常由 &lt;code&gt;CPU负责实现&lt;/code&gt; 。主要包含三个任务：&lt;/p&gt;
+&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1734105707020&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;55&#34; style=&#34;max-width: 649.5px;&#34; viewBox=&#34;0 0 649.5 55&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-准备场景数据 LE-粗粒度剔除culling&#34; id=&#34;L-准备场景数据-粗粒度剔除culling&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M124,27.5L149,27.5L174,27.5&#34; marker-end=&#34;url(#arrowhead12)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead12&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-粗粒度剔除culling LE-渲染图元and输出渲染所需几何信息&#34; id=&#34;L-粗粒度剔除culling-渲染图元and输出渲染所需几何信息&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M321.4375,27.5L346.4375,27.5L371.4375,27.5&#34; marker-end=&#34;url(#arrowhead13)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead13&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-准备场景数据-3&#34; transform=&#34;translate(66,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58&#34; y=&#34;-19.5&#34; width=&#34;116&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;准备场景数据&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-粗粒度剔除culling-4&#34; transform=&#34;translate(247.71875,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-73.71875&#34; y=&#34;-19.5&#34; width=&#34;147.4375&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-63.71875,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;粗粒度剔除culling&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-渲染图元and输出渲染所需几何信息-5&#34; transform=&#34;translate(506.46875,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-135.03125&#34; y=&#34;-19.5&#34; width=&#34;270.0625&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-125.03125,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;渲染图元and输出渲染所需几何信息&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;h3 id=&#34;几何阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#几何阶段&#34;&gt;#&lt;/a&gt; 几何阶段&lt;/h3&gt;
+&lt;p&gt;几何阶段用于处理所有和我们要绘制的几何相关的事情。例如，决定需要绘制的图元是什么，怎样绘制它们，在哪里绘制它们。这一阶段 &lt;code&gt;通常在GPU上&lt;/code&gt; 进行。几何阶段负责和每个渲染图元打交道，进行逐顶点、逐多边形的操作。这个阶段 &lt;code&gt;可以进一步分成更小的流水线阶段&lt;/code&gt; ，这在下一章中会讲到。几何阶段的一个重要任务就是 &lt;code&gt;把顶点坐标变换到屏幕空间中&lt;/code&gt; ，再交给光栅器进行处理。通过对输入的渲染图元进行多步处理后，这一阶段将会输出屏幕空间的二维顶点坐标、每个顶点对应的深度值、着色等相关信息，并传递给下一个阶段。&lt;/p&gt;
+&lt;h3 id=&#34;光栅化阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#光栅化阶段&#34;&gt;#&lt;/a&gt; 光栅化阶段&lt;/h3&gt;
+&lt;p&gt;这一阶段将会使用上个阶段传递的数据来产生屏幕上的像素，并 &lt;code&gt;渲染出最终的图像&lt;/code&gt; 。 &lt;code&gt;这一阶段也是在GPU上运行&lt;/code&gt; 。光栅化的任务主要是 &lt;code&gt;决定每个渲染图元中的哪些像素应该被绘制在屏幕上&lt;/code&gt; 。它需要对上一个阶段得到的逐顶点数据（例如纹理坐标、顶点颜色等）进行插值，然后再进行逐像素处理。和上一个阶段类似，光栅化阶段也 &lt;code&gt;可以分成更小的流水线阶段&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2 id=&#34;cpu与gpu通信&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cpu与gpu通信&#34;&gt;#&lt;/a&gt; CPU 与 GPU 通信&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真实的流水线🔨&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;渲染流水线的起点是 CPU，即应用阶段。应用阶段大致可分为下面 3 个阶段：&lt;/p&gt;
+&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1734105713835&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;55&#34; style=&#34;max-width: 512.046875px;&#34; viewBox=&#34;0 0 512.046875 55&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-把数据加载到显存中 LE-设置渲染状态&#34; id=&#34;L-把数据加载到显存中-设置渲染状态&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M172,27.5L197,27.5L222,27.5&#34; marker-end=&#34;url(#arrowhead12)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead12&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-设置渲染状态 LE-调用DrawCall&#34; id=&#34;L-设置渲染状态-调用DrawCall&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M338,27.5L363,27.5L388,27.5&#34; marker-end=&#34;url(#arrowhead13)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead13&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-把数据加载到显存中-3&#34; transform=&#34;translate(90,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-82&#34; y=&#34;-19.5&#34; width=&#34;164&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-72,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;把数据加载到显存中&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-设置渲染状态-4&#34; transform=&#34;translate(280,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58&#34; y=&#34;-19.5&#34; width=&#34;116&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;设置渲染状态&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-调用DrawCall-5&#34; transform=&#34;translate(446.0234375,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58.0234375&#34; y=&#34;-19.5&#34; width=&#34;116.046875&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48.0234375,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;调用DrawCall&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;h3 id=&#34;把数据加载到显存中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#把数据加载到显存中&#34;&gt;#&lt;/a&gt; 把数据加载到显存中&lt;/h3&gt;
+&lt;p&gt;数据需要从硬盘到内存再到显存，显存读取速度快！加载之后就会丢弃，为了运算，某些数据不应该被丢弃，&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210911221304.png&#34; alt=&#34;image-20210911221304571&#34;&gt;&lt;/p&gt;
+&lt;p&gt;因为从硬盘加载到 RAM 的过程是十分耗时的，故我们要编写程序指导 CPU ，不要丢弃。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;9.14 继续更新啦😃&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;设置渲染状态&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设置渲染状态&#34;&gt;#&lt;/a&gt; 设置渲染状态&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这些状态定义了场景中的网格是怎样被渲染的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210914131155.png&#34; alt=&#34;image-20210914131148894&#34;&gt;&lt;/p&gt;
+&lt;center&gt;在同一状态下渲染3个网格。由于没有更改渲染状态，因此3个网格的外观看起来像是同一种材质的物体&lt;/center&gt;
+&lt;h3 id=&#34;调用draw-call&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#调用draw-call&#34;&gt;#&lt;/a&gt; 调用 Draw Call&lt;/h3&gt;
+&lt;p&gt;在设置好渲染状态后，就开始绘制了。 &lt;code&gt;由CPU发起，GPU接收&lt;/code&gt; 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11.30 继续更新 😺&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130192907.png&#34; alt=&#34;image-20211130192900305&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;gpu流水线&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#gpu流水线&#34;&gt;#&lt;/a&gt; GPU 流水线&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当 GPU 收到渲染命令后，进行一系列流水线操作，将图元渲染到屏幕上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GPU 主要实现 几何阶段和光栅化阶段。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130193451.png&#34; alt=&#34;image-20211130193451213&#34;&gt;&lt;/p&gt;
+&lt;p&gt;其中说明如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完全可编程控制： 顶点着色器、曲面细分着色器、几何着色器、片元着色器&lt;/li&gt;
+&lt;li&gt;可配置不可编程：逐片元、裁剪、&lt;/li&gt;
+&lt;li&gt;不可控制：屏幕映射、三角形设置、三角形遍历&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;实现为必须由开发者实现，虚线为可选&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;顶点着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#顶点着色器&#34;&gt;#&lt;/a&gt; 顶点着色器&lt;/h3&gt;
+&lt;p&gt;完全可编程&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用于实现顶点的空间变换、顶点着色&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;输入来自于 CPU&lt;/li&gt;
+&lt;li&gt;处理单位为顶点&lt;/li&gt;
+&lt;li&gt;不可以创建或销毁顶点、无法得到顶点之间的关系&lt;/li&gt;
+&lt;li&gt;处理速度很快&lt;/li&gt;
+&lt;li&gt;进行坐标变换和顶点光照&lt;/li&gt;
+&lt;li&gt;还可以输出后续所需要的一些数据&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130214131.png&#34; alt=&#34;image-20211130214131052&#34;&gt;&lt;/p&gt;
+&lt;p&gt;核心任务：** 顶点坐标从 &lt;code&gt;模型空间&lt;/code&gt; 转换到 &lt;code&gt;齐次裁剪空间&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130214642.png&#34; alt=&#34;image-20211130214642514&#34;&gt;&lt;/p&gt;
+&lt;p&gt;转换到齐次裁减空间后，硬件通过做透视触发得到 &lt;code&gt;NDC（设备坐标）&lt;/code&gt; 下的坐标。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NDC OpenGL (Unity) 范围在【-1,1】&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;曲面细分着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#曲面细分着色器&#34;&gt;#&lt;/a&gt; 曲面细分着色器&lt;/h3&gt;
+&lt;p&gt;是一个可选的着色器，它用于细分图元&lt;/p&gt;
+&lt;h3 id=&#34;几何着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#几何着色器&#34;&gt;#&lt;/a&gt; 几何着色器&lt;/h3&gt;
+&lt;p&gt;是一个可选的着色器，它可以被用于执行逐图元（Per-Primitive）的着色操作，或者被用于产生更多的图元&lt;/p&gt;
+&lt;h3 id=&#34;裁剪&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#裁剪&#34;&gt;#&lt;/a&gt; 裁剪&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;可配置但不可编程。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这一阶段的目的是将那些不在摄像机视野内的顶点裁剪掉，并剔除某些三角图元的面片&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;用于完成裁剪掉只有部分在摄像机范围内出现的物体。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130215204.png&#34; alt=&#34;image-20211130215204031&#34;&gt;&lt;/p&gt;
+&lt;p&gt;经过裁剪，会在相交处生成新的点，同时原先的旧的点（在范围外）将被删除掉。&lt;/p&gt;
+&lt;h3 id=&#34;屏幕映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#屏幕映射&#34;&gt;#&lt;/a&gt; 屏幕映射&lt;/h3&gt;
+&lt;p&gt;输入三维坐标，二维屏幕坐标&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;任务：把每个图元的 X 和 y 坐标转换到屏幕坐标系&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130215609.png&#34; alt=&#34;image-20211130215609144&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 OpenGL 中，原点位于左下角，在 DirectX 中，原点在左上角&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130215806.png&#34; alt=&#34;image-20211130215806421&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三角形遍历&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三角形遍历&#34;&gt;#&lt;/a&gt; 三角形遍历&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;检查每个像素是否被一个三角网格所覆盖。如果被覆盖就生成一个 ` 片元，输出片元序列。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130220052.png&#34; alt=&#34;image-20211130220052140&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;片元着色器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#片元着色器&#34;&gt;#&lt;/a&gt; 片元着色器&lt;/h3&gt;
+&lt;p&gt;计算出颜色&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;经过前面的三角形步骤，获得了一系列的数据信息，用来表述一个三角形网格式怎样覆盖到每个像素的。&lt;/p&gt;
+&lt;p&gt;输入为：顶点插值数据&lt;/p&gt;
+&lt;p&gt;输出为：一个或多个颜色&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130220450.png&#34; alt=&#34;image-20211130220450027&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;逐片元&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#逐片元&#34;&gt;#&lt;/a&gt; 逐片元&lt;/h3&gt;
+&lt;p&gt;渲染流水线的最后一步❤️&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;逐片元操作（Per-FragmentOperations）阶段负责执行很多重要的操作，例如 &lt;code&gt;修改颜色&lt;/code&gt; 、 &lt;code&gt;深度缓冲&lt;/code&gt; 、 &lt;code&gt;进行混合等&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用于合并数据。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这一个阶段有如下任务：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;决定每个片元的可见性。这涉及了很多测试工作，例如深度测试、模板测试等。&lt;/li&gt;
+&lt;li&gt;如果一个片元通过了所有的测试，就需要把这个片元的颜色值和已经存储在颜色缓冲区中的颜色进行合并，或者说是混合。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130220813.png&#34; alt=&#34;image-20211130220813558&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要通过所有的测试，才能和颜色缓冲区混合，最后写入颜色缓冲区&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这些测试用于筛选掉一些无用片元&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130221004.png&#34; alt=&#34;image-20211130221004246&#34;&gt;&lt;/p&gt;
+&lt;p&gt;当片元通过了所有测试，就会进入混合阶段&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20211130221310.png&#34; alt=&#34;image-20211130221310360&#34;&gt;&lt;/p&gt;
+&lt;p&gt;对于透明效果需要开启混合，对于不透明物体可以选择关闭混合效果&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出于性能考虑，很多 GPU 会先进行测试在进行片元着色器 —— Early-Z 技术&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了避免我们看到正在光栅化的图元，GPU 使用 &lt;code&gt;双重缓冲&lt;/code&gt; ，我们看到的是前置渲染结构，同时后置渲染也在工作，但后置渲染完成就会交换前后渲染的内容。&lt;/p&gt;
+&lt;h1 id=&#34;什么是shader&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么是shader&#34;&gt;#&lt;/a&gt; 什么是 Shader?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;GPU 流水线上一些可高度编程的阶段，而由着色器编译出来的最终代码是会在 GPU 上运行的（对于固定管线的渲染来说，着色器有时等同于一些特定的渲染设置）&lt;/li&gt;
+&lt;li&gt;有一些特定类型的着色器，如顶点着色器、片元着色器等；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第二章完！&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2021-09-10T07:00:15.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/09/10/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+        <title>Shader入门精要（一）</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/10/Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+        <content type="html">&lt;h2 id=&#34;致自己&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#致自己&#34;&gt;#&lt;/a&gt; 致自己&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;之前我学习过一段时间的 Shader 入门精要（大概是学到第六章吧），但后面的章节都没有学习，加上时间久远很多内容都忘记了，故打算重新学一遍。&lt;/p&gt;
+&lt;p&gt;为了勉励自己坚持下去，也为了记录一些学习过程，此系列就出现啦！&lt;/p&gt;
+&lt;p&gt;❤️ ❤️&lt;/p&gt;
+&lt;p&gt;(希望自己能够坚持学完，在渲染方面有所收获，可以制作出满意的效果)&lt;/p&gt;
+&lt;p&gt;📑 此系列每周一更&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910151044.png&#34; alt=&#34;image-20210910151043222&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第一篇-欢迎来到shader的世界&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一篇-欢迎来到shader的世界&#34;&gt;#&lt;/a&gt; 第一篇 欢迎来到 Shader 的世界&lt;/h1&gt;
+&lt;h2 id=&#34;语录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#语录&#34;&gt;#&lt;/a&gt; 语录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;程序员的三大浪漫是编译原理、操作系统和图形学（是的，我已经听到很多人在反驳这句话了，不要当真啦）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我们是程序员中的 “外貌协会”，期待着用代码编写出一个绚丽多姿的世界。这就是我们的浪漫。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我们之所以要学习 Shader，是想要学习如何把物体按照自己的意愿渲染到屏幕上，但是，Shader 只是整个渲染流程中的一个子部分。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;和 C++ 这样的高级语言不同，尽管 Shader 的编写语言已经达到了我们可以理解的程度，但 Shader 更多地是面向 GPU 的工作方式，所以它的一些语法对我们来说并不那么直观。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基础篇大纲1-4章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础篇大纲1-4章&#34;&gt;#&lt;/a&gt; 基础篇大纲 1-4 章&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;第2章 渲染流水线&lt;/code&gt;  这一章讲解了现代 GPU 是如何实现整个渲染流水线的，这些内容对于理解 Shader 的工作原理有着非常重要的作用。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;第3章Unity Shader基础&lt;/code&gt;  Unity 在原有的渲染流程上进行了封装，并提供给开发者新的图像编程接口 ——Unity Shader。这一章将讲解 Unity Shader 的实现原理和基本语法&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;第4章 学习Shader所需的数学基础&lt;/code&gt;  数学向来是初学者面对的一大学习障碍。然而，在初级阶段的渲染学习中，我们需要掌握的数学理论实际并不复杂。本章将为读者讲解渲染过程中常见的数学知识，如矢量、矩阵运算、坐标空间等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;自我理解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自我理解&#34;&gt;#&lt;/a&gt; 自我理解&lt;/h2&gt;
+&lt;p&gt;本章主要讲述了本书的结构的内容大纲，引出了 shader 学习的问题。&lt;/p&gt;
+&lt;p&gt;尽管是第二次读，依然觉得有趣～&lt;/p&gt;
+</content>
+        <category term="Shader" />
+        <category term="读书笔记" />
+        <updated>2021-09-10T06:57:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/07/26/VFXGraph%E4%BD%93%E9%AA%8C-%E7%81%AB%E8%8A%B1%E6%95%88%E6%9E%9C/</id>
+        <title>VFXGraph体验-火花效果</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/07/26/VFXGraph%E4%BD%93%E9%AA%8C-%E7%81%AB%E8%8A%B1%E6%95%88%E6%9E%9C/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本文采用：unity2021.1.5f1c1 HDRP 渲染管线&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h1&gt;
+&lt;p&gt;创建 HDRP 项目，并设置好相关配置。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726143925.png&#34; alt=&#34;image-20210726143918376&#34;&gt;&lt;/p&gt;
+&lt;p&gt;搭建的场景如图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726144023.png&#34; alt=&#34;image-20210726144023543&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;认识vfx-graph&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#认识vfx-graph&#34;&gt;#&lt;/a&gt; 🔸认识 VFX Graph&lt;/h1&gt;
+&lt;p&gt;创建一个 VFX Graph 可以点击 Edit 进入编辑界面，其编辑界面和 ShaderGraph 类似。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726144442.png&#34; alt=&#34;image-20210726144442857&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;编写graph&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写graph&#34;&gt;#&lt;/a&gt; 🔹 编写 Graph&lt;/h1&gt;
+&lt;h2 id=&#34;孵化器循环&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#孵化器循环&#34;&gt;#&lt;/a&gt; 孵化器循环&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;针对于持续性和非持续性进行区分&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726144914.png&#34; alt=&#34;image-20210726144914494&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;初始化粒子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#初始化粒子&#34;&gt;#&lt;/a&gt; 初始化粒子&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726150137.png&#34; alt=&#34;image-20210726150137280&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;完成上述 2 个步骤时，效果如下，记得替换粒子的贴图&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726145903.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;渲染粒子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#渲染粒子&#34;&gt;#&lt;/a&gt; 渲染粒子&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726230116.png&#34; alt=&#34;image-20210726230116859&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过渲染器设置，火花效果更好了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726230231.gif&#34; alt=&#34;效果&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;更新粒子-使用重力&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#更新粒子-使用重力&#34;&gt;#&lt;/a&gt; 更新粒子 - 使用重力&lt;/h2&gt;
+&lt;p&gt;现在我们的火花是直线发射的，我们想让其受到一个重力自动下垂。&lt;/p&gt;
+&lt;p&gt;在更新粒子模块，增加重力，设置一个随机数重力。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726230856.png&#34; alt=&#34;image-20210726230856799&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;添加重力后，可以看到我们的粒子受重力而下垂。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726231034.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;️完善火花&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#️完善火花&#34;&gt;#&lt;/a&gt; ❤️完善火花&lt;/h1&gt;
+&lt;h2 id=&#34;发射形状&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#发射形状&#34;&gt;#&lt;/a&gt; 发射形状&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726233034.png&#34; alt=&#34;image-20210726233034173&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;local和world坐标&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#local和world坐标&#34;&gt;#&lt;/a&gt; Local 和 World 坐标&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210726233115.png&#34; alt=&#34;image-20210726233115448&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在布局坐标中，粒子效果不会残留，为了让我们的火花可以在世界中残留，需该为世界坐标系&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;添加碰撞&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加碰撞&#34;&gt;#&lt;/a&gt; 添加碰撞&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们希望火花粒子能够和周围环境产生碰撞&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;碰撞框&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#碰撞框&#34;&gt;#&lt;/a&gt; 碰撞框&lt;/h2&gt;
+&lt;p&gt;添加如下碰撞框组件：&lt;/p&gt;
+&lt;p&gt;其中： &lt;code&gt;LifeTime Loss为生命损失&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729201759.png&#34; alt=&#34;image-20210729201752721&#34;&gt;&lt;/p&gt;
+&lt;p&gt;发现我们的粒子在接触碰撞框时会被弹开。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729201835.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;碰撞事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#碰撞事件&#34;&gt;#&lt;/a&gt; 碰撞事件&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了响应碰撞添加如下组件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729202054.png&#34; alt=&#34;碰撞响应&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729202141.png&#34; alt=&#34;事件处理&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其效果如下，每个粒子碰撞死亡后将生产 1 个蓝色粒子&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729202653.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;完善和脚本控制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#完善和脚本控制&#34;&gt;#&lt;/a&gt; 完善和脚本控制&lt;/h1&gt;
+&lt;p&gt;调整一下粒子，将循环关闭，使用脚本控制粒子。&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;span&gt;脚本控制VFX&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;VFXTest&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;MonoBehaviour&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;GameObject&lt;/span&gt; vfx&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Input&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetKeyDown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;KeyCode&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;A&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; go &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Instantiate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vfx&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; transform&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;position&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Quaternion&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;identity&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;/span&gt; vf &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; go&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token generic-method&#34;&gt;&lt;span class=&#34;token function&#34;&gt;GetComponent&lt;/span&gt;&lt;span class=&#34;token generic class-name&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;VisualEffect&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            vf&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;Play&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token function&#34;&gt;Destroy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;go&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;其效果如下图所示，按下 A 自动生成一个特效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210729205458.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        <updated>2021-07-26T06:35:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/07/20/ASE%E4%BD%93%E9%AA%8C-%E8%8F%B2%E6%B6%85%E5%B0%94%E6%95%88%E6%9E%9C/</id>
+        <title>ASE体验-菲涅尔效果</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/07/20/ASE%E4%BD%93%E9%AA%8C-%E8%8F%B2%E6%B6%85%E5%B0%94%E6%95%88%E6%9E%9C/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;体验一下 ASE 插件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;体验&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#体验&#34;&gt;#&lt;/a&gt; 体验&lt;/h3&gt;
+&lt;p&gt;创建一个 ASE Suface shader，依图连接节点。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210720212833.png&#34; alt=&#34;image-20210720212826746&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210720213139.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;感受&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#感受&#34;&gt;#&lt;/a&gt; 感受&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;整体感受 ASE 插件，在某些方面确实强于 ShaderGraph ，例如可以直接在默认渲染管线中使用。&lt;/p&gt;
+&lt;p&gt;总之，用起来挺爽的。😄&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <updated>2021-07-20T13:27:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2020/03/22/HDRP%E4%BD%93%E9%AA%8C2B%E5%B0%8F%E5%A7%90%E5%A7%90/</id>
+        <title>HDRP体验2B小姐姐</title>
+        <link rel="alternate" href="https://www.fasty97.top/2020/03/22/HDRP%E4%BD%93%E9%AA%8C2B%E5%B0%8F%E5%A7%90%E5%A7%90/"/>
+        <content type="html">&lt;p&gt;在上一个文章&lt;a href=&#34;https://www.fasty97.top/lwrp%e4%b8%8bshadergraph%e7%9a%84%e4%bd%bf%e7%94%a8/&#34; title=&#34;LWRP&#34;&gt; LWRP&lt;/a&gt; 中我们介绍了 LWRP 的基本使用方法，并使用 ShaderGraph 写了两个小例子。&lt;br&gt;
+这次我们就来尝试一下 HDRP，效果上要比 LWRP 或者普通渲染管线好多少。&lt;/p&gt;
+&lt;h3 id=&#34;效果预览&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#效果预览&#34;&gt;#&lt;/a&gt; 效果预览&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;https://pic.fasty97.top/blog/blog-nierHDRP.mp4&#34; autoplay loop style=&#34;width:100%&#34;&gt;&lt;/video&gt;&lt;br&gt;
+可以看到在 HDRP 中的效果还是比较不错的，各种光影的质量都还不错。&lt;/p&gt;
+&lt;h3 id=&#34;hdrp-入门&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hdrp-入门&#34;&gt;#&lt;/a&gt; HDRP 入门&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;下载安装以下依赖:&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200322/kl15u7a5e2GF.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;创建 HDRP 资源并设置（这个和 LWRP 差不多）&lt;/li&gt;
+&lt;li&gt;设置颜色空间为 &lt;code&gt;Linner&lt;/code&gt;  (这个设置很重要)&lt;/li&gt;
+&lt;li&gt;创建全局 Volm 管理环境&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上就是主要的步骤，下面我详细说一下一些细节的地方。&lt;/p&gt;
+&lt;h3 id=&#34;如何使用天空盒&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何使用天空盒&#34;&gt;#&lt;/a&gt; 如何使用天空盒&lt;/h3&gt;
+&lt;p&gt;在 HDRP 中有多种天空类型： &lt;code&gt;颜色渐变天空&lt;/code&gt; ， &lt;code&gt;纯色天空&lt;/code&gt; ， &lt;code&gt;HDRI天空&lt;/code&gt; ， &lt;code&gt;物理天空&lt;/code&gt; 等。&lt;br&gt;
+大家可以看到我的天空是有一些云朵的一个天空盒，在 HDRP 中默认是纯色的黑天空，我们可以添加一个 Volume 对象或者在游戏物体上挂载一个 Volume 脚本来对默认设置进行重写。&lt;br&gt;
+如我这样我可视化环境组件，用于设置天空类型，这里我将其设置为 HDRI，再添加一个 HDRI Sky 组件用于详细设置，在 Hdri Sky 项目中设置导入的天空盒 cubemap。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200322/WnOvO7pHMlnr.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+添加一个：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/i4UgANuYjKXk.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+在设置中设置：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/5MV2zF3dOEoE.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+此时就算是把天空盒光线环境搭好了，快放入模型试试吧。&lt;/p&gt;
+&lt;h3 id=&#34;金属感和平滑度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#金属感和平滑度&#34;&gt;#&lt;/a&gt; 金属感和平滑度&lt;/h3&gt;
+&lt;p&gt;在这个模型中，2B 所持的剑是金属制品，但之前的之前的视频展示并没有去做这方面的处理。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/PjUJNsJzTJ6j.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+这里我将金属度设置为 1，给一个很强的金属感，平滑度给个 0.6。（如我们现实世界一样，一般来说金属度高的东西，平滑度也会高一些，反射光线的能力强一些。）&lt;br&gt;
+设置金属和平滑度一部分可以补足金属器物的质感和光泽。&lt;br&gt;
+调整金属和平滑度后：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200323/wHbsjytdodBJ.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+视频预览：&lt;br&gt;
+&lt;video src=&#34;https://pic.fasty97.top/blog/nierHDRP2.mp4&#34; autoplay loop style=&#34;width:100%&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+</content>
+        <category term="unity" />
+        <updated>2020-03-22T06:59:19.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>LWRP下ShaderGraph的使用</title>
+        <link rel="alternate" href="https://www.fasty97.top/2020/03/21/LWRP%E4%B8%8BShaderGraph%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;丢失了好多文章，故更新一波，开一个新坑 CG&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不论是 LWRP 还是 ShaderGraph 都已经不是什么新技术了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;cg杂谈&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cg杂谈&#34;&gt;#&lt;/a&gt; CG 杂谈&lt;/h3&gt;
+&lt;p&gt;计算机图形学（ComputGraph）简称 &lt;code&gt;CG&lt;/code&gt; ，是一门研究计算机图形图像处理的学科，将符号或电子信号可视化是一门比较晦涩难懂的东西，比如 &lt;code&gt;傅里叶变换&lt;/code&gt; 用于研究声音和波的关系，让波得以表示。众所周知，建模时我们总是使用三角面来构成一个模型，以三角面的数量来衡量一个模型的精细程度。从三维物体坐标系到二维的屏幕坐标系，深度如何表示？遮挡关系如何计算？这就是 CG 所研究的东西，计算机图形学也被称为程序员的浪漫，这就是这个系列要说的东西。&lt;/p&gt;
+&lt;h3 id=&#34;lwrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp&#34;&gt;#&lt;/a&gt; LWRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;LWRP&lt;/code&gt;  (轻度渲染管线) 是 unity 推出的可自定义的渲染管线，其初衷是为了移动平台和轻度主机平台。在轻度渲染管线下，我们可以对渲染管线做更多的设置和处理，并且可以使用 shaderGraph 可视化的 shader 编辑器像连连看一样完成 shader 的编写。&lt;br&gt;
+通过 shader 我们可以实现许多视觉效果，如飘动的红旗，水面的倒影，卡通人物渲染等；有些可以使用模型来解决但使用 shader 不仅高效还能处理许多模型无法解决的东西。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;不知道你是否看过游戏的模型，或者说取解包过游戏，很多游戏，模型可能并没有游戏中那么&lt;strong&gt;漂亮&lt;/strong&gt;！&lt;/em&gt;&lt;br&gt;
+但是通过 shader，光照，后处理等，玩家看到的就是非常赞的效果了！（就好像是美颜滤镜一样）&lt;/p&gt;
+&lt;h3 id=&#34;hdrp&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hdrp&#34;&gt;#&lt;/a&gt; HDRP&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;HDRP&lt;/code&gt;  (高清渲染管线) 如名字所言，是专门在对画面质量要求较高的主机或 PC 端开发游戏所使用的。（但 unity 开发大型游戏真的够呛，目前在我看来 ue4 可能更适合）&lt;br&gt;
+使用 HDRP 我们可以更高程度的自定义我们的渲染系统，要知道在游戏引擎中，渲染占据了很大的一块。&lt;/p&gt;
+&lt;h3 id=&#34;shader的基础认知&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shader的基础认知&#34;&gt;#&lt;/a&gt; Shader 的基础认知？&lt;/h3&gt;
+&lt;p&gt;关于 shader 的基础认知，我在之前曾写过一篇文章（虽然没写完），我会抽空把那篇文章写完的。&lt;br&gt;
+如果有兴趣不妨去看看：&lt;a href=&#34;http://www.fasty97.top/unity%e5%9b%be%e5%bd%a2%e5%ad%a6-%e6%b8%b2%e6%9f%93%e6%b5%81%e7%a8%8b/&#34; title=&#34;[传送门]unity图形学 渲染流程&#34;&gt;[传送门] unity 图形学 渲染流程&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lwrp下shadergraph的搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lwrp下shadergraph的搭建&#34;&gt;#&lt;/a&gt; LWRP 下 Shadergraph 的搭建&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Unity版本 2019.3.0f6&lt;/code&gt; &lt;br&gt;
+ 听了这么多，也许你还是比较懵吧，没事。让我们来揭开 shader 的神秘面纱吧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先安装如下依赖包：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/IHRSz6lfegXD.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/BLWb4IR9U5wt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建渲染管线资源并设置：&lt;br&gt;
+值得一提的是，在 unity2019.3 中已经将 LWRP 更名为 UWRP 了，unity 想在之后让 LWRP 变成通用的渲染管线取代原先的 Stand 渲染管线；所以我们需要创建一个 UWRP 的资源。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/TR1o545kQ1Nz.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 UWRP&lt;br&gt;
+ 首先我们创建一个 Cube，一个材质，一个 PBRGraph（基于物理的 shader）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pbrgraph&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pbrgraph&#34;&gt;#&lt;/a&gt; PBRGraph?&lt;/h4&gt;
+&lt;p&gt;这里补充一点小知识，所谓 PBR 就是基于物理的渲染，什么叫做基于物理的渲染呢？简单的说就是原先的模型在绘制贴图时，贴图师就会直接在贴图上绘制好高光，粗糙度，磨损等，这是基于经验的固定化的处理。而基于物理的渲染则是通过复杂的计算和光照模型的影响，动态的计算出模型的细节，让模型处于不同的环境中能够有不同的表现，是基于环境影响的。&lt;/p&gt;
+&lt;p&gt;打开 PBRGraph：&lt;br&gt;
+创建如下结点并连接&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/KC6HrUGWV9pC.png&#34; alt=&#34;PBRGraph&#34;&gt;&lt;br&gt;
+ 然后将 shader 指定到对应材质，将材质指定到我们的 Cube，尝试调整数值吧。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/PkIawTx0mOAc.gif&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+到这里我们已经知道如何基本的使用 shaderGraph 了呢，但你可能会说，这不是自带 shader 就拥有的功能吗？&lt;/p&gt;
+&lt;h3 id=&#34;做一个边缘发光效果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个边缘发光效果&#34;&gt;#&lt;/a&gt; 做一个边缘发光效果&lt;/h3&gt;
+&lt;p&gt;下面我们使用菲涅尔效应做一个简单的边缘自发光，其 shadergraph 如图所示，通过菲涅尔结点指定一个发光颜色和强度来实现。（非常简单吧）&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/pmNHEXl7Y02o.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;效果图：&lt;/strong&gt;&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/dQdztRRmd7pH.gif&#34; alt=&#34;边缘发光效果&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;做一个顶点动画&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做一个顶点动画&#34;&gt;#&lt;/a&gt; 做一个顶点动画&lt;/h3&gt;
+&lt;p&gt;通过顶点偏移我们可以实现一个波浪或是，旗帜飘动的效果：&lt;br&gt;
+主要是使用顶点偏移通过 sin 正弦方式。&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/oKWCf4A3lDxM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;效果如图：&lt;br&gt;
+&lt;img data-src=&#34;http://pic.fasty97.top/blog/20200321/5yqXJieqbu2x.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="shaderGraph" />
+        <updated>2020-03-21T09:03:57.000Z</updated>
+    </entry>
+</feed>

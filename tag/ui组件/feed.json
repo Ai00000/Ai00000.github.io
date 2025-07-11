@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "指尖小屋 • All posts by \"ui组件\" tag",
+    "description": "学习的过程大概就是学了忘,忘了学，抽空多停下来总结，不要冲的太前。",
+    "home_page_url": "https://www.fasty97.top",
+    "items": [
+        {
+            "id": "https://www.fasty97.top/2022/02/03/Unity%20ScrollView(%E6%BB%91%E5%8A%A8%E5%8C%BA%E5%9F%9F)%E7%9A%84%E4%BD%BF%E7%94%A8/",
+            "url": "https://www.fasty97.top/2022/02/03/Unity%20ScrollView(%E6%BB%91%E5%8A%A8%E5%8C%BA%E5%9F%9F)%E7%9A%84%E4%BD%BF%E7%94%A8/",
+            "title": "Unity ScrollView(滑动区域)的使用",
+            "date_published": "2022-02-03T07:56:37.000Z",
+            "content_html": "<h1 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h1>\n<blockquote>\n<p>🔹ScrollView 是我们经常使用的一个 UI 组件，但时常容易忘记具体的使用细节，故在此文予以记录。<ins>主要用于需要滑动的区域</ins></p>\n</blockquote>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/20220203155850.png\" alt=\"image-20220203155843510\"></p>\n<center>ScrollView组件如图所示</center>\n<h1 id=\"组成部分\"><a class=\"markdownIt-Anchor\" href=\"#组成部分\">#</a> 组成部分</h1>\n<blockquote>\n<p>ScrollView 包含 Content、Scrollbar、OneValueChange 三部分组成。</p>\n</blockquote>\n<ol>\n<li>Content 用于显示内容，通过 mask 遮罩来过滤大于显示区域的内容。</li>\n<li>Scrollbar 用于滚动条、</li>\n<li>OneValueChange 用于滚动监听</li>\n</ol>\n<h1 id=\"使用示例\"><a class=\"markdownIt-Anchor\" href=\"#使用示例\">#</a> 使用示例</h1>\n<p><ins>注意在 Content 中设定好大小，保证能够包裹所有子物体</ins></p>\n<p>也可以添加<img data-src=\"http://pic.fasty97.top/NotePad/20220203162937.png\" alt=\"image-20220203162937825\"></p>\n<p>制作完成效果如图所示：</p>\n<p><img data-src=\"http://pic.fasty97.top/NotePad/20220203163135.gif\" alt=\"ani\"></p>\n",
+            "tags": [
+                "Unity",
+                "UI组件"
+            ]
+        }
+    ]
+}

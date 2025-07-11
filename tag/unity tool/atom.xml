@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.fasty97.top</id>
+    <title>指尖小屋 • Posts by &#34;unity tool&#34; tag</title>
+    <link href="https://www.fasty97.top" />
+    <updated>2021-09-10T02:12:21.000Z</updated>
+    <category term="生活" />
+    <category term="年终总结" />
+    <category term="总结" />
+    <category term="目标" />
+    <category term="Shder" />
+    <category term="Graph" />
+    <category term="unity插件" />
+    <category term="协程" />
+    <category term="Async" />
+    <category term="新技术体验" />
+    <category term="unity" />
+    <category term="Cinemachine" />
+    <category term="好物推荐" />
+    <category term="热更新" />
+    <category term="代码" />
+    <category term="框架" />
+    <category term="shaderGraph" />
+    <category term="Lua" />
+    <category term="MMD" />
+    <category term="PMX" />
+    <category term="模型" />
+    <category term="VR/AR/MR" />
+    <category term="XML" />
+    <category term="unity Tool" />
+    <category term="多人" />
+    <category term="Unity Tool" />
+    <category term="FSM" />
+    <category term="状态机" />
+    <category term="有限状态机" />
+    <category term="行为树" />
+    <category term="TimeLine" />
+    <category term="剧情编排" />
+    <category term="Shader" />
+    <category term="读书笔记" />
+    <category term="Spine" />
+    <category term="2D" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
+    <category term="ui" />
+    <category term="链式编程" />
+    <category term="响应式编程" />
+    <category term="观察者模式" />
+    <category term="异步" />
+    <category term="动画" />
+    <category term="输入系统" />
+    <category term="手柄" />
+    <category term="Unity" />
+    <category term="UI组件" />
+    <category term="性能优化" />
+    <category term="Ui" />
+    <category term="小技巧" />
+    <category term="坑" />
+    <category term="HDRP" />
+    <category term="编辑器扩展" />
+    <category term="uitoolkit" />
+    <category term="不规则检测" />
+    <category term="设计模式" />
+    <category term="存档系统" />
+    <category term="截图" />
+    <category term="DI" />
+    <category term="IOC" />
+    <category term="资源管理" />
+    <category term="前端小技巧" />
+    <category term="动漫" />
+    <category term="vs" />
+    <category term="书评" />
+    <category term="python" />
+    <category term="自我认知" />
+    <category term="人生意义" />
+    <category term="读游戏" />
+    <category term="互动叙事" />
+    <category term="像素画" />
+    <category term="Aseprite" />
+    <category term="git" />
+    <category term="版本管理" />
+    <category term="多人协作" />
+    <category term="框架设计" />
+    <category term="思维" />
+    <category term="并发状态机" />
+    <category term="分层状态机" />
+    <category term="下推状态机" />
+    <category term="AI" />
+    <category term="游戏开发小工具" />
+    <category term="自制工具" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
+    <category term="实战项目" />
+    <category term="解密探索" />
+    <category term="开发总结" />
+    <category term="数学" />
+    <category term="Unity插件" />
+    <category term="自制项目" />
+    <category term="市场" />
+    <category term="创业" />
+    <category term="工作" />
+    <category term="UE4" />
+    <category term="switch" />
+    <category term="回合制" />
+    <entry>
+        <id>https://www.fasty97.top/2021/09/10/NodeCanvas%E6%89%A9%E5%B1%95/</id>
+        <title>NodeCanvas扩展</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/10/NodeCanvas%E6%89%A9%E5%B1%95/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;除去三大功能外，NodeCanvas 还有一些别的有趣的东西，能帮助我们改进 3 大流程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;standalone-action-list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#standalone-action-list&#34;&gt;#&lt;/a&gt; Standalone Action List&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910101555.png&#34; alt=&#34;image-20210910101555501&#34;&gt;&lt;/p&gt;
+&lt;p&gt;给对线添加如上脚本后，我们可以在对象上进行一些可视化的对话构建。&lt;/p&gt;
+&lt;h3 id=&#34;自定义action和condition&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自定义action和condition&#34;&gt;#&lt;/a&gt; 自定义 Action 和 Condition&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们可以自定义自己的节点，方便我们在 3 大功能上使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910101826.png&#34; alt=&#34;image-20210910101826535&#34;&gt;&lt;/p&gt;
+&lt;p&gt;生成脚本如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;span&gt;生成的行为&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;NodeCanvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Framework&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;ParadoxNotion&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Design&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;NodeCanvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Tasks&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Actions&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token attribute&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;Category&lt;/span&gt;&lt;span class=&#34;token attribute-arguments&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;my&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token attribute&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token attribute-arguments&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;输出一些内容&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Mylog&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;ActionTask&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Use for initialization. This is called only once in the lifetime of the task.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Return null if init was successfull. Return an error string otherwise&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnInit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//This is called once each time the task is enabled.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Call EndAction() to mark the action as finished, either in success or failure.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//EndAction can be called from anywhere.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnExecute&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token function&#34;&gt;EndAction&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called once per frame while the action is active.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnUpdate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called when the task is disabled.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnStop&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called when the task is paused.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnPause&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;创建之后可以在 Action 中找到：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910102308.png&#34; alt=&#34;image-20210910102308892&#34;&gt;&lt;/p&gt;
+&lt;p&gt;条件如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;span&gt;生成的条件&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;NodeCanvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Framework&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;ParadoxNotion&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Design&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;NodeCanvas&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Tasks&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Conditions&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token attribute&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;Category&lt;/span&gt;&lt;span class=&#34;token attribute-arguments&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;my&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token attribute&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token attribute-arguments&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;控制条件&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;myCon&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token type-list&#34;&gt;&lt;span class=&#34;token class-name&#34;&gt;ConditionTask&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Use for initialization. This is called only once in the lifetime of the task.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Return null if init was successfull. Return an error string otherwise&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;string&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnInit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called whenever the condition gets enabled.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnEnable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called whenever the condition gets disabled.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnDisable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Called once per frame while the condition is active.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//Return whether the condition is success or failure.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;OnCheck&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在图中使用：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910102705.png&#34; alt=&#34;image-20210910102705181&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;全局黑板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#全局黑板&#34;&gt;#&lt;/a&gt; 全局黑板&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以在所有图中使用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910102835.png&#34; alt=&#34;image-20210910102835494&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;类型管理器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#类型管理器&#34;&gt;#&lt;/a&gt; 类型管理器&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用于管理添加新的数据类型&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910103000.png&#34; alt=&#34;image-20210910103000347&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;图控制台&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#图控制台&#34;&gt;#&lt;/a&gt; 图控制台&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910103100.png&#34; alt=&#34;image-20210910103100590&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;结构视图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结构视图&#34;&gt;#&lt;/a&gt; 结构视图&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可快速定位到对应节点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910103148.png&#34; alt=&#34;image-20210910103148583&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;运行视图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#运行视图&#34;&gt;#&lt;/a&gt; 运行视图&lt;/h3&gt;
+&lt;p&gt;方便在游戏运行中，显示运行的所有树&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910103307.png&#34; alt=&#34;image-20210910103307475&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;比起另一套行为树插件来说， &lt;code&gt;NodeCanvas&lt;/code&gt;  提供的功能比较基础，其更像是一个程序框架，因此其扩展性也更佳，通过提供的接口和程式，我们可以打造定制化的工作流，代码设计简洁有力。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;总之还是非常不错的！😏&lt;/p&gt;
+</content>
+        <category term="Unity Tool" />
+        <updated>2021-09-10T02:12:21.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/09/09/NodeCanvas%E4%B9%8B%E5%AF%B9%E8%AF%9D%E6%A0%91/</id>
+        <title>NodeCanvas之对话树</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/09/NodeCanvas%E4%B9%8B%E5%AF%B9%E8%AF%9D%E6%A0%91/"/>
+        <content type="html">&lt;h2 id=&#34;主要功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主要功能&#34;&gt;#&lt;/a&gt; 主要功能&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;基础功能都有，具备良好的扩展性。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;播放对话&lt;/li&gt;
+&lt;li&gt;对话音效&lt;/li&gt;
+&lt;li&gt;分支对话&lt;/li&gt;
+&lt;li&gt;概览对话&lt;/li&gt;
+&lt;li&gt;条件对话&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;快速食用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速食用&#34;&gt;#&lt;/a&gt; 快速食用&lt;/h2&gt;
+&lt;h3 id=&#34;添加脚本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加脚本&#34;&gt;#&lt;/a&gt; 添加脚本&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910095523.png&#34; alt=&#34;image-20210910095523494&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;添加角色并给角色添加&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加角色并给角色添加&#34;&gt;#&lt;/a&gt; 添加角色并给角色添加&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910100346.png&#34; alt=&#34;image-20210910100346800&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;编写对话树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编写对话树&#34;&gt;#&lt;/a&gt; 编写对话树&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910095400.png&#34; alt=&#34;image-20210910095352935&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;启动对话树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#启动对话树&#34;&gt;#&lt;/a&gt; 启动对话树&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;默认是不启动&lt;/code&gt; 对话树的，可以在代码中控制启动也可以在属性面板设置游戏开始时启动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption data-lang=&#34;C#&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;DialogueTreeController&lt;/span&gt; dialogueTreeController&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token return-type class-name&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Input&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;GetKeyDown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;KeyCode&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        dialogueTreeController&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;StartBehaviour&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;为了保证对话正确显示，在 UI 层需要添加官方的预制体和事件系统监听&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210910100905.png&#34; alt=&#34;image-20210910100905937&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;存在的问题待学习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#存在的问题待学习&#34;&gt;#&lt;/a&gt; 存在的问题待学习&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;❓NodeCanvas 的对话树似乎 在显示富文本内容时存在问题。例如使用颜色代码，会出现输出颜色代码之后再实现效果的问题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;❓ 其配置的 UI 显示界面不清楚是如何进行绑定的&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Unity Tool" />
+        <updated>2021-09-09T05:03:59.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/</id>
+        <title>NodeCanvas之FSM有限状态机</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/08/NodeCanvas%E4%B9%8BFSM%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;FSM 有限状态机是一种设计方式，用于处理不同状态的切换&lt;/p&gt;
+&lt;p&gt;其主要包含以下几个部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;状态（进入、更新、离开）&lt;/li&gt;
+&lt;li&gt;过渡条件 【 &lt;code&gt;用于控制状态的切换&lt;/code&gt; 】&lt;/li&gt;
+&lt;li&gt;状态机控制器【 &lt;code&gt;用于控制状态机&lt;/code&gt; 】&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文主要介绍 &lt;code&gt;NodeCanvas&lt;/code&gt;  的 FSM 使用，具体基础 FSM 概念不做解释。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210908225324.png&#34; alt=&#34;image-20210908225324425&#34;&gt;&lt;/p&gt;
+&lt;center&gt;FSM示例图&lt;/center&gt;
+&lt;h2 id=&#34;开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h2&gt;
+&lt;p&gt;为游戏对象添加如下脚本：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210909125307.png&#34; alt=&#34;image-20210909125300176&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;结点类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结点类型&#34;&gt;#&lt;/a&gt; 结点类型&lt;/h2&gt;
+&lt;p&gt;NodeCanvas 中结点分为几个类型：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Action State（动作状态，只处理进入状态）&lt;/li&gt;
+&lt;li&gt;Super Action State （超级动作状态，能处理进入、更新、离开状态）&lt;/li&gt;
+&lt;li&gt;Pass（过渡态，不做任何处理）&lt;/li&gt;
+&lt;li&gt;Parallel（并行。 在状态机处于任意状态时，并行执行）&lt;/li&gt;
+&lt;li&gt;Any State（能够从任意状态进行状态切换，在状态机过程中，时刻监听）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;结语&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结语&#34;&gt;#&lt;/a&gt; 结语&lt;/h2&gt;
+&lt;p&gt;在 FSM 中，也没什么太多可以讲的，其条件和行为结点为 &lt;code&gt;NodeCanvas&lt;/code&gt;  行为树、状态机、对话树所共用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;个人感觉，NodeCanvas 设计最棒的一点就是，他三种系统用的同一个底层，而且可以互相嵌套兼容。&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="Unity Tool" />
+        <category term="FSM" />
+        <category term="状态机" />
+        <category term="有限状态机" />
+        <updated>2021-09-08T14:27:11.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2021/09/04/NodeCanvas%E4%B9%8B%E8%A1%8C%E4%B8%BA%E6%A0%91/</id>
+        <title>NodeCanvas之行为树</title>
+        <link rel="alternate" href="https://www.fasty97.top/2021/09/04/NodeCanvas%E4%B9%8B%E8%A1%8C%E4%B8%BA%E6%A0%91/"/>
+        <content type="html">&lt;h2 id=&#34;认识行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#认识行为树&#34;&gt;#&lt;/a&gt; 认识行为树&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是行为树？&lt;br&gt;
+自顶向下的树形结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;行为树 Behavior Tree 是一种数据结构，自顶向下的树形结构。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;什么情况下要使用行为树？&lt;br&gt;
+情况多变，条件复杂&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在处理逻辑复杂的问题时，这个复杂可能是条件复杂，情况多样。&lt;/p&gt;
+&lt;p&gt;行为树并非是游戏 Ai 的专属，在处理其他复杂业务逻辑或可能时都可以尝试用行为树来解决。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;行为树有什么优点？&lt;br&gt;
+高效可读，易于扩展&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;行为树解决的问题是将复杂的关系，简单化，能很大程度的加强程序的可读性，健壮性。&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;行为树由哪几部分组成？&lt;br&gt;
+主要由四部分  CDAC 组成 ，两根两叶&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Composites  组合节点    只能作为根节点，控制子节点的执行（顺序）
+Decorator 装饰节点         只能作为根节点，修饰子节点
+Actions     行为节点         只能作为叶子节点，执行具体动作
+Conditinals 条件节点       只能作为叶子节点，判断条件
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;行为树的工作流程？&lt;br&gt;
+自顶向下，从左至右（并发进行），逐层进行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;行为树执行的成果（成功 / 失败），由其子节点决定，子节点执行完成后会向父节点传递成功 / 失败的消息，&lt;br&gt;
+最终这些来自各个子枝的消息汇聚到行为树，行为树将结果整合得到行为树的最终执行结果。&lt;br&gt;
+其最终结果：同真为真，一假则假&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于nodecanvas&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于nodecanvas&#34;&gt;#&lt;/a&gt; 关于 NodeCanvas&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;NodeCanvas&lt;/code&gt;  是一个集成了:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行为树&lt;/li&gt;
+&lt;li&gt;对话树&lt;/li&gt;
+&lt;li&gt;FSM 有限状态机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;的可视化 开发工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;快速开始&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速开始&#34;&gt;#&lt;/a&gt; 快速开始&lt;/h2&gt;
+&lt;h3 id=&#34;准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h3&gt;
+&lt;p&gt;准备一个角色，1.  配置好动画控制器，2. 进行 NaveMesh 的网格烘焙。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904203556.png&#34; alt=&#34;Aa&#34;&gt;&lt;/p&gt;
+&lt;p&gt;添加上以下组件:&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904203733.png&#34; alt=&#34;image-20210904203733291&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建行为树&#34;&gt;#&lt;/a&gt; 创建行为树&lt;/h3&gt;
+&lt;p&gt;可以看到由两个部分组成&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904204124.png&#34; alt=&#34;image-20210904204124080&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;数据黑板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据黑板&#34;&gt;#&lt;/a&gt; 数据黑板&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“黑板”（Blackboard）在人工智能领域已经是一个很古老的东西了，它基于一种很直观的概念，就是一群人为了解决一个问题，在黑板前聚集，每个人都可以发表自己的意见，然后在黑板上写下自己的看法，当然你也可以基于别人记录在黑板上的看法，来发表和更新自己的看法，在这样不断的意见交换，看法更新的过程中，越来越趋向于对于问题的最终解答。一开始的黑板系统就是这样一个由多个子系统来共同协作的人工智能解决方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可参考: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5haXNoYXJpbmcuY29tL2FyY2hpdmVzLzgwMQ==&#34;&gt;http://www.aisharing.com/archives/801&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在NodeCanvas里，我们可以把需要共享点数据放在黑板里，在多个行为树中共享。&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;操作窗口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#操作窗口&#34;&gt;#&lt;/a&gt; 操作窗口&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904204714.png&#34; alt=&#34;image-20210904204714062&#34;&gt;&lt;/p&gt;
+&lt;p&gt;左上可以导入导出，右上是黑板数据。&lt;/p&gt;
+&lt;p&gt;可以添加不同类型点节点， &lt;code&gt;行为树一般从流程节点开始&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904204908.png&#34; alt=&#34;image-20210904204908578&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;基本流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本流程&#34;&gt;#&lt;/a&gt; 基本流程&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sequencer 依次执行直到失败&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904205615.png&#34; alt=&#34;image-20210904205615378&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904205615.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+完成效果如下:&lt;br&gt;
+&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904210007.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selector 依次执行直到成功&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904210501.png&#34; alt=&#34;image-20210904210501209&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Parallel  并行执行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904210629.png&#34; alt=&#34;image-20210904210629825&#34;&gt; 其中，可以结束配置参数：&lt;/p&gt;
+&lt;p&gt;第一次成功、第一次失败、第一次成功或失败。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210904211016.png&#34; alt=&#34;image-20210904211016371&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;完成的行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#完成的行为树&#34;&gt;#&lt;/a&gt; 完成的行为树&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;包含攻击、追逐、徘徊、巡逻几个状态&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210905162014.png&#34; alt=&#34;image-20210905162014408&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;节点介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#节点介绍&#34;&gt;#&lt;/a&gt; 节点介绍&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC9hMTI0NzA1NzdmZDA=&#34;&gt;NodeCanvas—— 行为树节点介绍 - 简书 (jianshu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;扩展-分层行为树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#扩展-分层行为树&#34;&gt;#&lt;/a&gt; 扩展 - 分层行为树&lt;/h2&gt;
+&lt;p&gt;参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTYyNDAyNC9hcnRpY2xlL2RldGFpbHMvODA4NzkyOTQ=&#34;&gt;分层机制 - 复杂行为树的行为控制_一生做游戏 - CSDN 博客_复杂行为树&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;综合参考&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#综合参考&#34;&gt;#&lt;/a&gt; 综合参考&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210905122921.png&#34; alt=&#34;image-20210905122914367&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="Unity Tool" />
+        <category term="行为树" />
+        <updated>2021-09-04T12:15:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/</id>
+        <title>NaughtyAttributes更直观的管理属性</title>
+        <link rel="alternate" href="https://www.fasty97.top/2020/01/29/NaughtyAttributes%E6%9B%B4%E7%9B%B4%E8%A7%82%E7%9A%84%E7%AE%A1%E7%90%86%E5%B1%9E%E6%80%A7/"/>
+        <content type="html">&lt;h3&gt;NaughtyAttributes&lt;/h3&gt;
+&lt;p&gt;使用 NaughtyAttributes 可以很方便的管理 unity 属性面板的脚本属性，可以实现许多 unity 原先特性不能实现的效果，详情可以看向下面的 github 地址：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2Ricml6b3YvTmF1Z2h0eUF0dHJpYnV0ZXM=&#34;&gt;Github 项目地址&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;想水一期文章，好的，水完了～&lt;/p&gt;
+</content>
+        <category term="好物推荐" />
+        <category term="unity Tool" />
+        <updated>2020-01-29T07:09:20.000Z</updated>
+    </entry>
+</feed>
