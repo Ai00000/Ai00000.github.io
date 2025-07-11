@@ -4,10 +4,10 @@
     <title>指尖小屋 • Posts by &#34;shader&#34; tag</title>
     <link href="https://www.fasty97.top" />
     <updated>2022-12-26T03:34:17.000Z</updated>
-    <category term="生活" />
-    <category term="年终总结" />
     <category term="总结" />
     <category term="目标" />
+    <category term="生活" />
+    <category term="年终总结" />
     <category term="Shder" />
     <category term="Graph" />
     <category term="unity插件" />
@@ -27,8 +27,8 @@
     <category term="模型" />
     <category term="VR/AR/MR" />
     <category term="XML" />
-    <category term="unity Tool" />
     <category term="多人" />
+    <category term="unity Tool" />
     <category term="Unity Tool" />
     <category term="FSM" />
     <category term="状态机" />
@@ -40,28 +40,28 @@
     <category term="读书笔记" />
     <category term="Spine" />
     <category term="2D" />
-    <category term="渲染管线" />
-    <category term="后处理" />
-    <category term="可编程渲染管线（SRP）" />
     <category term="ui" />
     <category term="链式编程" />
     <category term="响应式编程" />
     <category term="观察者模式" />
     <category term="异步" />
     <category term="动画" />
+    <category term="渲染管线" />
+    <category term="后处理" />
+    <category term="可编程渲染管线（SRP）" />
     <category term="输入系统" />
     <category term="手柄" />
     <category term="Unity" />
     <category term="UI组件" />
-    <category term="性能优化" />
     <category term="Ui" />
     <category term="小技巧" />
-    <category term="坑" />
     <category term="HDRP" />
+    <category term="坑" />
+    <category term="性能优化" />
     <category term="编辑器扩展" />
     <category term="uitoolkit" />
-    <category term="不规则检测" />
     <category term="设计模式" />
+    <category term="不规则检测" />
     <category term="存档系统" />
     <category term="截图" />
     <category term="DI" />
@@ -70,10 +70,10 @@
     <category term="前端小技巧" />
     <category term="动漫" />
     <category term="vs" />
-    <category term="书评" />
     <category term="python" />
     <category term="自我认知" />
     <category term="人生意义" />
+    <category term="书评" />
     <category term="读游戏" />
     <category term="互动叙事" />
     <category term="像素画" />
@@ -89,12 +89,12 @@
     <category term="AI" />
     <category term="游戏开发小工具" />
     <category term="自制工具" />
-    <category term="SqlLite" />
-    <category term="存储" />
-    <category term="数据库" />
     <category term="实战项目" />
     <category term="解密探索" />
     <category term="开发总结" />
+    <category term="SqlLite" />
+    <category term="存储" />
+    <category term="数据库" />
     <category term="数学" />
     <category term="Unity插件" />
     <category term="自制项目" />
@@ -631,7 +631,8 @@
 &lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210911215704.png&#34; alt=&#34;image-20210911215704318&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;应用阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#应用阶段&#34;&gt;#&lt;/a&gt; 应用阶段&lt;/h3&gt;
 &lt;p&gt;这个阶段 &lt;code&gt;是由我们的应用主导&lt;/code&gt; 的，因此通常由 &lt;code&gt;CPU负责实现&lt;/code&gt; 。主要包含三个任务：&lt;/p&gt;
-&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1734105707020&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;55&#34; style=&#34;max-width: 649.5px;&#34; viewBox=&#34;0 0 649.5 55&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-准备场景数据 LE-粗粒度剔除culling&#34; id=&#34;L-准备场景数据-粗粒度剔除culling&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M124,27.5L149,27.5L174,27.5&#34; marker-end=&#34;url(#arrowhead12)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead12&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-粗粒度剔除culling LE-渲染图元and输出渲染所需几何信息&#34; id=&#34;L-粗粒度剔除culling-渲染图元and输出渲染所需几何信息&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M321.4375,27.5L346.4375,27.5L371.4375,27.5&#34; marker-end=&#34;url(#arrowhead13)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead13&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-准备场景数据-3&#34; transform=&#34;translate(66,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58&#34; y=&#34;-19.5&#34; width=&#34;116&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;准备场景数据&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-粗粒度剔除culling-4&#34; transform=&#34;translate(247.71875,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-73.71875&#34; y=&#34;-19.5&#34; width=&#34;147.4375&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-63.71875,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;粗粒度剔除culling&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-渲染图元and输出渲染所需几何信息-5&#34; transform=&#34;translate(506.46875,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-135.03125&#34; y=&#34;-19.5&#34; width=&#34;270.0625&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-125.03125,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;渲染图元and输出渲染所需几何信息&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;h3 id=&#34;几何阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#几何阶段&#34;&gt;#&lt;/a&gt; 几何阶段&lt;/h3&gt;
+&lt;pre&gt;Error: Evaluation failed: TypeError: Cannot read property &#39;initialize&#39; of undefined
+    at __puppeteer_evaluation_script__:3:32&lt;/pre&gt;&lt;h3 id=&#34;几何阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#几何阶段&#34;&gt;#&lt;/a&gt; 几何阶段&lt;/h3&gt;
 &lt;p&gt;几何阶段用于处理所有和我们要绘制的几何相关的事情。例如，决定需要绘制的图元是什么，怎样绘制它们，在哪里绘制它们。这一阶段 &lt;code&gt;通常在GPU上&lt;/code&gt; 进行。几何阶段负责和每个渲染图元打交道，进行逐顶点、逐多边形的操作。这个阶段 &lt;code&gt;可以进一步分成更小的流水线阶段&lt;/code&gt; ，这在下一章中会讲到。几何阶段的一个重要任务就是 &lt;code&gt;把顶点坐标变换到屏幕空间中&lt;/code&gt; ，再交给光栅器进行处理。通过对输入的渲染图元进行多步处理后，这一阶段将会输出屏幕空间的二维顶点坐标、每个顶点对应的深度值、着色等相关信息，并传递给下一个阶段。&lt;/p&gt;
 &lt;h3 id=&#34;光栅化阶段&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#光栅化阶段&#34;&gt;#&lt;/a&gt; 光栅化阶段&lt;/h3&gt;
 &lt;p&gt;这一阶段将会使用上个阶段传递的数据来产生屏幕上的像素，并 &lt;code&gt;渲染出最终的图像&lt;/code&gt; 。 &lt;code&gt;这一阶段也是在GPU上运行&lt;/code&gt; 。光栅化的任务主要是 &lt;code&gt;决定每个渲染图元中的哪些像素应该被绘制在屏幕上&lt;/code&gt; 。它需要对上一个阶段得到的逐顶点数据（例如纹理坐标、顶点颜色等）进行插值，然后再进行逐像素处理。和上一个阶段类似，光栅化阶段也 &lt;code&gt;可以分成更小的流水线阶段&lt;/code&gt; 。&lt;/p&gt;
@@ -640,7 +641,8 @@
 &lt;p&gt;真实的流水线🔨&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;渲染流水线的起点是 CPU，即应用阶段。应用阶段大致可分为下面 3 个阶段：&lt;/p&gt;
-&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1734105713835&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;55&#34; style=&#34;max-width: 512.046875px;&#34; viewBox=&#34;0 0 512.046875 55&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-把数据加载到显存中 LE-设置渲染状态&#34; id=&#34;L-把数据加载到显存中-设置渲染状态&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M172,27.5L197,27.5L222,27.5&#34; marker-end=&#34;url(#arrowhead12)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead12&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-设置渲染状态 LE-调用DrawCall&#34; id=&#34;L-设置渲染状态-调用DrawCall&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M338,27.5L363,27.5L388,27.5&#34; marker-end=&#34;url(#arrowhead13)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead13&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-把数据加载到显存中-3&#34; transform=&#34;translate(90,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-82&#34; y=&#34;-19.5&#34; width=&#34;164&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-72,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;把数据加载到显存中&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-设置渲染状态-4&#34; transform=&#34;translate(280,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58&#34; y=&#34;-19.5&#34; width=&#34;116&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;设置渲染状态&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-调用DrawCall-5&#34; transform=&#34;translate(446.0234375,27.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-58.0234375&#34; y=&#34;-19.5&#34; width=&#34;116.046875&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-48.0234375,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;调用DrawCall&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;h3 id=&#34;把数据加载到显存中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#把数据加载到显存中&#34;&gt;#&lt;/a&gt; 把数据加载到显存中&lt;/h3&gt;
+&lt;pre&gt;Error: Evaluation failed: TypeError: Cannot read property &#39;initialize&#39; of undefined
+    at __puppeteer_evaluation_script__:3:32&lt;/pre&gt;&lt;h3 id=&#34;把数据加载到显存中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#把数据加载到显存中&#34;&gt;#&lt;/a&gt; 把数据加载到显存中&lt;/h3&gt;
 &lt;p&gt;数据需要从硬盘到内存再到显存，显存读取速度快！加载之后就会丢弃，为了运算，某些数据不应该被丢弃，&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic.fasty97.top/NotePad/20210911221304.png&#34; alt=&#34;image-20210911221304571&#34;&gt;&lt;/p&gt;
 &lt;p&gt;因为从硬盘加载到 RAM 的过程是十分耗时的，故我们要编写程序指导 CPU ，不要丢弃。&lt;/p&gt;

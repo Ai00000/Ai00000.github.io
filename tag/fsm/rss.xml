@@ -7,10 +7,10 @@
         <language>zh-CN</language>
         <pubDate>Wed, 08 Sep 2021 22:27:11 +0800</pubDate>
         <lastBuildDate>Wed, 08 Sep 2021 22:27:11 +0800</lastBuildDate>
-        <category>生活</category>
-        <category>年终总结</category>
         <category>总结</category>
         <category>目标</category>
+        <category>生活</category>
+        <category>年终总结</category>
         <category>Shder</category>
         <category>Graph</category>
         <category>unity插件</category>
@@ -30,8 +30,8 @@
         <category>模型</category>
         <category>VR/AR/MR</category>
         <category>XML</category>
-        <category>unity Tool</category>
         <category>多人</category>
+        <category>unity Tool</category>
         <category>Unity Tool</category>
         <category>FSM</category>
         <category>状态机</category>
@@ -43,28 +43,28 @@
         <category>读书笔记</category>
         <category>Spine</category>
         <category>2D</category>
-        <category>渲染管线</category>
-        <category>后处理</category>
-        <category>可编程渲染管线（SRP）</category>
         <category>ui</category>
         <category>链式编程</category>
         <category>响应式编程</category>
         <category>观察者模式</category>
         <category>异步</category>
         <category>动画</category>
+        <category>渲染管线</category>
+        <category>后处理</category>
+        <category>可编程渲染管线（SRP）</category>
         <category>输入系统</category>
         <category>手柄</category>
         <category>Unity</category>
         <category>UI组件</category>
-        <category>性能优化</category>
         <category>Ui</category>
         <category>小技巧</category>
-        <category>坑</category>
         <category>HDRP</category>
+        <category>坑</category>
+        <category>性能优化</category>
         <category>编辑器扩展</category>
         <category>uitoolkit</category>
-        <category>不规则检测</category>
         <category>设计模式</category>
+        <category>不规则检测</category>
         <category>存档系统</category>
         <category>截图</category>
         <category>DI</category>
@@ -73,10 +73,10 @@
         <category>前端小技巧</category>
         <category>动漫</category>
         <category>vs</category>
-        <category>书评</category>
         <category>python</category>
         <category>自我认知</category>
         <category>人生意义</category>
+        <category>书评</category>
         <category>读游戏</category>
         <category>互动叙事</category>
         <category>像素画</category>
@@ -92,12 +92,12 @@
         <category>AI</category>
         <category>游戏开发小工具</category>
         <category>自制工具</category>
-        <category>SqlLite</category>
-        <category>存储</category>
-        <category>数据库</category>
         <category>实战项目</category>
         <category>解密探索</category>
         <category>开发总结</category>
+        <category>SqlLite</category>
+        <category>存储</category>
+        <category>数据库</category>
         <category>数学</category>
         <category>Unity插件</category>
         <category>自制项目</category>
